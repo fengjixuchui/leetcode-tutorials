@@ -14,3 +14,9 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |
 |[326](https://leetcode.com/problems/power-of-three/)|[Power of Three](./leetcode/0326-power-of-three)|Easy|
 |[342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
+
+## Dynamic Programming
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|
