@@ -20,3 +20,9 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|
+
+## Hash Table
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
