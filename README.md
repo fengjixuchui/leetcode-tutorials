@@ -34,3 +34,8 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |
 |[001](https://leetcode.com/problems/two-sum/)|[Two Sum](./leetcode/0001-two-sum)|Easy|
 |[290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
+
+## Linked List
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
