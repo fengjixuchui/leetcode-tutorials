@@ -2,11 +2,17 @@
 
 Leetcode Golang solution ordered by frequency.
 
+## Array
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Two Sum II - Input array is sorted](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
+
 ## Tree
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
-|[102](https://leetcode.com/problems/binary-tree-level-order-traversal)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
+|[102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
 
 ## Math
 
