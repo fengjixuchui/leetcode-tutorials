@@ -32,4 +32,5 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
+|[001](https://leetcode.com/problems/two-sum/)|[Two Sum](./leetcode/0001-two-sum)|Easy|
 |[290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
