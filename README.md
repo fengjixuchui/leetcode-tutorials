@@ -2,11 +2,12 @@
 
 Leetcode Golang solution ordered by frequency.
 
-## Array
+## Two pointers
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Two Sum II - Input array is sorted](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
+|[633](https://leetcode.com/problems/sum-of-square-numbers/)|[Sum of Square Numbers](./leetcode/0633-sum-of-square-numbers)|Medium|
 
 ## Tree
 
