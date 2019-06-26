@@ -16,6 +16,10 @@ Leetcode Golang solution ordered by frequency.
 ## Sorting
 |[215](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Kth Largest Element in an Array](./leetcode/141-linked-list-cycle)|Medium|
 
+## Greedy
+
+|[455](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies](./leetcode/0455-assign-cookies)|Easy|
+
 ## Tree
 
 |#|Title|Difficulty|
