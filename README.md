@@ -7,8 +7,9 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Two Sum II - Input array is sorted](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
-|[633](https://leetcode.com/problems/sum-of-square-numbers/)|[Sum of Square Numbers](./leetcode/0633-sum-of-square-numbers)|Medium|
-|[345](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String](./leetcode/0345-reverse-vowels-of-a-string)|Medium|
+|[633](https://leetcode.com/problems/sum-of-square-numbers/)|[Sum of Square Numbers](./leetcode/0633-sum-of-square-numbers)|Easy|
+|[345](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String](./leetcode/0345-reverse-vowels-of-a-string)|Easy|
+|[680](https://leetcode.com/problems/valid-palindrome-ii/description/)|[Valid Palindrome II](./leetcode/0680-valid-palindrome-ii)|Easy|
 
 ## Tree
 
