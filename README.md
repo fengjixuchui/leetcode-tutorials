@@ -19,6 +19,8 @@ Leetcode Golang solution ordered by frequency.
 ## Greedy
 
 |[455](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies](./leetcode/0455-assign-cookies)|Easy|
+|[452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum Number of Arrows to Burst Balloons](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
+
 
 ## Tree
 
