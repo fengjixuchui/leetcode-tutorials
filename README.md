@@ -2,6 +2,12 @@
 
 Leetcode Golang solution ordered by frequency.
 
+## Progress
+
+|     |Easy|Medium|Hard|Total|
+|:---:|:---:|:---:|:---:|:---:|
+|**Accepted**|16|4|0|20|
+
 ## Two Pointers
 
 |#|Title|Difficulty|
@@ -22,6 +28,7 @@ Leetcode Golang solution ordered by frequency.
 |[452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum Number of Arrows to Burst Balloons](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
 |[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[121. Best Time to Buy and Sell Stock](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
 |[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[122. Best Time to Buy and Sell Stock II](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
+|[605](https://leetcode.com/problems/can-place-flowers/description/)|[605. Can Place Flowers](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
 
 ## Tree
 
