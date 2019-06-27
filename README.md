@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|26|3|0|29|
+|**Accepted**|28|3|0|31|
 
 ## Two Pointers
 
@@ -20,6 +20,7 @@ Leetcode Golang solution ordered by frequency.
 |[141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|
 |[125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 |[009](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number](./leetcode/0342-power-of-four)|Easy|
+
 
 ## Sorting
 
@@ -70,6 +71,7 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |
 |[002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
 |[206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0002-add-two-numbers)|Easy|
+|[234](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List](./leetcode/0342-power-of-four)|Easy|
 
 ## Bit Manipulation
 
