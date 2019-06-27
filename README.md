@@ -21,6 +21,7 @@ Leetcode Golang solution ordered by frequency.
 |[125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 
 ## Sorting
+
 |[215](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Kth Largest Element in an Array](./leetcode/141-linked-list-cycle)|Medium|
 
 ## Greedy
@@ -62,6 +63,13 @@ Leetcode Golang solution ordered by frequency.
 |[349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 
 ## Linked List
+
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
+
+## Bit Manipulation
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0002-add-two-numbers)|Easy|
