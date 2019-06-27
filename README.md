@@ -20,7 +20,8 @@ Leetcode Golang solution ordered by frequency.
 
 |[455](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies](./leetcode/0455-assign-cookies)|Easy|
 |[452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum Number of Arrows to Burst Balloons](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
-
+|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[121. Best Time to Buy and Sell Stock](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
+|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[122. Best Time to Buy and Sell Stock II](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
 
 ## Tree
 
