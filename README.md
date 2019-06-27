@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|19|5|0|24|
+|**Accepted**|26|3|0|29|
 
 ## Two Pointers
 
@@ -68,6 +68,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
+|[206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0002-add-two-numbers)|Easy|
 
 ## Bit Manipulation
 
