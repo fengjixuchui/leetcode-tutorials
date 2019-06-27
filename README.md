@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|18|5|0|23|
+|**Accepted**|19|5|0|24|
 
 ## Two Pointers
 
@@ -37,6 +37,7 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
+|[101](https://leetcode.com/problems/symmetric-tree/)|[Symmetric Tree](./leetcode/0102-binary-tree-level-order-traversal)|Easy|
 |[102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
 
 ## Math
