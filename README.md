@@ -43,8 +43,8 @@ Leetcode Golang solution ordered by frequency.
 |[101](https://leetcode.com/problems/symmetric-tree/)|[Symmetric Tree](./leetcode/0102-binary-tree-level-order-traversal)|Easy|
 |[102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
 |[100](https://leetcode.com/problems/same-tree/)|[Binary Tree Level Order Traversal](./leetcode/0100-same-tree)|Easy|
-|[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Minimum Depth of Binary Tree](./leetcode/0100-same-tree)|Easy|
-|[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0100-same-tree)|Easy|
+|[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Minimum Depth of Binary Tree](./leetcode/0111-minimum-depth-of-binary-tree)|Easy|
+|[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0104-maximum-depth-of-binary-tree)|Easy|
 
 ## Math
 
@@ -66,16 +66,17 @@ Leetcode Golang solution ordered by frequency.
 |[001](https://leetcode.com/problems/two-sum/)|[Two Sum](./leetcode/0001-two-sum)|Easy|
 |[290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
 |[349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
-|[169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0349-intersection-of-two-arrays)|Easy|
+|[169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
 
 ## Linked List
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
-|[206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0002-add-two-numbers)|Easy|
-|[234](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List](./leetcode/0342-power-of-four)|Easy|
-|[021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0342-power-of-four)|Easy|
+|[206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|
+|[234](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List](./leetcode/0234-palindrome-linked-list)|Easy|
+|[021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-lists)|Easy|
+|[160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Merge Two Sorted Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
 
 ## Bit Manipulation
 
