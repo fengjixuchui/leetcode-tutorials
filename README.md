@@ -58,6 +58,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|
+|[70](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0303-range-sum-query)|Easy|
 
 ## Hash Table
 
