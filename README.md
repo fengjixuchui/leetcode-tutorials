@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|30|3|0|33|
+|**Accepted**|33|3|0|36|
 
 ## Two Pointers
 
@@ -16,7 +16,7 @@ Leetcode Golang solution ordered by frequency.
 |[633](https://leetcode.com/problems/sum-of-square-numbers/)|[Sum of Square Numbers](./leetcode/0633-sum-of-square-numbers)|Easy|
 |[345](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String](./leetcode/0345-reverse-vowels-of-a-string)|Easy|
 |[680](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid Palindrome II](./leetcode/0680-valid-palindrome-ii)|Easy|
-|[88](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array](./leetcode/0088-merge-sorted-array)|Easy|
+|[088](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array](./leetcode/0088-merge-sorted-array)|Easy|
 |[141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|
 |[125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 |[009](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number](./leetcode/0342-power-of-four)|Easy|
@@ -44,6 +44,7 @@ Leetcode Golang solution ordered by frequency.
 |[102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
 |[100](https://leetcode.com/problems/same-tree/)|[Binary Tree Level Order Traversal](./leetcode/0100-same-tree)|Easy|
 |[111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Minimum Depth of Binary Tree](./leetcode/0100-same-tree)|Easy|
+|[104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0100-same-tree)|Easy|
 
 ## Math
 
@@ -73,6 +74,7 @@ Leetcode Golang solution ordered by frequency.
 |[002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
 |[206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0002-add-two-numbers)|Easy|
 |[234](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List](./leetcode/0342-power-of-four)|Easy|
+|[021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0342-power-of-four)|Easy|
 
 ## Bit Manipulation
 
