@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|43|3|0|46|
+|**Accepted**|45|4|0|49|
 
 ## Two Pointers
 
@@ -112,8 +112,14 @@ Leetcode Golang solution ordered by frequency.
 |[35](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)
 |[704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/704-binary-search)
 
-# Stack
+## Stack
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|
+
+## Matrix
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Easy|
