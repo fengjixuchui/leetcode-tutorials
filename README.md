@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|38|3|0|41|
+|**Accepted**|39|3|0|42|
 
 ## Two Pointers
 
@@ -52,6 +52,7 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |
 |[326](https://leetcode.com/problems/power-of-three/)|[Power of Three](./leetcode/0326-power-of-three)|Easy|
 |[342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
+|[263](https://leetcode.com/problems/ugly-number/)|[Ugly Number](./leetcode/0342-power-of-four)|Easy|
 
 ## Dynamic Programming
 
