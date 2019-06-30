@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|47|5|0|52|
+|**Accepted**|48|5|0|53|
 
 ## Two Pointers
 
@@ -89,6 +89,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[110](https://leetcode.com/problems/balanced-binary-tree/)|[Sum of Two Integers](./leetcode/0110-balanced-binary-tree)
+|[112](https://leetcode.com/problems/path-sum/)|[Sum of Two Integers](./leetcode/0112-path-sum)
 
 ## BFS
 

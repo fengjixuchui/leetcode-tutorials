@@ -22,3 +22,7 @@ func hammingDistance(x int, y int) int {
     return numberOfOne(x ^ y)
 }
 ```
+
+## Similar
+
+- [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
