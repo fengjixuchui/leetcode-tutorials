@@ -112,6 +112,7 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |
 |[35](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)
 |[704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/704-binary-search)
+|[069](https://leetcode.com/problems/sqrtx/)|[Sqrt(x)](./leetcode/069-sqrtx)
 
 ## Stack
 
