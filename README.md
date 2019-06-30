@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|37|3|0|40|
+|**Accepted**|38|3|0|41|
 
 ## Two Pointers
 
@@ -86,6 +86,12 @@ Leetcode Golang solution ordered by frequency.
 |[371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
 |[136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
 |[268](https://leetcode.com/problems/missing-number/)|[Missing Number](./leetcode/0268-missing-number)|Easy|
+
+## DFS
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[110](https://leetcode.com/problems/balanced-binary-tree/)|[Sum of Two Integers](./leetcode/0110-balanced-binary-tree)
 
 ## BFS
 
