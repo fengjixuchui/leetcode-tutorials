@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|39|3|0|42|
+|**Accepted**|42|3|0|45|
 
 ## Two Pointers
 
@@ -32,7 +32,7 @@ Leetcode Golang solution ordered by frequency.
 |[455](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies](./leetcode/0455-assign-cookies)|Easy|
 |[452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum Number of Arrows to Burst Balloons](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
 |[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Best Time to Buy and Sell Stock](./leetcode/0121-best-time-to-buy-and-sell-stock)|Easy|
-|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Best Time to Buy and Sell Stock II](./leetcode/0122-best-time-to-buy-and-sell-stock-ii)|Easy|
+|[122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Best Time to Buy and Sell Stock II](./leetcode/0122-best-time-to-buy-and-sell-stock-ii)|Easy|
 |[605](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers](./leetcode/0605-can-place-flowers)|Easy|
 |[392](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence](./leetcode/0392-is-subsequence)|Easy|
 |[053](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray](./leetcode/0053-maximum-subarray)|Easy|
@@ -107,3 +107,9 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |
 |[35](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)
 |[704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/704-binary-search)
+
+# Stack
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|
