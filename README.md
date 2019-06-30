@@ -20,6 +20,7 @@ Leetcode Golang solution ordered by frequency.
 |[141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|
 |[125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 |[009](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number](./leetcode/0342-power-of-four)|Easy|
+|[028](https://leetcode.com/problems/implement-strstr/)|[Palindrome Number](./leetcode/0028-implement-strstr)|Easy|
 
 
 ## Sorting
