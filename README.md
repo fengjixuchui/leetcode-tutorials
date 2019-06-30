@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|45|5|0|50|
+|**Accepted**|47|5|0|52|
 
 ## Two Pointers
 
@@ -84,16 +84,6 @@ Leetcode Golang solution ordered by frequency.
 |[160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Merge Two Sorted Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
 |[203](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements](.leetcode/0203-remove-linked-list-elements)|Easy|
 
-
-## Bit Manipulation
-
-|#|Title|Difficulty|
-|:-:|:-|:-: |
-|[371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
-|[136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
-|[268](https://leetcode.com/problems/missing-number/)|[Missing Number](./leetcode/0268-missing-number)|Easy|
-|[191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
-
 ## DFS
 
 |#|Title|Difficulty|
@@ -125,3 +115,14 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|
 |:-:|:-|:-: |
 |[240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|
+
+## Bit Manipulation
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
+|[136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
+|[268](https://leetcode.com/problems/missing-number/)|[Missing Number](./leetcode/0268-missing-number)|Easy|
+|[191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
+|[461](https://leetcode.com/problems/hamming-distance/)|[Sqrt(x)](./leetcode/0461-hamming-distance)
+
