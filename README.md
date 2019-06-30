@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|35|3|0|38|
+|**Accepted**|36|3|0|39|
 
 ## Two Pointers
 
@@ -91,4 +91,10 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
-|[107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Sum of Two Integers](./leetcode/
+|[107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Sum of Two Integers](./leetcode/0107-binary-tree-level-order-traversal-ii)
+
+## Binary Search
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/704-binary-search)
