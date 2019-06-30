@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|45|4|0|49|
+|**Accepted**|45|5|0|50|
 
 ## Two Pointers
 
@@ -55,6 +55,7 @@ Leetcode Golang solution ordered by frequency.
 |[326](https://leetcode.com/problems/power-of-three/)|[Power of Three](./leetcode/0326-power-of-three)|Easy|
 |[342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
 |[263](https://leetcode.com/problems/ugly-number/)|[Ugly Number](./leetcode/0342-power-of-four)|Easy|
+|[50](https://leetcode.com/problems/powx-n/)|[Pow(x, n)](./leetcode/0050-powx-n)|Medium|
 
 ## Dynamic Programming
 
@@ -122,4 +123,4 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
-|[240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Easy|
+|[240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|
