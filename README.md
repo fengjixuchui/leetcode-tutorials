@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|36|3|0|39|
+|**Accepted**|37|3|0|40|
 
 ## Two Pointers
 
@@ -97,4 +97,5 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|
 |:-:|:-|:-: |
+|[35](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)
 |[704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/704-binary-search)
