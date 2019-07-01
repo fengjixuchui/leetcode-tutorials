@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|50|5|0|55|
+|**Accepted**|51|5|0|56|
 
 ## Two Pointers
 
@@ -72,6 +72,7 @@ Leetcode Golang solution ordered by frequency.
 |[0290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
+|[0409](https://leetcode.com/problems/longest-palindrome/)|[Majority Element](./leetcode/0409-longest-palindrome)|Easy|
 
 ## Linked List
 
