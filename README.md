@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|51|5|0|56|
+|**Accepted**|52|5|0|57|
 
 ## Two Pointers
 
@@ -26,6 +26,14 @@ Leetcode Golang solution ordered by frequency.
 ## Sorting
 
 |[0215](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Kth Largest Element in an Array](./leetcode/141-linked-list-cycle)|Medium|
+
+## Dynamic Programming
+
+|#|Title|Difficulty|
+|:-:|:-|:-: |
+|[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|
+|[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0303-range-sum-query)|Easy|
+|[0198](https://leetcode.com/problems/house-robber/)|[Climbing Stairs](./leetcode/0198-house-robber)|Easy|
 
 ## Greedy
 
@@ -56,13 +64,6 @@ Leetcode Golang solution ordered by frequency.
 |[0342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
 |[0263](https://leetcode.com/problems/ugly-number/)|[Ugly Number](./leetcode/0342-power-of-four)|Easy|
 |[0050](https://leetcode.com/problems/powx-n/)|[Pow(x, n)](./leetcode/0050-powx-n)|Medium|
-
-## Dynamic Programming
-
-|#|Title|Difficulty|
-|:-:|:-|:-: |
-|[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|
-|[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0303-range-sum-query)|Easy|
 
 ## Hash Table
 
