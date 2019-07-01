@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|53|5|0|58|
+|**Accepted**|54|5|0|59|
 
 ## Two Pointers
 
@@ -22,7 +22,7 @@ Leetcode Golang solution ordered by frequency.
 |[0009](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number](./leetcode/0342-power-of-four)|Easy|
 |[0028](https://leetcode.com/problems/implement-strstr/)|[Palindrome Number](./leetcode/0028-implement-strstr)|Easy|
 |[0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove Duplicates from Sorted List](./leetcode/0083-remove-duplicates-from-sorted-list)|Easy|
-
+|[0283](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes](./leetcode/0283-move-zeroes)|Easy|
 
 ## Sorting
 
