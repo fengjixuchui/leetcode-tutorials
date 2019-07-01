@@ -75,6 +75,8 @@ Leetcode Golang solution ordered by frequency.
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
 |[0409](https://leetcode.com/problems/longest-palindrome/)|[Majority Element](./leetcode/0409-longest-palindrome)|Easy|
+|[0350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Majority Element](./leetcode/0409-longest-palindrome)|Easy|
+
 
 ## Linked List
 
