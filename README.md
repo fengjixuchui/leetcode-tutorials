@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|52|5|0|57|
+|**Accepted**|53|5|0|58|
 
 ## Two Pointers
 
@@ -21,6 +21,7 @@ Leetcode Golang solution ordered by frequency.
 |[0125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 |[0009](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number](./leetcode/0342-power-of-four)|Easy|
 |[0028](https://leetcode.com/problems/implement-strstr/)|[Palindrome Number](./leetcode/0028-implement-strstr)|Easy|
+|[0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove Duplicates from Sorted List](./leetcode/0083-remove-duplicates-from-sorted-list)|Easy|
 
 
 ## Sorting
@@ -84,7 +85,7 @@ Leetcode Golang solution ordered by frequency.
 |[0234](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List](./leetcode/0234-palindrome-linked-list)|Easy|
 |[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-lists)|Easy|
 |[0160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Merge Two Sorted Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
-|[0203](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements](.leetcode/0203-remove-linked-list-elements)|Easy|
+|[0203](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements](./leetcode/0203-remove-linked-list-elements)|Easy|
 
 ## DFS
 
