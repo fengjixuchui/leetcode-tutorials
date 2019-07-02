@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|61|12|0|73|
+|**Accepted**|61|13|0|74|
 
 ## Two Pointers
 
@@ -130,6 +130,7 @@ Leetcode Golang solution ordered by frequency.
 |[0704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/0704-binary-search)|Easy|
 |[0069](https://leetcode.com/problems/sqrtx/)|[Sqrt(x)](./leetcode/0069-sqrtx)|Easy|
 |[0367](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square](./leetcode/0367-valid-perfect-square)|Easy|
+|[0540](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array](./leetcode/0540-single-element-in-a-sorted-array)|Easy|
 
 ## Stack
 
