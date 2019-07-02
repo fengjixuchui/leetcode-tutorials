@@ -30,7 +30,7 @@ Leetcode Golang solution ordered by frequency.
 
 ## Sorting
 
-|#|Title|Difficulty|
+|#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0215](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Kth Largest Element in an Array](./leetcode/141-linked-list-cycle)|Medium|
 |[0056](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals](./leetcode/0056-merge-intervals)|Medium|📌|
