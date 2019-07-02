@@ -97,7 +97,7 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
+|[0002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|📌|
 |[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|
 |[0234](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List](./leetcode/0234-palindrome-linked-list)|Easy|
 |[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-lists)|Easy|
@@ -112,6 +112,7 @@ Leetcode Golang solution ordered by frequency.
 |[0112](https://leetcode.com/problems/path-sum/)|[Sum of Two Integers](./leetcode/0112-path-sum)|Easy|
 |[0700](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Search in a Binary Search Tree](./leetcode/0700-search-in-a-binary-search-tree)|Easy|
 |[0108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree](./leetcode/0108-convert-sorted-array-to-binary-search-tree)|Easy|
+|[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|📌|
 
 ## BFS
 
