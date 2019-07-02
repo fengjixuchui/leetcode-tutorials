@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|61|13|0|74|
+|**Accepted**|61|14|0|75|
 
 ## Two Pointers
 
@@ -33,6 +33,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|
 |:-:|:-|:-: |:-|
 |[0215](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Kth Largest Element in an Array](./leetcode/141-linked-list-cycle)|Medium|
+|[0056](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals](./leetcode/0056-merge-intervals)|Medium|📌|
 
 ## Backtracking
 
