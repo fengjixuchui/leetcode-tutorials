@@ -27,8 +27,7 @@ func levelOrder(root *TreeNode) [][]int {
 		curLayerCount := len(q)
 		curLayer := make([]int, 0)
 		for i := 0; i < curLayerCount; i++ {
-			n := q[0]
-			q = q[1:]
+			n := q[i]
 			curLayer = append(curLayer, n.Val)
 			if n.Left != nil {
 				q = append(q, n.Left)
@@ -37,6 +36,7 @@ func levelOrder(root *TreeNode) [][]int {
 				q = append(q, n.Right)
 			}
 		}
+    q = q[curLayerCount:]
 		res = append(res, curLayer)
 	}
 

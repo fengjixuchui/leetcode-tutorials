@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|61|7|0|68|
+|**Accepted**|61|8|0|69|
 
 ## Two Pointers
 
@@ -65,12 +65,12 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0101](https://leetcode.com/problems/symmetric-tree/)|[Symmetric Tree](./leetcode/0102-binary-tree-level-order-traversal)|Easy|
-|[0102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
 |[0100](https://leetcode.com/problems/same-tree/)|[Binary Tree Level Order Traversal](./leetcode/0100-same-tree)|Easy|
 |[0111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Minimum Depth of Binary Tree](./leetcode/0111-minimum-depth-of-binary-tree)|Easy|
 |[0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0104-maximum-depth-of-binary-tree)|Easy|
 |[0226](https://leetcode.com/problems/invert-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0226-invert-binary-tree)|Easy|
 |[0617](https://leetcode.com/problems/merge-two-binary-trees/)|[Merge Two Binary Trees](./leetcode/0617-merge-two-binary-trees)|Easy|
+|[0094](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Binary Tree Inorder Traversal](./leetcode/0094-binary-tree-inorder-traversal)|Medium|📌|
 
 ## Math
 
@@ -118,6 +118,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Sum of Two Integers](./leetcode/0107-binary-tree-level-order-traversal-ii)|Easy|
+|[0102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|📌|
 
 ## Binary Search
 
