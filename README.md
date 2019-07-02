@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|61|8|0|69|
+|**Accepted**|61|12|0|73|
 
 ## Two Pointers
 
@@ -25,7 +25,8 @@ Leetcode Golang solution ordered by frequency.
 |[0283](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes](./leetcode/0283-move-zeroes)|Easy|
 |[0344](https://leetcode.com/problems/reverse-string/)|[Reverse String](./leetcode/0283-move-zeroes)|Easy|
 |[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse String](./leetcode/0557-reverse-words-in-a-string-iii)|Easy|
-|[0011](https://leetcode.com/problems/container-with-most-water/)|[Reverse String](./leetcode/0011-container-with-most-water)|Easy|📌|
+|[0011](https://leetcode.com/problems/container-with-most-water/)|[Reverse String](./leetcode/0011-container-with-most-water)|Medium|📌|
+|[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Reverse String](./leetcode/0011-container-with-most-water)|Medium|
 
 ## Sorting
 
