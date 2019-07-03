@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|61|21|0|82|
+|**Accepted**|62|21|0|83|
 
 ## Two Pointers
 
@@ -28,6 +28,7 @@ Leetcode Golang solution ordered by frequency.
 |[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse Words in a String III](./leetcode/0557-reverse-words-in-a-string-iii)|Easy|
 |[0011](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water](./leetcode/0011-container-with-most-water)|Medium|📌|
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List](./leetcode/0011-container-with-most-water)|Medium|
+|[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|🍰|
 
 ## Sorting
 
@@ -174,3 +175,9 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0384](https://leetcode.com/problems/shuffle-an-array/)|[Shuffle an Array](./leetcode/0461-hamming-distance)|Easy|
+
+**Note**
+
+- ⏬ Try next question
+- 📌 Important
+- 🍰 A piece of cake
