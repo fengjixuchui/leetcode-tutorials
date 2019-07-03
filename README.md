@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|61|15|0|76|
+|**Accepted**|61|16|0|77|
 
 ## Two Pointers
 
@@ -73,6 +73,12 @@ Leetcode Golang solution ordered by frequency.
 |[0226](https://leetcode.com/problems/invert-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0226-invert-binary-tree)|Easy|
 |[0617](https://leetcode.com/problems/merge-two-binary-trees/)|[Merge Two Binary Trees](./leetcode/0617-merge-two-binary-trees)|Easy|
 |[0094](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Binary Tree Inorder Traversal](./leetcode/0094-binary-tree-inorder-traversal)|Medium|📌|
+
+## Preorder
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0144](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary Tree Preorder Traversal](./leetcode/0144-binary-tree-preorder-traversal)|Medium|📌|
 
 ## Math
 
