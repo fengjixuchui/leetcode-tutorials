@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|61|14|0|75|
+|**Accepted**|61|15|0|76|
 
 ## Two Pointers
 
@@ -158,3 +158,8 @@ Leetcode Golang solution ordered by frequency.
 |[0191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
 |[0461](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance](./leetcode/0461-hamming-distance)|Easy|
 
+## Array
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0384](https://leetcode.com/problems/shuffle-an-array/)|[Shuffle an Array](./leetcode/0461-hamming-distance)|Easy|
