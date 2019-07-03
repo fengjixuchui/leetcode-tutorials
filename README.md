@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|61|20|0|81|
+|**Accepted**|61|21|0|82|
 
 ## Two Pointers
 
@@ -17,16 +17,17 @@ Leetcode Golang solution ordered by frequency.
 |[0345](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String](./leetcode/0345-reverse-vowels-of-a-string)|Easy|
 |[0680](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid Palindrome II](./leetcode/0680-valid-palindrome-ii)|Easy|
 |[0088](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array](./leetcode/0088-merge-sorted-array)|Easy|
-|[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|
+|[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|⏬|
+|[0142](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II](./leetcode/0142-linked-list-cycle-ii)|Medium|📌|
 |[0125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 |[0009](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number](./leetcode/0342-power-of-four)|Easy|
-|[0028](https://leetcode.com/problems/implement-strstr/)|[Palindrome Number](./leetcode/0028-implement-strstr)|Easy|
+|[0028](https://leetcode.com/problems/implement-strstr/)|[Implement strStr()](./leetcode/0028-implement-strstr)|Easy|
 |[0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove Duplicates from Sorted List](./leetcode/0083-remove-duplicates-from-sorted-list)|Easy|
 |[0283](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes](./leetcode/0283-move-zeroes)|Easy|
 |[0344](https://leetcode.com/problems/reverse-string/)|[Reverse String](./leetcode/0283-move-zeroes)|Easy|
-|[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse String](./leetcode/0557-reverse-words-in-a-string-iii)|Easy|
-|[0011](https://leetcode.com/problems/container-with-most-water/)|[Reverse String](./leetcode/0011-container-with-most-water)|Medium|📌|
-|[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Reverse String](./leetcode/0011-container-with-most-water)|Medium|
+|[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse Words in a String III](./leetcode/0557-reverse-words-in-a-string-iii)|Easy|
+|[0011](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water](./leetcode/0011-container-with-most-water)|Medium|📌|
+|[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List](./leetcode/0011-container-with-most-water)|Medium|
 
 ## Sorting
 
@@ -47,7 +48,7 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |:-|
 |[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|
 |[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0303-range-sum-query)|Easy|
-|[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|
+|[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|⏬|
 |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|📌|
 |[0746](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs](./leetcode/0746-min-cost-climbing-stairs)|Easy|
 |[0152](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray](./leetcode/0152-maximum-product-subarray)|Medium|📌|
@@ -73,10 +74,10 @@ Leetcode Golang solution ordered by frequency.
 |[0100](https://leetcode.com/problems/same-tree/)|[Binary Tree Level Order Traversal](./leetcode/0100-same-tree)|Easy|
 |[0111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Minimum Depth of Binary Tree](./leetcode/0111-minimum-depth-of-binary-tree)|Easy|
 |[0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0104-maximum-depth-of-binary-tree)|Easy|
-|[0226](https://leetcode.com/problems/invert-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0226-invert-binary-tree)|Easy|
+|[0226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree](./leetcode/0226-invert-binary-tree)|Easy|
 |[0617](https://leetcode.com/problems/merge-two-binary-trees/)|[Merge Two Binary Trees](./leetcode/0617-merge-two-binary-trees)|Easy|
 |[0094](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Binary Tree Inorder Traversal](./leetcode/0094-binary-tree-inorder-traversal)|Medium|📌|
-|[0450](https://leetcode.com/problems/delete-node-in-a-bst/)|[Binary Tree Inorder Traversal](./leetcode/0450-delete-node-in-a-bst)|Medium|📌|
+|[0450](https://leetcode.com/problems/delete-node-in-a-bst/)|[Delete Node in a BST](./leetcode/0450-delete-node-in-a-bst)|Medium|📌|
 
 ## Preorder
 
@@ -101,8 +102,8 @@ Leetcode Golang solution ordered by frequency.
 |[0290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
-|[0409](https://leetcode.com/problems/longest-palindrome/)|[Majority Element](./leetcode/0409-longest-palindrome)|Easy|
-|[0350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Majority Element](./leetcode/0409-longest-palindrome)|Easy|
+|[0409](https://leetcode.com/problems/longest-palindrome/)|[Longest Palindrome](./leetcode/0409-longest-palindrome)|Easy|
+|[0350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection of Two Arrays II](./leetcode/0409-longest-palindrome)|Easy|
 
 
 ## Linked List
@@ -113,7 +114,7 @@ Leetcode Golang solution ordered by frequency.
 |[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|
 |[0234](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List](./leetcode/0234-palindrome-linked-list)|Easy|
 |[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-lists)|Easy|
-|[0160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Merge Two Sorted Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
+|[0160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements](./leetcode/0203-remove-linked-list-elements)|Easy|
 
 ## DFS
@@ -121,7 +122,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0110](https://leetcode.com/problems/balanced-binary-tree/)|[Sum of Two Integers](./leetcode/0110-balanced-binary-tree)|Easy|
-|[0112](https://leetcode.com/problems/path-sum/)|[Sum of Two Integers](./leetcode/0112-path-sum)|Easy|
+|[0112](https://leetcode.com/problems/path-sum/)|[Path Sum](./leetcode/0112-path-sum)|Easy|
 |[0700](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Search in a Binary Search Tree](./leetcode/0700-search-in-a-binary-search-tree)|Easy|
 |[0108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree](./leetcode/0108-convert-sorted-array-to-binary-search-tree)|Easy|
 |[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|📌|
