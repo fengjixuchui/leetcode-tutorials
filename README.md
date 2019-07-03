@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|62|21|0|83|
+|**Accepted**|63|21|0|84|
 
 ## Two Pointers
 
@@ -175,6 +175,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0384](https://leetcode.com/problems/shuffle-an-array/)|[Shuffle an Array](./leetcode/0461-hamming-distance)|Easy|
+|[0189](https://leetcode.com/problems/rotate-array/)|[Rotate Array](./leetcode/0189-rotate-array)|Easy|📌|
 
 **Note**
 
