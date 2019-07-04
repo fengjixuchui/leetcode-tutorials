@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|71|22|0|93|
+|**Accepted**|71|23|0|94|
 
 ## Two Pointers
 
@@ -42,6 +42,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0022](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses](./leetcode/0022-generate-parentheses)|Medium|📌|
+|[0039](https://leetcode.com/problems/combination-sum/)|[Combination Sum](./leetcode/0039-combination-sum)|Medium|📌|
 
 ## Dynamic Programming
 
