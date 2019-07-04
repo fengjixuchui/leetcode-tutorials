@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|73|19|0|92|
+|**Accepted**|71|21|0|92|
 
 ## Two Pointers
 
@@ -67,7 +67,7 @@ Leetcode Golang solution ordered by frequency.
 |[0605](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers](./leetcode/0605-can-place-flowers)|Easy|
 |[0392](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence](./leetcode/0392-is-subsequence)|Easy|
 |[0053](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray](./leetcode/0053-maximum-subarray)|Easy|
-|[0055](https://leetcode.com/problems/jump-game/)|[Jump Game](./leetcode/0055-jump-game)|Easy|
+|[0055](https://leetcode.com/problems/jump-game/)|[Jump Game](./leetcode/0055-jump-game)|Medium|
 
 ## Tree
 
@@ -150,6 +150,7 @@ Leetcode Golang solution ordered by frequency.
 |[0069](https://leetcode.com/problems/sqrtx/)|[Sqrt(x)](./leetcode/0069-sqrtx)|Easy|
 |[0367](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square](./leetcode/0367-valid-perfect-square)|Easy|
 |[0540](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array](./leetcode/0540-single-element-in-a-sorted-array)|Easy|
+|[0034](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-single-element-in-a-sorted-array)|Medium|📌|
 
 ## Stack
 
