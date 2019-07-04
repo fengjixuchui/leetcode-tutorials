@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|73|18|0|91|
+|**Accepted**|73|19|0|92|
 
 ## Two Pointers
 
@@ -67,6 +67,7 @@ Leetcode Golang solution ordered by frequency.
 |[0605](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers](./leetcode/0605-can-place-flowers)|Easy|
 |[0392](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence](./leetcode/0392-is-subsequence)|Easy|
 |[0053](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray](./leetcode/0053-maximum-subarray)|Easy|
+|[0055](https://leetcode.com/problems/jump-game/)|[Jump Game](./leetcode/0055-jump-game)|Easy|
 
 ## Tree
 
