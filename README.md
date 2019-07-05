@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|71|28|0|99|
+|**Accepted**|71|29|0|100|
 
 ## Two Pointers
 
@@ -102,6 +102,7 @@ Leetcode Golang solution ordered by frequency.
 |[0342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
 |[0263](https://leetcode.com/problems/ugly-number/)|[Ugly Number](./leetcode/0342-power-of-four)|Easy|
 |[0050](https://leetcode.com/problems/powx-n/)|[Pow(x, n)](./leetcode/0050-powx-n)|Medium|
+|[0470](https://leetcode.com/problems/implement-rand10-using-rand7)|[Implement Rand10() Using Rand7()](./leetcode/0470-implement-rand10-using-rand7)|Medium|
 
 ## Hash Table
 
