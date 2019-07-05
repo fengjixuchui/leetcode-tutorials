@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|71|25|0|96|
+|**Accepted**|71|26|0|97|
 
 ## Two Pointers
 
@@ -155,6 +155,7 @@ Leetcode Golang solution ordered by frequency.
 |[0367](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square](./leetcode/0367-valid-perfect-square)|Easy|
 |[0540](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array](./leetcode/0540-single-element-in-a-sorted-array)|Easy|
 |[0034](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-single-element-in-a-sorted-array)|Medium|📌|
+|[0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)|Medium|📌|
 
 ## Stack
 
