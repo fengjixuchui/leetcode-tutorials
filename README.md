@@ -8,7 +8,9 @@ Leetcode Golang solution ordered by frequency.
 |:---:|:---:|:---:|:---:|:---:|
 |**Accepted**|71|30|0|101|
 
-## Two Pointers
+## Order by Category 
+
+### Two Pointers
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -29,16 +31,16 @@ Leetcode Golang solution ordered by frequency.
 |[0011](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water](./leetcode/0011-container-with-most-water)|Medium|📌|
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List](./leetcode/0011-container-with-most-water)|Medium|
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|🍰|
+|[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|📌|
 
-
-## Sorting
+### Sorting
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0215](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Kth Largest Element in an Array](./leetcode/141-linked-list-cycle)|Medium|
 |[0056](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals](./leetcode/0056-merge-intervals)|Medium|📌|
 
-## Backtracking
+### Backtracking
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -46,7 +48,7 @@ Leetcode Golang solution ordered by frequency.
 |[0039](https://leetcode.com/problems/combination-sum/)|[Combination Sum](./leetcode/0039-combination-sum)|Medium|📌|
 |[0078](https://leetcode.com/problems/subsets/)|[Subsets](./leetcode/0078-subsets)|Medium|📌|
 
-## Dynamic Programming
+### Dynamic Programming
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -60,7 +62,7 @@ Leetcode Golang solution ordered by frequency.
 |[0509](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number](./leetcode/0509-fibonacci-number)|Easy|
 |[0096](https://leetcode.com/problems/unique-binary-search-trees/)|[Unique Binary Search Trees](./leetcode/0096-unique-binary-search-trees)|Medium|
 
-## Greedy
+### Greedy
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -73,7 +75,7 @@ Leetcode Golang solution ordered by frequency.
 |[0053](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray](./leetcode/0053-maximum-subarray)|Easy|
 |[0055](https://leetcode.com/problems/jump-game/)|[Jump Game](./leetcode/0055-jump-game)|Medium|
 
-## Tree
+### Tree
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -90,13 +92,13 @@ Leetcode Golang solution ordered by frequency.
 |[0543](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree](./leetcode/0543-diameter-of-binary-tree)|Easy|📌|
 |[0538](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree](./leetcode/0538-convert-bst-to-greater-tree)|Easy|📌|
 
-## Preorder
+### Preorder
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0144](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary Tree Preorder Traversal](./leetcode/0144-binary-tree-preorder-traversal)|Medium|📌|
 
-## Math
+### Math
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -106,7 +108,7 @@ Leetcode Golang solution ordered by frequency.
 |[0050](https://leetcode.com/problems/powx-n/)|[Pow(x, n)](./leetcode/0050-powx-n)|Medium|
 |[0470](https://leetcode.com/problems/implement-rand10-using-rand7)|[Implement Rand10() Using Rand7()](./leetcode/0470-implement-rand10-using-rand7)|Medium|
 
-## Hash Table
+### Hash Table
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -118,7 +120,7 @@ Leetcode Golang solution ordered by frequency.
 |[0409](https://leetcode.com/problems/longest-palindrome/)|[Longest Palindrome](./leetcode/0409-longest-palindrome)|Easy|
 |[0771](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones](./leetcode/0771-jewels-and-stones)|Easy|
 
-## Linked List
+### Linked List
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -131,7 +133,7 @@ Leetcode Golang solution ordered by frequency.
 |[0237](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Delete Node in a Linked List](./leetcode/0237-delete-node-in-a-linked-list)|Easy|
 |[0061](https://leetcode.com/problems/rotate-list/)|[Rotate List](./leetcode/0061-rotate-list)|Medium|📌|
 
-## DFS
+### DFS
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -142,14 +144,14 @@ Leetcode Golang solution ordered by frequency.
 |[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|📌|
 |[0114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Flatten Binary Tree to Linked List](./leetcode/0114-flatten-binary-tree-to-linked-list)|Medium|📌|
 
-## BFS
+### BFS
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Sum of Two Integers](./leetcode/0107-binary-tree-level-order-traversal-ii)|Easy|
 |[0102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|📌|
 
-## Binary Search
+### Binary Search
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -161,7 +163,7 @@ Leetcode Golang solution ordered by frequency.
 |[0034](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-single-element-in-a-sorted-array)|Medium|📌|
 |[0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)|Medium|📌|
 
-## Stack
+### Stack
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -169,7 +171,7 @@ Leetcode Golang solution ordered by frequency.
 |[0232](https://leetcode.com/problems/implement-queue-using-stacks/)|[Implement Queue using Stacks](./leetcode/0232-implement-queue-using-stacks)|Easy|📌|
 |[0946](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences](./leetcode/0946-validate-stack-sequences)|Medium|
 
-## Matrix
+### Matrix
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -178,7 +180,7 @@ Leetcode Golang solution ordered by frequency.
 |[0118](https://leetcode.com/problems/pascals-triangle/)|[Pascal's Triangle](./leetcode/0118-pascals-triangle)|Easy|
 |[0073](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes](./leetcode/0074-search-a-2d-matrix)|Medium|
 
-## Bit Manipulation
+### Bit Manipulation
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -188,18 +190,53 @@ Leetcode Golang solution ordered by frequency.
 |[0191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
 |[0461](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance](./leetcode/0461-hamming-distance)|Easy|
 
-## Array
+### Array
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0384](https://leetcode.com/problems/shuffle-an-array/)|[Shuffle an Array](./leetcode/0461-hamming-distance)|Easy|
 |[0189](https://leetcode.com/problems/rotate-array/)|[Rotate Array](./leetcode/0189-rotate-array)|Easy|📌|
 
-## String
+### String
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
 |[0151](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String](./leetcode/0151-reverse-words-in-a-string)|Medium|📌|
+
+### Trie
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0208](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Implement Trie (Prefix Tree)](./leetcode/208-implement-trie-prefix-tree)|Medium|📌|
 
 **Note**
 
 - ⏬ Try next question
 - 📌 Important
 - 🍰 A piece of cake
+
+## Order by Number 🔢
+
+*Common algorithms 1-50*
+
+- `0001, 0002, 0003, 0004, 0005, 0008, 0009, 0011, 0020, 0021`
+- `0022, 0028, 0035, 0046, 0050, 0053, 0070, 0072, 0073, 0074`
+- `0088, 0094, 0098, 0100, 0101, 0102, 0104, 0107, 0110, 0111`
+- `0121, 0125, 0136, 0141, 0146, 0155, 0160, 0167, 0169, 0191`
+- `0203, 0206, 0226, 0234, 0240, 0263, 0268, 0371, 0647, 0704`
+
+*Common algorithms 51-100*
+
+- `0015, 0019, 0023, 0031, 0032, 0033, 0056, 0062, 0063, 0064`
+- `0069, 0075, 0082, 0083, 0091, 0105, 0106, 0108, 0112, 0118`
+- `0128, 0131, 0139, 0142, 0144, 0148, 0152, 0198, 0200, 0213`
+- `0215, 0218, 0239, 0264, 0283, 0300, 0322, 0344, 0384, 0409`
+- `0450, 0461, 0518, 0540, 0557, 0581, 0617, 0700, 0703, 0746`
+
+*Common algorithms 101-148*
+
+- `0034, 0039, 0042, 0045, 0048, 0049, 0054, 0055, 0061, 0076`
+- `0078, 0079, 0084, 0085, 0086, 0096, 0113, 0114, 0122, 0133`
+- `0138, 0151, 0153, 0189, 0207, 0208, 0210, 0221, 0232, 0233`
+- `0235, 0236, 0237, 0238, 0260, 0338, 0387, 0437, 0448, 0470`
+- `0493, 0509, 0538, 0543, 0572, 0771, 0876, 0946`
