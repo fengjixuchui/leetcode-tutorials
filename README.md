@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|72|30|0|102|
+|**Accepted**|72|31|0|103|
 
 ## Order by Category
 
@@ -180,6 +180,7 @@ Leetcode Golang solution ordered by frequency.
 |[0240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|
 |[0118](https://leetcode.com/problems/pascals-triangle/)|[Pascal's Triangle](./leetcode/0118-pascals-triangle)|Easy|
 |[0073](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes](./leetcode/0074-search-a-2d-matrix)|Medium|
+|[0054](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix](./leetcode/0054-spiral-matrix)|Medium|
 
 ### Bit Manipulation
 
