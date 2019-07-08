@@ -6,9 +6,9 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|71|30|0|101|
+|**Accepted**|72|30|0|102|
 
-## Order by Category 
+## Order by Category
 
 ### Two Pointers
 
@@ -139,6 +139,7 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |:-|
 |[0110](https://leetcode.com/problems/balanced-binary-tree/)|[Sum of Two Integers](./leetcode/0110-balanced-binary-tree)|Easy|
 |[0112](https://leetcode.com/problems/path-sum/)|[Path Sum](./leetcode/0112-path-sum)|Easy|
+|[0437](https://leetcode.com/problems/path-sum-iii/)|[Path Sum III](./leetcode/0096-unique-binary-search-trees)|Easy|📌|
 |[0700](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Search in a Binary Search Tree](./leetcode/0700-search-in-a-binary-search-tree)|Easy|
 |[0108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree](./leetcode/0108-convert-sorted-array-to-binary-search-tree)|Easy|
 |[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|📌|
