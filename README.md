@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|74|32|0|106|
+|**Accepted**|74|33|0|107|
 
 ## Order by Category
 
@@ -48,6 +48,7 @@ Leetcode Golang solution ordered by frequency.
 |[0022](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses](./leetcode/0022-generate-parentheses)|Medium|📌|
 |[0039](https://leetcode.com/problems/combination-sum/)|[Combination Sum](./leetcode/0039-combination-sum)|Medium|📌|
 |[0078](https://leetcode.com/problems/subsets/)|[Subsets](./leetcode/0078-subsets)|Medium|📌|
+|[0131](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning](./leetcode/0131-palindrome-partitioning)|Medium|📌|
 
 ### Dynamic Programming
 
