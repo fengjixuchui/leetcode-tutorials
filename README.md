@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|74|31|0|105|
+|**Accepted**|74|32|0|106|
 
 ## Order by Category
 
@@ -32,6 +32,7 @@ Leetcode Golang solution ordered by frequency.
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List](./leetcode/0011-container-with-most-water)|Medium|
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|🍰|
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|📌|
+|[0015](https://leetcode.com/problems/3sum/)|[3Sum](./leetcode/0015-3Sum)|Medium|📌|
 
 ### Sorting
 
