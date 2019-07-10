@@ -12,17 +12,20 @@ func partition(s string) [][]string {
 }
 
 func bt(ans *[][]string, cur []string, offset int, s string) {
-	if len(s) == offset {
-		*ans = append(*ans, append([]string{}, cur...))
+	if offset == len(s) {
+		t := make([]string, len(cur))
+		copy(t, cur)
+		*ans = append(*ans, t)
 		return
 	}
 
 	for i := offset; i < len(s); i++ {
 		subStr := s[offset : i+1]
 		if isPalindrome(subStr) {
-			cur = append(cur, subStr)
-			bt(ans, cur, i+1, s)
-			cur = cur[:len(cur)-1]
+			t := make([]string, len(cur))
+			copy(t, cur)
+			t = append(t, subStr)
+			bt(ans, t, i+1, s)
 		}
 	}
 }
@@ -34,6 +37,6 @@ func isPalindrome(s string) bool {
 			return false
 		}
 	}
-    return true
+	return true
 }
 ```
