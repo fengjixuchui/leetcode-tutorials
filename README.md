@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|74|34|0|108|
+|**Accepted**|74|35|0|109|
 
 ## Order by Category
 
@@ -210,6 +210,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0151](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String](./leetcode/0151-reverse-words-in-a-string)|Medium|📌|
+|[0008](https://leetcode.com/problems/string-to-integer-atoi/)|[String to Integer (atoi)](./leetcode/0008-string-to-integer-atoi)|Medium|
 
 ### Trie
 
