@@ -76,6 +76,7 @@ Leetcode Golang solution ordered by frequency.
 |[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium|⭐️|
 |[0064](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum](./leetcode/0064-minimum-path-sum)|Medium|
 |[0096](https://leetcode.com/problems/unique-binary-search-trees/)|[Unique Binary Search Trees](./leetcode/0096-unique-binary-search-trees)|Medium|
+|[0518](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2](./leetcode/0518-coin-change-2)|Medium|💥|
 |[0509](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number](./leetcode/0509-fibonacci-number)|Easy|
 
 ### Greedy
@@ -239,7 +240,7 @@ Leetcode Golang solution ordered by frequency.
 **Note**
 
 - ⏬ Try next question
-- ⭐️ Important
+- ⭐ Important
 - 🍰 A piece of cake
 
 ## Order by Number 🔢
