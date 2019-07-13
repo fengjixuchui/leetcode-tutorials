@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|76|46|0|123|
+|**Accepted**|76|47|0|124|
 
 ## Order by Category
 
@@ -224,6 +224,7 @@ Leetcode Golang solution ordered by frequency.
 |[0189](https://leetcode.com/problems/rotate-array/)|[Rotate Array](./leetcode/0189-rotate-array)|Easy|⭐️|
 |[0238](https://leetcode.com/problems/product-of-array-except-self/)|[Product of Array Except Self](./leetcode/0238-product-of-array-except-self)|Medium|
 |[0448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find All Numbers Disappeared in an Array](./leetcode/0448-find-all-numbers-disappeared-in-an-array)|Easy|
+|[0031](https://leetcode.com/problems/next-permutation/)|[Find All Numbers Disappeared in an Array](./leetcode/0031-next-permutation)|Medium|
 
 ### String
 
