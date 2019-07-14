@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|76|49|0|126|
+|**Accepted**|76|50|0|127|
 
 ## Order by Category
 
@@ -174,6 +174,7 @@ Leetcode Golang solution ordered by frequency.
 |[0108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree](./leetcode/0108-convert-sorted-array-to-binary-search-tree)|Easy|
 |[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|⭐️|
 |[0114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Flatten Binary Tree to Linked List](./leetcode/0114-flatten-binary-tree-to-linked-list)|Medium|⭐️|
+|[0200](https://leetcode.com/problems/number-of-islands/)|[Number of Islands](./leetcode/0200-number-of-islands)|Medium|⭐️|
 
 ### BFS
 
