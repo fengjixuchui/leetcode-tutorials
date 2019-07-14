@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|76|50|0|127|
+|**Accepted**|76|51|0|128|
 
 ## Order by Category
 
@@ -233,6 +233,7 @@ Leetcode Golang solution ordered by frequency.
 |[0448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find All Numbers Disappeared in an Array](./leetcode/0448-find-all-numbers-disappeared-in-an-array)|Easy|
 |[0031](https://leetcode.com/problems/next-permutation/)|[Find All Numbers Disappeared in an Array](./leetcode/0031-next-permutation)|Medium|
 |[0581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray](./leetcode/0031-next-permutation)|Medium|⭐️|
+|[0075](https://leetcode.com/problems/sort-colors/)|[Sort Colors](./leetcode/0075-sort-colors)|Medium|⭐️|
 
 ### String
 
