@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|76|55|0|131|
+|**Accepted**|76|56|0|132|
 
 ## Order by Category
 
@@ -69,6 +69,13 @@ Leetcode Golang solution ordered by frequency.
 |[0078](https://leetcode.com/problems/subsets/)|[Subsets](./leetcode/0078-subsets)|Medium|⭐️|
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|⭐️⭐️|
 
+### Coin
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0322](https://leetcode.com/problems/coin-change/)|[Coin Change](./leetcode/0322-coin-change)|Medium|💥|
+|[0518](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2](./leetcode/0518-coin-change-2)|Medium|💥|
+
 ### Dynamic Programming
 
 |#|Title|Difficulty|Mark|
@@ -86,13 +93,7 @@ Leetcode Golang solution ordered by frequency.
 |[0509](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number](./leetcode/0509-fibonacci-number)|Easy|
 |[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium|⭐️⭐️|
 |[0300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence)|Medium|⭐️|
-
-### Coin
-
-|#|Title|Difficulty|Mark|
-|:-:|:-|:-: |:-|
-|[0322](https://leetcode.com/problems/coin-change/)|[Coin Change](./leetcode/0322-coin-change)|Medium|💥|
-|[0518](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2](./leetcode/0518-coin-change-2)|Medium|💥|
+|[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium|⭐️|
 
 ### Greedy
 
