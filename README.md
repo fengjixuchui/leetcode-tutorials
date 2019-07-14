@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|76|56|0|132|
+|**Accepted**|76|56|1|133|
 
 ## Order by Category
 
@@ -239,6 +239,7 @@ Leetcode Golang solution ordered by frequency.
 |[0031](https://leetcode.com/problems/next-permutation/)|[Find All Numbers Disappeared in an Array](./leetcode/0031-next-permutation)|Medium|
 |[0581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray](./leetcode/0031-next-permutation)|Medium|⭐️|
 |[0075](https://leetcode.com/problems/sort-colors/)|[Sort Colors](./leetcode/0075-sort-colors)|Medium|⭐️|
+|[0128](https://leetcode.com/problems/longest-consecutive-sequence/)|[Longest Consecutive Sequence](./leetcode/0128-longest-consecutive-sequence)|Hard|
 
 ### String
 
