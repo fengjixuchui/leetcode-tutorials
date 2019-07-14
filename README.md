@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|76|47|0|124|
+|**Accepted**|76|48|0|125|
 
 ## Order by Category
 
@@ -31,6 +31,12 @@ Leetcode Golang solution ordered by frequency.
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|⭐️|
 |[0015](https://leetcode.com/problems/3sum/)|[3Sum](./leetcode/0015-3Sum)|Medium|⭐️|
 |[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters](./leetcode/0015-3Sum)|Medium|
+
+### Binary Search
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0033](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](./leetcode/0015-3Sum)|Medium|
 
 ### Palindrome
 
