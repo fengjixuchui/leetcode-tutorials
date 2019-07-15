@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|76|56|1|133|
+|**Accepted**|76|57|1|134|
 
 ## Order by Category
 
@@ -165,6 +165,7 @@ Leetcode Golang solution ordered by frequency.
 |[0237](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Delete Node in a Linked List](./leetcode/0237-delete-node-in-a-linked-list)|Easy|
 |[0061](https://leetcode.com/problems/rotate-list/)|[Rotate List](./leetcode/0061-rotate-list)|Medium|⭐️|
 |[0082](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II](./leetcode/0082-remove-duplicates-from-sorted-list-ii)|Medium|⭐
+|[0148](https://leetcode.com/problems/sort-list/)|[Sort List](./leetcode/0148-sort-list)|Medium|⭐️|
 
 ### DFS
 
