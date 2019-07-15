@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|76|57|1|134|
+|**Accepted**|76|57|2|135|
 
 ## Order by Category
 
@@ -93,6 +93,7 @@ Leetcode Golang solution ordered by frequency.
 |[0509](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number](./leetcode/0509-fibonacci-number)|Easy|
 |[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium|⭐️⭐️|
 |[0300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence)|Medium|⭐️|
+|[0032](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses](./leetcode/0032-longest-valid-parentheses)|Hard|⭐️|
 |[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium|⭐️|
 
 ### Greedy
@@ -149,7 +150,6 @@ Leetcode Golang solution ordered by frequency.
 |[0290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
-
 |[0771](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones](./leetcode/0771-jewels-and-stones)|Easy|
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String](./leetcode/0387-first-unique-character-in-a-string)|Easy|
 
@@ -237,7 +237,7 @@ Leetcode Golang solution ordered by frequency.
 |[0189](https://leetcode.com/problems/rotate-array/)|[Rotate Array](./leetcode/0189-rotate-array)|Easy|⭐️|
 |[0238](https://leetcode.com/problems/product-of-array-except-self/)|[Product of Array Except Self](./leetcode/0238-product-of-array-except-self)|Medium|
 |[0448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find All Numbers Disappeared in an Array](./leetcode/0448-find-all-numbers-disappeared-in-an-array)|Easy|
-|[0031](https://leetcode.com/problems/next-permutation/)|[Find All Numbers Disappeared in an Array](./leetcode/0031-next-permutation)|Medium|
+|[0031](https://leetcode.com/problems/next-permutation/)|[Next Permutation](./leetcode/0031-next-permutation)|Medium|
 |[0581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray](./leetcode/0031-next-permutation)|Medium|⭐️|
 |[0075](https://leetcode.com/problems/sort-colors/)|[Sort Colors](./leetcode/0075-sort-colors)|Medium|⭐️|
 |[0128](https://leetcode.com/problems/longest-consecutive-sequence/)|[Longest Consecutive Sequence](./leetcode/0128-longest-consecutive-sequence)|Hard|
