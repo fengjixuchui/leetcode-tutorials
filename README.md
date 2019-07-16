@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|77|61|2|140|
+|**Accepted**|77|62|2|141|
 
 ## Order by Category
 
@@ -69,6 +69,7 @@ Leetcode Golang solution ordered by frequency.
 |[0039](https://leetcode.com/problems/combination-sum/)|[Combination Sum](./leetcode/0039-combination-sum)|Medium|⭐️|
 |[0078](https://leetcode.com/problems/subsets/)|[Subsets](./leetcode/0078-subsets)|Medium|⭐️|
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|⭐️⭐️|
+|[0077](https://leetcode.com/problems/combinations/)|[Permutations](./leetcode/0077-combinations)|Medium|
 
 ### Coin
 
