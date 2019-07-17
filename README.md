@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|77|63|2|142|
+|**Accepted**|77|64|2|143|
 
 ## Order by Category
 
@@ -149,7 +149,7 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./leetcode/0001-two-sum)|Easy|
+|[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./leetcode/0001-two-sum)|Easy|🍰|
 |[0290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
@@ -206,6 +206,7 @@ Leetcode Golang solution ordered by frequency.
 |[0540](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array](./leetcode/0540-single-element-in-a-sorted-array)|Easy|
 |[0034](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-single-element-in-a-sorted-array)|Medium|⭐️|
 |[0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)|Medium|⭐️|
+|[0162](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element](./leetcode/0162-find-peak-element)|Medium|
 
 ### Stack
 
@@ -272,7 +273,7 @@ Leetcode Golang solution ordered by frequency.
 
 - ⏬ Try next question
 - ⭐ Important
-- 🍰 A piece of cake
+- 🍰 Easy
 
 ## Order by Number 🔢
 

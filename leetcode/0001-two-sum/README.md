@@ -6,19 +6,14 @@ https://leetcode.com/problems/two-sum/
 
 ```go
 func twoSum(nums []int, target int) []int {
-	// visited store value and index
-	visited := make(map[int]int)
-
-	for currentIndex, v := range nums {
-		counterPart := target - v
-
-		counterPartIndex, ok := visited[counterPart]
-		if ok {
-			return []int{counterPartIndex, currentIndex}
+	visited := map[int]int{}
+	for i := 0; i < len(nums); i++ {
+		curNum := nums[i]
+		if idx, ok := visited[target-curNum]; ok {
+			return []int{idx, i}
 		}
-		visited[v] = currentIndex
+		visited[curNum] = i
 	}
-
 	return []int{-1, -1}
 }
 ```

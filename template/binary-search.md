@@ -7,13 +7,13 @@ func bs(nums []int, target) int {
 	l, r := 0, len(nums)-1
 
 	for l < r {
-		mid := l + (r-1)/2
-		if nums[mid] < target {
-			l = mid + 1
-		} else if nums[mid] > target {
-			r = mid + 1
+		m := l + (r-1)/2
+		if nums[m] < target {
+			l = m + 1
+		} else if nums[m] > target {
+			r = m
 		} else {
-			return mid
+			return m
 		}
 	}
 
