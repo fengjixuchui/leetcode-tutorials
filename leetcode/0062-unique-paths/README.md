@@ -5,28 +5,57 @@ https://leetcode.com/problems/unique-paths/
 ## Solutions
 
 ```go
+// We use m = 7 and n = 3 as example.
+// m -> row count
+// n -> column count
 func uniquePaths(m int, n int) int {
-	if m < 1 || n < 1 {
-		return 0
-	}
-	records := make([][]int, m)
-	for i := range records {
-		records[i] = make([]int, n)
+	// d stores how many ways can reach the location.
+	d := make([][]int, m)
+	for i := 0; i < m; i++ {
+		d[i] = make([]int, n)
 	}
 
-	for row := 0; row < m; row++ {
-		records[row][0] = 1
-	}
+	// Initial location set to 1.
+	d[0][0] = 1
+
+	// Here's what d looks for now
+	// [1 0 0 0 0 0 0]
+	// [0 0 0 0 0 0 0]
+	// [0 0 0 0 0 0 0]
+
+	// When row = 0, there's only one way to go to the location (left->right).
 	for col := 0; col < n; col++ {
-		records[0][col] = 1
+		d[0][col] = 1
 	}
 
+	// Here's what d looks for now
+	// [1 1 1 1 1 1 1]
+	// [0 0 0 0 0 0 0]
+	// [0 0 0 0 0 0 0]
+
+	// When col = 0, there's only one way to go to the location (top->down).
+	for row := 0; row < m; row++ {
+		d[row][0] = 1
+	}
+
+	// Here's what d looks for now
+	// [1 1 1 1 1 1 1]
+	// [1 0 0 0 0 0 0]
+	// [1 0 0 0 0 0 0]
+
+	// For the other location, we can go from left or top.
 	for row := 1; row < m; row++ {
 		for col := 1; col < n; col++ {
-			records[row][col] = records[row-1][col] + records[row][col-1]
+			d[row][col] = d[row-1][col] + d[row][col-1]
 		}
 	}
 
-	return records[m-1][n-1]
+	// Here's what d looks for now
+	// [1 1 1  1  1  1  1]
+	// [1 2 3  4  5  6  7]
+	// [1 3 6 10 15 21 28]
+
+	// Return the bottom right value.
+	return d[m-1][n-1]
 }
 ```

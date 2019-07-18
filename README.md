@@ -89,7 +89,7 @@ Leetcode Golang solution ordered by frequency.
 |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|⭐️|
 |[0746](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs](./leetcode/0746-min-cost-climbing-stairs)|Easy|
 |[0152](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray](./leetcode/0152-maximum-product-subarray)|Medium|⭐️|
-|[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium|⏬|
+|[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium|🍰|
 |[0063](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths](./leetcode/0063-unique-paths-ii)|Medium|⭐️|
 |[0064](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum](./leetcode/0064-minimum-path-sum)|Medium|
 |[0096](https://leetcode.com/problems/unique-binary-search-trees/)|[Unique Binary Search Trees](./leetcode/0096-unique-binary-search-trees)|Medium|
