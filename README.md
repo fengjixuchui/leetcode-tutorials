@@ -156,7 +156,7 @@ Leetcode Golang solution ordered by frequency.
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
 |[0771](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones](./leetcode/0771-jewels-and-stones)|Easy|
-|[0387](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String](./leetcode/0387-first-unique-character-in-a-string)|Easy|
+|[0387](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String](./leetcode/0387-first-unique-character-in-a-string)|Easy|🍰|
 |[0049](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams](./leetcode/0049-group-anagrams)|Medium|
 
 ### Linked List
