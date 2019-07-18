@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|77|64|2|143|
+|**Accepted**|77|65|2|144|
 
 ## Order by Category
 
@@ -69,7 +69,8 @@ Leetcode Golang solution ordered by frequency.
 |[0039](https://leetcode.com/problems/combination-sum/)|[Combination Sum](./leetcode/0039-combination-sum)|Medium|⭐️|
 |[0078](https://leetcode.com/problems/subsets/)|[Subsets](./leetcode/0078-subsets)|Medium|⭐️|
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|⭐️⭐️|
-|[0077](https://leetcode.com/problems/combinations/)|[Permutations](./leetcode/0077-combinations)|Medium|
+|[0077](https://leetcode.com/problems/combinations/)|[Combinations](./leetcode/0077-combinations)|Medium|
+|[0017](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number](./leetcode/0017-letter-combinations-of-a-phone-number)|Medium|
 
 ### Coin
 
@@ -293,10 +294,10 @@ Leetcode Golang solution ordered by frequency.
 - `0215, 0218, 0239, 0264, 0283, 0300, 0322, 0344, 0384, 0409`
 - `0450, 0461, 0518, 0540, 0557, 0581, 0617, 0700, 0703, 0746`
 
-*Common algorithms 101-148*
+*Common algorithms 101-150*
 
-- `0034, 0039, 0042, 0045, 0048, 0049, 0054, 0055, 0061, 0076`
-- `0078, 0079, 0084, 0085, 0086, 0096, 0113, 0114, 0122, 0133`
-- `0138, 0151, 0153, 0189, 0207, 0208, 0210, 0221, 0232, 0233`
-- `0235, 0236, 0237, 0238, 0260, 0338, 0387, 0437, 0448, 0470`
-- `0493, 0509, 0538, 0543, 0572, 0771, 0876, 0946`
+- `0010, 0017, 0034, 0039, 0042, 0045, 0048, 0049, 0054, 0055`
+- `0061, 0076, 0078, 0079, 0084, 0085, 0086, 0096, 0113, 0114`
+- `0122, 0133, 0138, 0151, 0153, 0189, 0207, 0208, 0210, 0221`
+- `0232, 0233, 0235, 0236, 0237, 0238, 0260, 0338, 0387, 0437`
+- `0448, 0470, 0493, 0509, 0538, 0543, 0572, 0771, 0876, 0946`
