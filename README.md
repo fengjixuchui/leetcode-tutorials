@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|77|65|2|144|
+|**Accepted**|77|66|2|145|
 
 ## Order by Category
 
@@ -98,6 +98,7 @@ Leetcode Golang solution ordered by frequency.
 |[0300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence)|Medium|⭐️|
 |[0032](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses](./leetcode/0032-longest-valid-parentheses)|Hard|⭐️|
 |[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium|⭐️|
+|[0279](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares](./leetcode/0279-perfect-squares)|Medium|⭐️|
 
 ### Greedy
 
