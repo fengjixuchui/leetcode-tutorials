@@ -5,33 +5,55 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 ## Solutions
 
 ```go
-func binarySearchLastOne(nums []int, target int) int {
-	left, right := 0, len(nums)-1
+func binarySearchStart(nums []int, target int) int {
+	l, r := 0, len(nums)-1
 
-	for left <= right {
-		mid := left + (right-left)/2
-		if target < nums[mid] {
-			right--
+	for l < r {
+		m := l + (r-l)/2
+		if nums[m] < target {
+			l = m + 1
+		} else if target < nums[m] {
+			r = m
 		} else {
-			left++
+			r = m
 		}
 	}
 
-	return right
+	return l
+}
+
+func binarySearchEnd(nums []int, target int) int {
+	l, r := 0, len(nums)-1
+
+	for l < r {
+		m := l + (r-l)/2 + 1
+		if nums[m] < target {
+			l = m
+		} else if target < nums[m] {
+			r = m - 1
+		} else {
+			l = m
+		}
+	}
+
+	return l
 }
 
 func searchRange(nums []int, target int) []int {
-	if nums == nil || len(nums) == 0 {
+	if len(nums) == 0 {
 		return []int{-1, -1}
 	}
 
-	end := binarySearchLastOne(nums, target)
-	start := binarySearchLastOne(nums, target-1) + 1
-
-	if 0 <= start && start <= end && end < len(nums) {
-		return []int{start, end}
+	start := binarySearchStart(nums, target)
+	if nums[start] != target {
+		return []int{-1, -1}
 	}
 
-	return []int{-1, -1}
+	end := binarySearchEnd(nums, target)
+	if nums[end] != target {
+		return []int{-1, -1}
+	}
+
+	return []int{start, end}
 }
 ```

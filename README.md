@@ -207,7 +207,7 @@ Leetcode Golang solution ordered by frequency.
 |[0069](https://leetcode.com/problems/sqrtx/)|[Sqrt(x)](./leetcode/0069-sqrtx)|Easy|
 |[0367](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square](./leetcode/0367-valid-perfect-square)|Easy|🍰|
 |[0540](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array](./leetcode/0540-single-element-in-a-sorted-array)|Easy|
-|[0034](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-single-element-in-a-sorted-array)|Medium|⭐️|
+|[0034](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-single-element-in-a-sorted-array)|Medium|⭐⭐️|
 |[0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)|Medium|⭐️|
 |[0162](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element](./leetcode/0162-find-peak-element)|Medium|
 
