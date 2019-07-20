@@ -6,22 +6,24 @@ https://leetcode.com/problems/search-a-2d-matrix/
 
 ```go
 func searchMatrix(matrix [][]int, target int) bool {
-	if matrix == nil || len(matrix) == 0 {
+	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return false
 	}
 
-	m, n := len(matrix), len(matrix[0])
-	low, high := 0, m*n-1
+	// get the rows count and column count
+	r, c := len(matrix), len(matrix[0])
+	l, r := 0, r*c-1
 
-	for low <= high {
-		mid := low + (high-low)/2
-		r, c := mid/n, mid%n
-		if matrix[r][c] == target {
-			return true
-		} else if matrix[r][c] > target {
-			high = mid - 1
+	for l <= r {
+		m := l + (r-l)/2
+		curRow, curCol := m/c, m%c
+
+		if matrix[curRow][curCol] < target {
+			l = m + 1
+		} else if matrix[curRow][curCol] > target {
+			r = m - 1
 		} else {
-			low = mid + 1
+			return true
 		}
 	}
 

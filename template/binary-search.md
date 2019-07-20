@@ -3,15 +3,15 @@
 ### Basic
 
 ```go
-func bs(nums []int, target) int {
+func bs(nums []int, target int) int {
 	l, r := 0, len(nums)-1
 
-	for l < r {
+	for l <= r {
 		m := l + (r-1)/2
 		if nums[m] < target {
 			l = m + 1
 		} else if nums[m] > target {
-			r = m
+			r = m - 1
 		} else {
 			return m
 		}
@@ -31,7 +31,7 @@ func binarySearchStart(nums []int, target int) int {
 		m := l + (r-l)/2
 		if nums[m] < target {
 			l = m + 1
-		} else if target < nums[m] {
+		} else if nums[m] > target {
 			r = m
 		} else {
 			r = m
@@ -52,7 +52,7 @@ func binarySearchEnd(nums []int, target int) int {
 		m := l + (r-l)/2 + 1
 		if nums[m] < target {
 			l = m
-		} else if target < nums[m] {
+		} else if nums[m] > target {
 			r = m - 1
 		} else {
 			l = m
