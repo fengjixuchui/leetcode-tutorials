@@ -6,23 +6,23 @@ https://leetcode.com/problems/valid-perfect-square/
 
 ```go
 func isPerfectSquare(num int) bool {
-    if num == 1 {
-        return true
-    }
+	if num == 1 {
+		return true
+	}
 
-    low, high := 0, num
+	l, r := 0, num
 
-    for low <= high {
-        mid := low + (high - low) / 2
-        if mid * mid == num {
-            return true
-        } else if mid * mid > num {
-            high--
-        } else {
-            low++
-        }
-    }
+	for l < r {
+		m := l + (r-l)/2
+		if m*m < num {
+			l = m + 1
+		} else if m*m > num {
+			r = m
+		} else {
+			return true
+		}
+	}
 
-    return false
+	return false
 }
 ```
