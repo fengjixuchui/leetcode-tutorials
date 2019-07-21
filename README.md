@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|77|68|2|147|
+|**Accepted**|77|69|2|148|
 
 ## Order by Category
 
@@ -253,6 +253,7 @@ Leetcode Golang solution ordered by frequency.
 |[0075](https://leetcode.com/problems/sort-colors/)|[Sort Colors](./leetcode/0075-sort-colors)|Medium|⭐️|
 |[0128](https://leetcode.com/problems/longest-consecutive-sequence/)|[Longest Consecutive Sequence](./leetcode/0128-longest-consecutive-sequence)|Hard|
 |[0912](https://leetcode.com/problems/sort-an-array/)|[Sort an Array](./leetcode/0912-sort-an-array)|Medium|
+|[0792](https://leetcode.com/problems/number-of-matching-subsequences/)|[Number of Matching Subsequences](./leetcode/0792-number-of-matching-subsequences)|Medium|
 
 ### String
 
