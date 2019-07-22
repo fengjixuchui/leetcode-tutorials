@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|84|70|2|156|
+|**Accepted**|85|70|2|157|
 
 ## Order by Category
 
@@ -201,6 +201,7 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |:-|
 |[0107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Sum of Two Integers](./leetcode/0107-binary-tree-level-order-traversal-ii)|Easy|
 |[0102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|⭐️|
+|[0637](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree](./leetcode/0637-average-of-levels-in-binary-tree)|Tree|
 
 ### Binary Search
 
