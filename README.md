@@ -84,7 +84,7 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|
+|[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|🍰|
 |[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0303-range-sum-query)|Easy|
 |[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|🍰|
 |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|⭐️|

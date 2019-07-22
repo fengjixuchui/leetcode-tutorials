@@ -1,25 +1,30 @@
 ## Solutions
 
 ```go
+// input: [-2, 0, 3, -5, 2, -1]
+//     d: [0, -2, -2, 1, -4, -2, -3]
+//
+// The meaning of d:
+// add to index: null, 0, 01, 012, 0123, 01234, 012345
+//            d: [0,  -2, -2,  1,   -4,   -2,     -3]
 type NumArray struct {
-	accu []int
+	d []int
 }
 
 func Constructor(nums []int) NumArray {
-	accu := make([]int, 1)
-	for _, v := range nums {
-		accu = append(accu, accu[len(accu)-1]+v)
+	d := make([]int, len(nums)+1)
+	d[0] = 0
+	for i := 0; i < len(nums); i++ {
+		d[i+1] += d[i] + nums[i]
 	}
 	return NumArray{
-		accu: accu,
+		d: d,
 	}
 }
 
-func (this *NumArray) SumRange(i int, j int) int {
-	return this.accu[j+1] - this.accu[i]
+func (this NumArray) SumRange(i int, j int) int {
+	return this.d[j+1] - this.d[i]
 }
-
-
 /**
  * Your NumArray object will be instantiated and called as such:
  * obj := Constructor(nums);
