@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|82|70|2|154|
+|**Accepted**|83|70|2|155|
 
 ## Order by Category
 
@@ -150,6 +150,7 @@ Leetcode Golang solution ordered by frequency.
 |[0050](https://leetcode.com/problems/powx-n/)|[Pow(x, n)](./leetcode/0050-powx-n)|Medium|
 |[0470](https://leetcode.com/problems/implement-rand10-using-rand7)|[Implement Rand10() Using Rand7()](./leetcode/0470-implement-rand10-using-rand7)|Medium|
 |[1041](https://leetcode.com/problems/robot-bounded-in-circle/)|[Robot Bounded In Circle](./leetcode/1041-robot-bounded-in-circle)|Easy|
+|[0504](https://leetcode.com/problems/base-7/)|[Base 7](./leetcode/0504-base-7)|Easy|
 
 ### Hash Table
 
