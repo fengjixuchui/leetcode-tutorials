@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|78|69|2|149|
+|**Accepted**|79|69|2|150|
 
 ## Order by Category
 
@@ -131,6 +131,7 @@ Leetcode Golang solution ordered by frequency.
 |[0543](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree](./leetcode/0543-diameter-of-binary-tree)|Easy|⭐️|
 |[0538](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree](./leetcode/0538-convert-bst-to-greater-tree)|Easy|⭐️|
 |[0572](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree](./leetcode/0572-subtree-of-another-tree)|Easy|
+|[0404](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves](./leetcode/0404-sum-of-left-leaves)|Easy|
 
 ### Preorder
 
