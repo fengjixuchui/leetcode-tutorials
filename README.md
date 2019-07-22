@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|81|69|2|152|
+|**Accepted**|81|70|2|153|
 
 ## Order by Category
 
@@ -132,6 +132,7 @@ Leetcode Golang solution ordered by frequency.
 |[0538](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree](./leetcode/0538-convert-bst-to-greater-tree)|Easy|⭐️|
 |[0572](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree](./leetcode/0572-subtree-of-another-tree)|Easy|
 |[0404](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves](./leetcode/0404-sum-of-left-leaves)|Easy|
+|[0655](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree](./leetcode/0655-print-binary-tree)|Medium|⭐️|
 
 ### Preorder
 
