@@ -5,41 +5,42 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/
 ## Solutions
 
 ```go
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
 func levelOrder(root *TreeNode) [][]int {
-	res := make([][]int, 0)
-
 	if root == nil {
-		return res
+		return make([][]int, 0)
 	}
 
-	q := make([]*TreeNode, 0)
-	q = append(q, root)
+	currLevel := []*TreeNode{}
+	nextLevel := []*TreeNode{}
+	ans := [][]int{}
 
-	for len(q) > 0 {
-		curLayerCount := len(q)
-		curLayer := make([]int, 0)
-		for i := 0; i < curLayerCount; i++ {
-			n := q[i]
-			curLayer = append(curLayer, n.Val)
-			if n.Left != nil {
-				q = append(q, n.Left)
+	currLevel = append(currLevel, root)
+
+	for len(currLevel) != 0 {
+		// currLevelElem stores the current level values.
+		currLevelElem := make([]int, 0)
+
+		// Loop throuht all node in current level.
+		for i := 0; i < len(currLevel); i++ {
+			node := currLevel[i]
+			currLevelElem = append(currLevelElem, node.Val)
+
+			// Get the next nevel nodes.
+			if node.Left != nil {
+				nextLevel = append(nextLevel, node.Left)
 			}
-			if n.Right != nil {
-				q = append(q, n.Right)
+			if node.Right != nil {
+				nextLevel = append(nextLevel, node.Right)
 			}
 		}
-    q = q[curLayerCount:]
-		res = append(res, curLayer)
+
+		ans = append(ans, currLevelElem)
+		// We are going to the next level so we set the nextLevel as currLevel.
+		currLevel = nextLevel
+		// Reset value for the next round.
+		nextLevel = []*TreeNode{}
 	}
 
-	return res
+	return ans
 }
 ```

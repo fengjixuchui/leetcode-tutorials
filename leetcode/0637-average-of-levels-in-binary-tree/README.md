@@ -14,9 +14,13 @@ func averageOfLevels(root *TreeNode) []float64 {
 
 	for len(currLevel) != 0 {
 		levelSum := 0
+
+		// Loop throuht all node in current level.
 		for i := 0; i < len(currLevel); i++ {
 			currNode := currLevel[i]
 			levelSum += currNode.Val
+
+			// Get the next nevel nodes.
 			if currNode.Left != nil {
 				nextLevel = append(nextLevel, currNode.Left)
 			}
@@ -24,8 +28,11 @@ func averageOfLevels(root *TreeNode) []float64 {
 				nextLevel = append(nextLevel, currNode.Right)
 			}
 		}
+
 		ans = append(ans, float64(levelSum)/float64(len(currLevel)))
+		// We are going to the next level so we set the nextLevel as currLevel.
 		currLevel = nextLevel
+		// Reset value for the next round.
 		nextLevel = []*TreeNode{}
 	}
 

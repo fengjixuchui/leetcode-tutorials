@@ -5,45 +5,41 @@ https://leetcode.com/problems/0107-binary-tree-level-order-traversal-ii/
 ## Solutions
 
 ```go
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
 func levelOrderBottom(root *TreeNode) [][]int {
 	if root == nil {
 		return make([][]int, 0)
 	}
 
-	result := make([][]int, 0)
-	queue := make([]*TreeNode, 0)
-	queue = append(queue, root)
+	currLevel := []*TreeNode{}
+	nextLevel := []*TreeNode{}
+	ans := [][]int{}
 
-	for len(queue) != 0 {
-		elem := make([]int, 0)
-		size := len(queue)
-		for i := 0; i < size; i++ {
-			node := queue[0]
-			queue = queue[1:]
-			elem = append(elem, node.Val)
+	currLevel = append(currLevel, root)
+
+	for len(currLevel) != 0 {
+		// currLevelElem stores the current level values.
+		currLevelElem := make([]int, 0)
+
+		for i := 0; i < len(currLevel); i++ {
+			node := currLevel[i]
+			// Get the next nevel nodes.
+			currLevelElem = append(currLevelElem, node.Val)
 			if node.Left != nil {
-				queue = append(queue, node.Left)
+				nextLevel = append(nextLevel, node.Left)
 			}
 			if node.Right != nil {
-				queue = append(queue, node.Right)
+				nextLevel = append(nextLevel, node.Right)
 			}
 		}
-		result = append(result, elem)
+
+		// Prepend the item
+		ans = append([][]int{currLevelElem}, ans...)
+
+		currLevel = nextLevel
+		// Reset value for the next round.
+		nextLevel = []*TreeNode{}
 	}
 
-	for i := 0; i < len(result)/2; i++ {
-		j := len(result) - 1 - i
-		result[i], result[j] = result[j], result[i]
-	}
-
-	return result
+	return ans
 }
 ```
