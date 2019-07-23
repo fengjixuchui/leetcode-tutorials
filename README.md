@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|88|74|2|164|
+|**Accepted**|88|75|2|165|
 
 ## Order by Category
 
@@ -282,6 +282,12 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0208](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Implement Trie (Prefix Tree)](./leetcode/208-implement-trie-prefix-tree)|Medium|⭐️|
+
+### Bucket
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0347](https://leetcode.com/problems/top-k-frequent-elements/)|[Top K Frequent Elements](./leetcode/0347-top-k-frequent-elements)|Medium|⭐️|
 
 ### Graph
 
