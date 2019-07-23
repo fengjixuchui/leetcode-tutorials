@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|88|70|2|160|
+|**Accepted**|88|71|2|161|
 
 ## Order by Category
 
@@ -135,6 +135,7 @@ Leetcode Golang solution ordered by frequency.
 |[0655](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree](./leetcode/0655-print-binary-tree)|Medium|⭐️|
 |[0606](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Construct String from Binary Tree](./leetcode/0606-construct-string-from-binary-tree)|Easy|
 |[0669](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree](./leetcode/0669-trim-a-binary-search-tree)|Easy|
+|[0654](https://leetcode.com/problems/maximum-binary-tree/)|[Maximum Binary Tree](./leetcode/0654-maximum-binary-tree)|Medium|
 
 ### Preorder
 
