@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|86|70|2|158|
+|**Accepted**|88|70|2|160|
 
 ## Order by Category
 
@@ -18,7 +18,7 @@ Leetcode Golang solution ordered by frequency.
 |[0633](https://leetcode.com/problems/sum-of-square-numbers/)|[Sum of Square Numbers](./leetcode/0633-sum-of-square-numbers)|Easy|
 |[0345](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String](./leetcode/0345-reverse-vowels-of-a-string)|Easy|
 |[0088](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array](./leetcode/0088-merge-sorted-array)|Easy|
-|[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|⏬|
+|[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|🍰|
 |[0142](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II](./leetcode/0142-linked-list-cycle-ii)|Medium|⭐️|
 |[0028](https://leetcode.com/problems/implement-strstr/)|[Implement strStr()](./leetcode/0028-implement-strstr)|Easy|
 |[0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove Duplicates from Sorted List](./leetcode/0083-remove-duplicates-from-sorted-list)|Easy|
@@ -85,7 +85,7 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|🍰|
-|[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0303-range-sum-query)|Easy|
+|[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|🍰|
 |[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|🍰|
 |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|⭐️|
 |[0746](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs](./leetcode/0746-min-cost-climbing-stairs)|Easy|
@@ -133,6 +133,8 @@ Leetcode Golang solution ordered by frequency.
 |[0572](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree](./leetcode/0572-subtree-of-another-tree)|Easy|
 |[0404](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves](./leetcode/0404-sum-of-left-leaves)|Easy|
 |[0655](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree](./leetcode/0655-print-binary-tree)|Medium|⭐️|
+|[0606](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Construct String from Binary Tree](./leetcode/0606-construct-string-from-binary-tree)|Easy|
+|[0669](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree](./leetcode/0669-trim-a-binary-search-tree)|Easy|
 
 ### Preorder
 
@@ -286,7 +288,6 @@ Leetcode Golang solution ordered by frequency.
 
 **Note**
 
-- ⏬ Try next question
 - ⭐ Important
 - 🍰 Easy
 

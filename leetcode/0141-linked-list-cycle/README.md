@@ -5,26 +5,23 @@ https://leetcode.com/problems/linked-list-cycle/
 ## Solutions
 
 ```go
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+// O(n)
 func hasCycle(head *ListNode) bool {
-	fast, slow := head, head
+	// Handle edge cases.
+	if head == nil {
+		return false
+	}
 
-	for fast != nil {
-		if fast.Next == nil {
-			return false
-		}
-		fast = fast.Next.Next
-		slow = slow.Next
-		if fast == slow {
+	slow, fast := head, head.Next
+
+	for fast != nil && fast.Next != nil {
+		if slow == fast {
 			return true
 		}
+		slow = slow.Next
+		fast = fast.Next.Next
 	}
+
 	return false
 }
 ```

@@ -2,16 +2,15 @@
 
 ```go
 func judgeSquareSum(c int) bool {
-	left, right := 0, int(math.Sqrt(float64(c)))
+	l, r := 0, int(math.Sqrt(float64(c)))
 
-	for left <= right {
-		sum := left*left + right*right
-		if sum == c {
-			return true
-		} else if sum > c {
-			right--
+	for l <= r {
+		if l*l+r*r < c {
+			l++
+		} else if l*l+r*r > c {
+			r--
 		} else {
-			left++
+			return true
 		}
 	}
 
