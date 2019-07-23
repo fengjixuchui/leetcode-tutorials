@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|85|70|2|157|
+|**Accepted**|86|70|2|158|
 
 ## Order by Category
 
@@ -151,6 +151,7 @@ Leetcode Golang solution ordered by frequency.
 |[0470](https://leetcode.com/problems/implement-rand10-using-rand7)|[Implement Rand10() Using Rand7()](./leetcode/0470-implement-rand10-using-rand7)|Medium|
 |[1041](https://leetcode.com/problems/robot-bounded-in-circle/)|[Robot Bounded In Circle](./leetcode/1041-robot-bounded-in-circle)|Easy|
 |[0504](https://leetcode.com/problems/base-7/)|[Base 7](./leetcode/0504-base-7)|Easy|
+|[0628](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum Product of Three Numbers](./leetcode/0628-maximum-product-of-three-numbers)|Easy|
 
 ### Hash Table
 
