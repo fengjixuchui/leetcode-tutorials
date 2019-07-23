@@ -8,6 +8,32 @@ Leetcode Golang solution ordered by frequency.
 |:---:|:---:|:---:|:---:|:---:|
 |**Accepted**|88|75|2|165|
 
+## Order by Number 🔢
+
+*Common algorithms 1-50*
+
+- `0001, 0002, 0003, 0004, 0005, 0008, 0009, 0011, 0020, 0021`
+- `0022, 0028, 0035, 0046, 0050, 0053, 0070, 0072, 0073, 0074`
+- `0088, 0094, 0098, 0100, 0101, 0102, 0104, 0107, 0110, 0111`
+- `0121, 0125, 0136, 0141, 0146, 0155, 0160, 0167, 0169, 0191`
+- `0203, 0206, 0226, 0234, 0240, 0263, 0268, 0371, 0647, 0704`
+
+*Common algorithms 51-100*
+
+- `0015, 0019, 0023, 0031, 0032, 0033, 0056, 0062, 0063, 0064`
+- `0069, 0075, 0082, 0083, 0091, 0105, 0106, 0108, 0112, 0118`
+- `0128, 0131, 0139, 0142, 0144, 0148, 0152, 0198, 0200, 0213`
+- `0215, 0218, 0239, 0264, 0283, 0300, 0322, 0344, 0384, 0409`
+- `0450, 0461, 0518, 0540, 0557, 0581, 0617, 0700, 0703, 0746`
+
+*Common algorithms 101-150*
+
+- `0010, 0017, 0034, 0039, 0042, 0045, 0048, 0049, 0054, 0055`
+- `0061, 0076, 0078, 0079, 0084, 0085, 0086, 0096, 0113, 0114`
+- `0122, 0133, 0138, 0151, 0153, 0189, 0207, 0208, 0210, 0221`
+- `0232, 0233, 0235, 0236, 0237, 0238, 0260, 0338, 0387, 0437`
+- `0448, 0470, 0493, 0509, 0538, 0543, 0572, 0771, 0876, 0946`
+
 ## Order by Category
 
 ### Two Pointers
@@ -165,7 +191,7 @@ Leetcode Golang solution ordered by frequency.
 |[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./leetcode/0001-two-sum)|Easy|🍰|
 |[0290](https://leetcode.com/problems/word-pattern/)|[Word Pattern](./leetcode/0290-word-pattern)|Easy|
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
-|[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
+|[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|🍰|
 |[0771](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones](./leetcode/0771-jewels-and-stones)|Easy|
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String](./leetcode/0387-first-unique-character-in-a-string)|Easy|🍰|
 |[0049](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams](./leetcode/0049-group-anagrams)|Medium|
@@ -189,13 +215,13 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
+|[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|⭐️⭐️|
 |[0110](https://leetcode.com/problems/balanced-binary-tree/)|[Sum of Two Integers](./leetcode/0110-balanced-binary-tree)|Easy|
 |[0112](https://leetcode.com/problems/path-sum/)|[Path Sum](./leetcode/0112-path-sum)|Easy|
 |[0112](https://leetcode.com/problems/path-sum-ii/)|[Path Sum II](./leetcode/0112-path-sum-ii)|Medium|⭐️|
 |[0437](https://leetcode.com/problems/path-sum-iii/)|[Path Sum III](./leetcode/0096-unique-binary-search-trees)|Easy|⭐️|
 |[0700](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Search in a Binary Search Tree](./leetcode/0700-search-in-a-binary-search-tree)|Easy|
 |[0108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree](./leetcode/0108-convert-sorted-array-to-binary-search-tree)|Easy|
-|[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|⭐️|
 |[0114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Flatten Binary Tree to Linked List](./leetcode/0114-flatten-binary-tree-to-linked-list)|Medium|⭐️|
 |[0200](https://leetcode.com/problems/number-of-islands/)|[Number of Islands](./leetcode/0200-number-of-islands)|Medium|⭐️|
 |[0105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Construct Binary Tree from Preorder and Inorder Traversal](./leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal)|Medium|⭐️⭐️|
@@ -305,29 +331,3 @@ Leetcode Golang solution ordered by frequency.
 
 - ⭐ Important
 - 🍰 Easy
-
-## Order by Number 🔢
-
-*Common algorithms 1-50*
-
-- `0001, 0002, 0003, 0004, 0005, 0008, 0009, 0011, 0020, 0021`
-- `0022, 0028, 0035, 0046, 0050, 0053, 0070, 0072, 0073, 0074`
-- `0088, 0094, 0098, 0100, 0101, 0102, 0104, 0107, 0110, 0111`
-- `0121, 0125, 0136, 0141, 0146, 0155, 0160, 0167, 0169, 0191`
-- `0203, 0206, 0226, 0234, 0240, 0263, 0268, 0371, 0647, 0704`
-
-*Common algorithms 51-100*
-
-- `0015, 0019, 0023, 0031, 0032, 0033, 0056, 0062, 0063, 0064`
-- `0069, 0075, 0082, 0083, 0091, 0105, 0106, 0108, 0112, 0118`
-- `0128, 0131, 0139, 0142, 0144, 0148, 0152, 0198, 0200, 0213`
-- `0215, 0218, 0239, 0264, 0283, 0300, 0322, 0344, 0384, 0409`
-- `0450, 0461, 0518, 0540, 0557, 0581, 0617, 0700, 0703, 0746`
-
-*Common algorithms 101-150*
-
-- `0010, 0017, 0034, 0039, 0042, 0045, 0048, 0049, 0054, 0055`
-- `0061, 0076, 0078, 0079, 0084, 0085, 0086, 0096, 0113, 0114`
-- `0122, 0133, 0138, 0151, 0153, 0189, 0207, 0208, 0210, 0221`
-- `0232, 0233, 0235, 0236, 0237, 0238, 0260, 0338, 0387, 0437`
-- `0448, 0470, 0493, 0509, 0538, 0543, 0572, 0771, 0876, 0946`

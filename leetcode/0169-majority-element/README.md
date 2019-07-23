@@ -6,26 +6,15 @@ https://leetcode.com/problems/169-majority-element/
 
 ```go
 func majorityElement(nums []int) int {
-	if len(nums) == 1 {
-		return nums[0]
-	}
+	freq := make(map[int]int)
 
-	hashMap := make(map[int]int)
-	half := len(nums) / 2
-
-	for _, v := range nums {
-		count, ok := hashMap[v]
-		if ok {
-			count++
-			hashMap[v] = count
-			if count > half {
-				return v
-			}
-		} else {
-			hashMap[v] = 1
+	for i := 0; i < len(nums); i++ {
+		freq[nums[i]]++
+		if freq[nums[i]] > len(nums)/2 {
+			return nums[i]
 		}
 	}
 
-	return 0
+	return -1
 }
 ```
