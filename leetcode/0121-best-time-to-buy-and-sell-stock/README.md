@@ -1,29 +1,33 @@
 ## Question
 
-https://leetcode.com/problems/kth-largest-element-in-an-array
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 ## Solutions
 
 ```go
 func maxProfit(prices []int) int {
-	if (len(prices) == 0) {
+	if len(prices) == 0 {
 		return 0
 	}
 
-	max := 0
 	buyPrice := prices[0]
+	maxProfit := 0
 
-	for _, price := range prices[1:] {
-		if price < buyPrice {
-			buyPrice = price
+	for i := 1; i < len(prices); i++ {
+		if prices[i] > buyPrice {
+			maxProfit = Max(maxProfit, prices[i]-buyPrice)
 		} else {
-			earn := price - buyPrice
-			if earn > max {
-				max = earn
-			}
+			buyPrice = prices[i]
 		}
 	}
 
-	return max
+	return maxProfit
+}
+
+func Max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 ```

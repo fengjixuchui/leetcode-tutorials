@@ -135,7 +135,7 @@ Leetcode Golang solution ordered by frequency.
 |:-:|:-|:-: |:-|
 |[0455](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies](./leetcode/0455-assign-cookies)|Easy|
 |[0452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum Number of Arrows to Burst Balloons](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
-|[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Best Time to Buy and Sell Stock](./leetcode/0121-best-time-to-buy-and-sell-stock)|Easy|
+|[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Best Time to Buy and Sell Stock](./leetcode/0121-best-time-to-buy-and-sell-stock)|Easy|🍰|
 |[0122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Best Time to Buy and Sell Stock II](./leetcode/0122-best-time-to-buy-and-sell-stock-ii)|Easy|
 |[0605](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers](./leetcode/0605-can-place-flowers)|Easy|
 |[0392](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence](./leetcode/0392-is-subsequence)|Easy|
