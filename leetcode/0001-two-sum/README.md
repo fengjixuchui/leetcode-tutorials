@@ -5,6 +5,7 @@ https://leetcode.com/problems/two-sum/
 ## Solutions
 
 ```go
+// O(n) time | O(n) space
 func twoSum(nums []int, target int) []int {
 	visited := map[int]int{}
 	for i := 0; i < len(nums); i++ {
