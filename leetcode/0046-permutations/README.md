@@ -5,25 +5,23 @@ https://leetcode.com/problems/permutations/
 ## Solutions
 
 ```go
-func bt(nums []int, ans *[][]int, offset int) {
+func bt(nums []int, results *[][]int, offset int) {
 	if offset == len(nums) {
-		t := make([]int, len(nums))
-		copy(t, nums)
-		*ans = append(*ans, t)
+		*results = append(*results, append([]int{}, nums...))
 		return
 	}
 
 	for i := offset; i < len(nums); i++ {
 		swap(nums, offset, i)
-		bt(nums, ans, offset+1)
+		bt(nums, results, offset+1)
 		swap(nums, offset, i)
 	}
 }
 
 func permute(nums []int) [][]int {
-	ans := make([][]int, 0)
-	bt(nums, &ans, 0)
-	return ans
+	results := make([][]int, 0)
+	bt(nums, &results, 0)
+	return results
 }
 
 func swap(nums []int, a int, b int) {

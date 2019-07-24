@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|88|75|2|165|
+|**Accepted**|89|76|2|167|
 
 ## Order by Number 🔢
 
@@ -46,7 +46,12 @@ Leetcode Golang solution ordered by frequency.
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|Backtracking|
 |[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|DP|
 |[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|DFS|
-
+|[0146](https://leetcode.com/problems/lru-cache/)|[LRU Cache](./leetcode/0146-lru-cache)|Medium|Design|
+|[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|Linked List|
+|[0226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree](./leetcode/0226-invert-binary-tree)|Easy|Tree|
+|[0240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|Matrix|
+|[0322](https://leetcode.com/problems/coin-change/)|[Coin Change](./leetcode/0322-coin-change)|Medium|DP|
+|[0518](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2](./leetcode/0518-coin-change-2)|Medium|DP|
 
 ### Two Pointers
 
@@ -110,13 +115,6 @@ Leetcode Golang solution ordered by frequency.
 |[0077](https://leetcode.com/problems/combinations/)|[Combinations](./leetcode/0077-combinations)|Medium|
 |[0017](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number](./leetcode/0017-letter-combinations-of-a-phone-number)|Medium|
 
-### Coin
-
-|#|Title|Difficulty|Mark|
-|:-:|:-|:-: |:-|
-|[0322](https://leetcode.com/problems/coin-change/)|[Coin Change](./leetcode/0322-coin-change)|Medium|💥|
-|[0518](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2](./leetcode/0518-coin-change-2)|Medium|💥|
-
 ### Dynamic Programming
 
 |#|Title|Difficulty|Mark|
@@ -160,7 +158,6 @@ Leetcode Golang solution ordered by frequency.
 |[0100](https://leetcode.com/problems/same-tree/)|[Binary Tree Level Order Traversal](./leetcode/0100-same-tree)|Easy|
 |[0111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Minimum Depth of Binary Tree](./leetcode/0111-minimum-depth-of-binary-tree)|Easy|
 |[0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0104-maximum-depth-of-binary-tree)|Easy|
-|[0226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree](./leetcode/0226-invert-binary-tree)|Easy|
 |[0617](https://leetcode.com/problems/merge-two-binary-trees/)|[Merge Two Binary Trees](./leetcode/0617-merge-two-binary-trees)|Easy|
 |[0094](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Binary Tree Inorder Traversal](./leetcode/0094-binary-tree-inorder-traversal)|Medium|⭐️|
 |[0450](https://leetcode.com/problems/delete-node-in-a-bst/)|[Delete Node in a BST](./leetcode/0450-delete-node-in-a-bst)|Medium|⭐️|
@@ -210,7 +207,6 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|⭐️|
-|[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|
 |[0092](https://leetcode.com/problems/reverse-linked-list-ii/)|[Reverse Linked List II](./leetcode/0092-reverse-linked-list-ii)|Medium|⭐️|
 |[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-lists)|Easy|
 |[0160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
@@ -268,7 +264,6 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0074](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix](./leetcode/0074-search-a-2d-matrix)|Medium|⭐️|
-|[0240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|
 |[0118](https://leetcode.com/problems/pascals-triangle/)|[Pascal's Triangle](./leetcode/0118-pascals-triangle)|Easy|
 |[0073](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes](./leetcode/0074-search-a-2d-matrix)|Medium|
 |[0054](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix](./leetcode/0054-spiral-matrix)|Medium|
