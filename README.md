@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|89|78|2|169|
+|**Accepted**|90|79|2|171|
 
 ## Order by Number 🔢
 
@@ -41,11 +41,13 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Category|
 |:-:|:-|:-: |:-|
 |[0001](https://leetcode.com/problems/two-sum/)|[Two Sum](./leetcode/0001-two-sum)|Easy|HashTable|
+|[0011](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water](./leetcode/0011-container-with-most-water)|Medium|Two Pointers|
 |[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|Stack|
 |[0022](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses](./leetcode/0022-generate-parentheses)|Medium|Backtracking|
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|Backtracking|
 |[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|DP|
 |[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|DFS|
+|[0127](https://leetcode.com/problems/word-ladder/)|[Word Ladder](./leetcode/0127-word-ladder)|Medium|BFS|
 |[0146](https://leetcode.com/problems/lru-cache/)|[LRU Cache](./leetcode/0146-lru-cache)|Medium|Design|
 |[0155](https://leetcode.com/problems/min-stack/)|[Min Stack](./leetcode/0155-min-stack)|Easy|Design|
 |[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|Linked List|
@@ -69,7 +71,6 @@ Leetcode Golang solution ordered by frequency.
 |[0283](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes](./leetcode/0283-move-zeroes)|Easy|
 |[0344](https://leetcode.com/problems/reverse-string/)|[Reverse String](./leetcode/0283-move-zeroes)|Easy|
 |[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse Words in a String III](./leetcode/0557-reverse-words-in-a-string-iii)|Easy|
-|[0011](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water](./leetcode/0011-container-with-most-water)|Medium|⭐️|
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List](./leetcode/0011-container-with-most-water)|Medium|
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|🍰|
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|⭐️|
@@ -193,6 +194,7 @@ Leetcode Golang solution ordered by frequency.
 |[1041](https://leetcode.com/problems/robot-bounded-in-circle/)|[Robot Bounded In Circle](./leetcode/1041-robot-bounded-in-circle)|Easy|
 |[0504](https://leetcode.com/problems/base-7/)|[Base 7](./leetcode/0504-base-7)|Easy|
 |[0628](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum Product of Three Numbers](./leetcode/0628-maximum-product-of-three-numbers)|Easy|
+|[0204](https://leetcode.com/problems/count-primes/)|[Count Primes](.leetcode/0204-count-primes)|Easy|
 
 ### Hash Table
 
