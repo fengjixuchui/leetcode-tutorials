@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|90|79|2|171|
+|**Accepted**|90|81|2|173|
 
 ## Order by Number 🔢
 
@@ -97,7 +97,6 @@ Leetcode Golang solution ordered by frequency.
 |[0409](https://leetcode.com/problems/longest-palindrome/)|[Longest Palindrome](./leetcode/0409-longest-palindrome)|Easy|
 |[0647](https://leetcode.com/problems/palindromic-substrings/)|[Palindromic Substrings](./leetcode/0647-palindromic-substrings)|Medium|
 |[0680](https://leetcode.com/problems/valid-palindrome-ii/)|[Valid Palindrome II](./leetcode/0680-valid-palindrome-ii)|Easy|
-
 
 ### Sorting
 
@@ -328,6 +327,12 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0207](https://leetcode.com/problems/course-schedule/)|[Course Schedule](./leetcode/0207-course-schedule)|Medium|⭐️️️⭐️|
+
+### Divide and Conquer
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0241](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Different Ways to Add Parentheses](./leetcode/0241-different-ways-to-add-parentheses)|Medium||
 
 **Note**
 
