@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|90|81|2|173|
+|**Accepted**|91|81|2|174|
 
 ## Order by Number 🔢
 
@@ -196,7 +196,7 @@ Leetcode Golang solution ordered by frequency.
 |[0628](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Maximum Product of Three Numbers](./leetcode/0628-maximum-product-of-three-numbers)|Easy|
 |[0204](https://leetcode.com/problems/count-primes/)|[Count Primes](.leetcode/0204-count-primes)|Easy|
 
-### Hash Table
+### Hash Map
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
@@ -206,6 +206,7 @@ Leetcode Golang solution ordered by frequency.
 |[0771](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones](./leetcode/0771-jewels-and-stones)|Easy|
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String](./leetcode/0387-first-unique-character-in-a-string)|Easy|🍰|
 |[0049](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams](./leetcode/0049-group-anagrams)|Medium|
+|[0242](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram](./leetcode/0242-valid-anagram)|Easy|🍰|
 
 ### Linked List
 
