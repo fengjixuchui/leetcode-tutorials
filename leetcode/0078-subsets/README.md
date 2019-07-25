@@ -5,19 +5,20 @@ https://leetcode.com/problems/subsets/
 ## Solutions
 
 ```go
-func backtrack(nums []int, start int, elem []int, result *[][]int) {
-	*result = append(*result, elem)
+func backtrack(nums []int, start int, elem *[]int, results *[][]int) {
+	*results = append(*results, append([]int{}, *elem...))
 
 	for i := start; i < len(nums); i++ {
-		temp := make([]int, len(elem))
-		copy(temp, elem)
-		backtrack(nums, i+1, append(temp, nums[i]), result)
+		*elem = append(*elem, nums[i])
+		backtrack(nums, i+1, elem, results)
+		*elem = (*elem)[:len(*elem)-1]
 	}
 }
 
 func subsets(nums []int) [][]int {
-	result := make([][]int, 0)
-	backtrack(nums, 0, []int{}, &result)
-	return result
+	results := make([][]int, 0)
+	elem := []int{}
+	backtrack(nums, 0, &elem, &results)
+	return results
 }
 ```
