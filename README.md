@@ -116,6 +116,7 @@ Leetcode Golang solution ordered by frequency.
 |[0047](https://leetcode.com/problems/permutations-ii/)|[Permutations II](./leetcode/0047-permutations-ii)|Medium|⭐️⭐️|
 |[0077](https://leetcode.com/problems/combinations/)|[Combinations](./leetcode/0077-combinations)|Medium|
 |[0017](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number](./leetcode/0017-letter-combinations-of-a-phone-number)|Medium|
+|[0216](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III](./leetcode/0216-combination-sum-iii)|Medium|🍰|
 
 ### Dynamic Programming
 
