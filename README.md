@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|91|82|3|176|
+|**Accepted**|91|84|3|179|
 
 ## Order by Number 🔢
 
@@ -140,6 +140,7 @@ Leetcode Golang solution ordered by frequency.
 |[0673](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[Number of Longest Increasing Subsequence](./leetcode/0673-number-of-longest-increasing-subsequence)|Medium|💥|
 |[0221](https://leetcode.com/problems/maximal-square/)|[Maximal Square](./leetcode/0221-maximal-square)|Medium|⭐️|
 |[0464](https://leetcode.com/problems/can-i-win/)|[Can I Win](./leetcode/0464-can-i-win)|Medium|⭐️️⭐️|
+|[0309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Best Time to Buy and Sell Stock with Cooldown](./leetcode/0309-best-time-to-buy-and-sell-stock-with-cooldown)|Medium||
 
 ### Greedy
 
@@ -336,6 +337,12 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0241](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Different Ways to Add Parentheses](./leetcode/0241-different-ways-to-add-parentheses)|Medium||
+
+### Design
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0380](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Insert Delete GetRandom O(1)](./leetcode/0380-insert-delete-getrandom-o1)|Medium||
 
 **Note**
 
