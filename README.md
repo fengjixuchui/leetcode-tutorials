@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|91|84|3|179|
+|**Accepted**|91|85|3|180|
 
 ## Order by Number 🔢
 
@@ -343,6 +343,8 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0380](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Insert Delete GetRandom O(1)](./leetcode/0380-insert-delete-getrandom-o1)|Medium||
+|[0208](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Implement Trie (Prefix Tree)](./leetcode/0208-implement-trie-prefix-tree)|Medium||
+
 
 **Note**
 
