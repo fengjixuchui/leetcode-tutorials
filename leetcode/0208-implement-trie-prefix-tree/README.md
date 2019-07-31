@@ -10,7 +10,6 @@ type Node struct {
 	children map[string]*Node
 }
 
-
 type Trie struct {
 	root *Node
 }

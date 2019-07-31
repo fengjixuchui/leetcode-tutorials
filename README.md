@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|91|85|3|180|
+|**Accepted**|91|87|3|182|
 
 ## Order by Number 🔢
 
@@ -34,9 +34,7 @@ Leetcode Golang solution ordered by frequency.
 - `0232, 0233, 0235, 0236, 0237, 0238, 0260, 0338, 0387, 0437`
 - `0448, 0470, 0493, 0509, 0538, 0543, 0572, 0771, 0876, 0946`
 
-## Order by Category
-
-### 🚀 Very High Frequency 🚀
+## Very High Frequency 🚀
 
 |#|Title|Difficulty|Category|
 |:-:|:-|:-: |:-|
@@ -45,6 +43,9 @@ Leetcode Golang solution ordered by frequency.
 |[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|Stack|
 |[0022](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses](./leetcode/0022-generate-parentheses)|Medium|Backtracking|
 |[0024](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs](./leetcode/0024-swap-nodes-in-pairs)|Medium|Linked List|
+|[0033](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array)|Medium|Binary Search|
+|[0034](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-find-first-and-last-position-of-element-in-sorted-array)|Medium|Binary Search|
+|[0035](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)|Easy|Binary Search|
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|Backtracking|
 |[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|DP|
 |[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|DFS|
@@ -57,6 +58,24 @@ Leetcode Golang solution ordered by frequency.
 |[0240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|Matrix|
 |[0322](https://leetcode.com/problems/coin-change/)|[Coin Change](./leetcode/0322-coin-change)|Medium|DP|
 |[0518](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2](./leetcode/0518-coin-change-2)|Medium|DP|
+
+## Order by Category
+
+### Binary Search
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0033](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array)|Medium||
+|[0034](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-find-first-and-last-position-of-element-in-sorted-array)|Medium||
+|[0035](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)|Easy||
+|[0074](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix](./leetcode/0074-search-a-2d-matrix)|Medium|
+|[0704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/0704-binary-search)|Easy|
+|[0069](https://leetcode.com/problems/sqrtx/)|[Sqrt(x)](./leetcode/0069-sqrtx)|Easy|
+|[0367](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square](./leetcode/0367-valid-perfect-square)|Easy|🍰|
+|[0540](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array](./leetcode/0540-single-element-in-a-sorted-array)|Easy|
+|[0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)|Medium|⭐️|
+|[0162](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element](./leetcode/0162-find-peak-element)|Medium|
+|[0081](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Search in Rotated Sorted Array II](./leetcode/0081-search-in-rotated-sorted-array-ii)|Medium|
 
 ### Two Pointers
 
@@ -78,12 +97,6 @@ Leetcode Golang solution ordered by frequency.
 |[0015](https://leetcode.com/problems/3sum/)|[3Sum](./leetcode/0015-3Sum)|Medium|⭐️|
 |[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters](./leetcode/0015-3Sum)|Medium|
 |[0086](https://leetcode.com/problems/partition-list/)|[Partition List](./leetcode/0086-partition-list)|Medium|
-
-### Binary Search
-
-|#|Title|Difficulty|Mark|
-|:-:|:-|:-: |:-|
-|[0033](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](./leetcode/0015-3Sum)|Medium|
 
 ### Palindrome
 
@@ -127,8 +140,8 @@ Leetcode Golang solution ordered by frequency.
 |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|⭐️|
 |[0746](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs](./leetcode/0746-min-cost-climbing-stairs)|Easy|
 |[0152](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray](./leetcode/0152-maximum-product-subarray)|Medium|⭐️|
-|[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium|🍰|
-|[0063](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths](./leetcode/0063-unique-paths-ii)|Medium|⭐️|
+|[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium||
+|[0063](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II](./leetcode/0063-unique-paths-ii)|Medium||
 |[0064](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum](./leetcode/0064-minimum-path-sum)|Medium|
 |[0096](https://leetcode.com/problems/unique-binary-search-trees/)|[Unique Binary Search Trees](./leetcode/0096-unique-binary-search-trees)|Medium|
 |[0509](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number](./leetcode/0509-fibonacci-number)|Easy|
@@ -141,6 +154,7 @@ Leetcode Golang solution ordered by frequency.
 |[0221](https://leetcode.com/problems/maximal-square/)|[Maximal Square](./leetcode/0221-maximal-square)|Medium|⭐️|
 |[0464](https://leetcode.com/problems/can-i-win/)|[Can I Win](./leetcode/0464-can-i-win)|Medium|⭐️️⭐️|
 |[0309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Best Time to Buy and Sell Stock with Cooldown](./leetcode/0309-best-time-to-buy-and-sell-stock-with-cooldown)|Medium||
+|[0516](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Longest Palindromic Subsequence](.leetcode/0309-best-time-to-buy-and-sell-stock-with-cooldown)|Medium||
 
 ### Greedy
 
@@ -248,19 +262,6 @@ Leetcode Golang solution ordered by frequency.
 |[0102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|🍰|
 |[0637](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree](./leetcode/0637-average-of-levels-in-binary-tree)|Easy|🍰|
 
-### Binary Search
-
-|#|Title|Difficulty|Mark|
-|:-:|:-|:-: |:-|
-|[0035](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)|Easy|
-|[0704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/0704-binary-search)|Easy|
-|[0069](https://leetcode.com/problems/sqrtx/)|[Sqrt(x)](./leetcode/0069-sqrtx)|Easy|
-|[0367](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square](./leetcode/0367-valid-perfect-square)|Easy|🍰|
-|[0540](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array](./leetcode/0540-single-element-in-a-sorted-array)|Easy|
-|[0034](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-single-element-in-a-sorted-array)|Medium|⭐⭐️|
-|[0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)|Medium|⭐️|
-|[0162](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element](./leetcode/0162-find-peak-element)|Medium|
-
 ### Stack
 
 |#|Title|Difficulty|Mark|
@@ -272,7 +273,6 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0074](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix](./leetcode/0074-search-a-2d-matrix)|Medium|⭐️|
 |[0118](https://leetcode.com/problems/pascals-triangle/)|[Pascal's Triangle](./leetcode/0118-pascals-triangle)|Easy|
 |[0073](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes](./leetcode/0074-search-a-2d-matrix)|Medium|
 |[0054](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix](./leetcode/0054-spiral-matrix)|Medium|
@@ -350,3 +350,8 @@ Leetcode Golang solution ordered by frequency.
 
 - ⭐ Important
 - 🍰 Easy
+
+## Templates
+
+- [Binary Search](./template/binary-search.md)
+- [Backtracking](./template/backtracking.md)
