@@ -6,18 +6,29 @@ https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
 ```go
 func findMin(nums []int) int {
-	low, high := 0, len(nums)-1
+	if nums == nil || len(nums) == 0 {
+		return -1
+	}
 
-	for low < high {
-		mid := low + (high-low)/2
+	l, r := 0, len(nums)-1
+	for l+1 < r {
+		// sorted
+		if nums[l] < nums[r] {
+			return nums[l]
+		}
 
-		if nums[mid] > nums[high] {
-			low = mid+1
+		m := l + (r-l)/2
+
+		if nums[m] > nums[r] {
+			l = m
 		} else {
-			high = mid
+			r = m
 		}
 	}
 
-	return nums[low]
+	if nums[l] > nums[r] {
+		return nums[r]
+	}
+	return nums[l]
 }
 ```

@@ -21,7 +21,7 @@ func bs(nums []int, target int) int {
 }
 ```
 
-### Mutate
+### Super useful
 
 ```go
 func searchInsert(nums []int, target int) int {
