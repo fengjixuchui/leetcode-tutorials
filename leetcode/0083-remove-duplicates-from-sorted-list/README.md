@@ -5,28 +5,20 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 ## Solutions
 
 ```go
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func deleteDuplicates(head *ListNode) *ListNode {
-    if head == nil {
-        return head
-    }
+	dummy := new(ListNode)
+	dummy.Next = head
+	pre, cur := dummy, dummy.Next
 
-    cur, next := head, head.Next
-    for next != nil {
-        if (cur.Val == next.Val) {
-            cur.Next = next.Next
-        } else {
-            cur = cur.Next
-        }
-        next = next.Next
-    }
+	for cur != nil {
+		for cur.Next != nil && cur.Val == cur.Next.Val {
+			cur = cur.Next
+		}
+		pre.Next = cur
+		cur = cur.Next
+		pre = pre.Next
+	}
 
-    return head
+	return dummy.Next
 }
 ```

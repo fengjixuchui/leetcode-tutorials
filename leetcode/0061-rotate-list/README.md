@@ -6,27 +6,40 @@ https://leetcode.com/problems/rotate-list/
 
 ```go
 func rotateRight(head *ListNode, k int) *ListNode {
-	if head == nil || head.Next == nil || k == 0 {
+	// No need to rotate.
+	if head == nil || k == 0 {
 		return head
 	}
 
-	n := 1
-	end := head
-	for end.Next != nil {
-		end = end.Next
-		n++
+	dummy := new(ListNode)
+	dummy.Next = head
+
+	nodeCount := 0
+	n := head
+	for n != nil {
+		nodeCount++
+		n = n.Next
 	}
-	end.Next = head
+	k = k % nodeCount
 
-	k %= n
-
-	newEnd := head
-	for i := 0; i < n-k-1; i++ {
-		newEnd = newEnd.Next
+	// No need to rotate.
+	if k == 0 {
+		return head
 	}
 
-	newHead := newEnd.Next
-	newEnd.Next = nil
+	fast, slow := dummy, dummy
+	for ; k > 0; k-- {
+		fast = fast.Next
+	}
+
+	for fast.Next != nil {
+		fast = fast.Next
+		slow = slow.Next
+	}
+
+	newHead := slow.Next
+	slow.Next = nil
+	fast.Next = head
 
 	return newHead
 }

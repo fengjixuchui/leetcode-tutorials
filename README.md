@@ -42,17 +42,13 @@ Leetcode Golang solution ordered by frequency.
 |[0011](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water](./leetcode/0011-container-with-most-water)|Medium|Two Pointers|
 |[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|Stack|
 |[0022](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses](./leetcode/0022-generate-parentheses)|Medium|Backtracking|
-|[0024](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs](./leetcode/0024-swap-nodes-in-pairs)|Medium|Linked List|
 |[0033](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array)|Medium|Binary Search|
 |[0034](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-find-first-and-last-position-of-element-in-sorted-array)|Medium|Binary Search|
-|[0035](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)|Easy|Binary Search|
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|Backtracking|
 |[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|DP|
 |[0098](https://leetcode.com/problems/validate-binary-search-tree/)|[Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree)|Medium|DFS|
 |[0127](https://leetcode.com/problems/word-ladder/)|[Word Ladder](./leetcode/0127-word-ladder)|Medium|BFS|
-|[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|Linked List|
 |[0146](https://leetcode.com/problems/lru-cache/)|[LRU Cache](./leetcode/0146-lru-cache)|Medium|Design|
-|[0155](https://leetcode.com/problems/min-stack/)|[Min Stack](./leetcode/0155-min-stack)|Easy|Design|
 |[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|Linked List|
 |[0226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree](./leetcode/0226-invert-binary-tree)|Easy|Tree|
 |[0240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|Matrix|
@@ -92,11 +88,13 @@ Leetcode Golang solution ordered by frequency.
 |[0344](https://leetcode.com/problems/reverse-string/)|[Reverse String](./leetcode/0283-move-zeroes)|Easy|
 |[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse Words in a String III](./leetcode/0557-reverse-words-in-a-string-iii)|Easy|
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List](./leetcode/0011-container-with-most-water)|Medium|
-|[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|🍰|
+|[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|⭐️|
 |[0015](https://leetcode.com/problems/3sum/)|[3Sum](./leetcode/0015-3Sum)|Medium|⭐️|
 |[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters](./leetcode/0015-3Sum)|Medium|
-|[0086](https://leetcode.com/problems/partition-list/)|[Partition List](./leetcode/0086-partition-list)|Medium|
+|[0086](https://leetcode.com/problems/partition-list/)|[Partition List](./leetcode/0086-partition-list)|
+Medium|
+|[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|
 
 ### Palindrome
 
@@ -228,14 +226,15 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|⭐️|
+|[0002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy||
+|[0024](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs](./leetcode/0024-swap-nodes-in-pairs)|Medium||
 |[0092](https://leetcode.com/problems/reverse-linked-list-ii/)|[Reverse Linked List II](./leetcode/0092-reverse-linked-list-ii)|Medium|⭐️|
 |[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-lists)|Easy|
 |[0160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
 |[0203](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements](./leetcode/0203-remove-linked-list-elements)|Easy|
 |[0237](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Delete Node in a Linked List](./leetcode/0237-delete-node-in-a-linked-list)|Easy|
-|[0061](https://leetcode.com/problems/rotate-list/)|[Rotate List](./leetcode/0061-rotate-list)|Medium|⭐️|
-|[0082](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II](./leetcode/0082-remove-duplicates-from-sorted-list-ii)|Medium|⭐
+|[0061](https://leetcode.com/problems/rotate-list/)|[Rotate List](./leetcode/0061-rotate-list)|Medium||
+|[0082](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II](./leetcode/0082-remove-duplicates-from-sorted-list-ii)|Medium|
 |[0148](https://leetcode.com/problems/sort-list/)|[Sort List](./leetcode/0148-sort-list)|Medium|⭐️|
 
 ### DFS
@@ -266,7 +265,8 @@ Leetcode Golang solution ordered by frequency.
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0232](https://leetcode.com/problems/implement-queue-using-stacks/)|[Implement Queue using Stacks](./leetcode/0232-implement-queue-using-stacks)|Easy|⭐️|
+|[0155](https://leetcode.com/problems/min-stack/)|[Min Stack](./leetcode/0155-min-stack)|Easy|Stack|
+|[0232](https://leetcode.com/problems/implement-queue-using-stacks/)|[Implement Queue using Stacks](./leetcode/0232-implement-queue-using-stacks)|Easy||
 |[0946](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences](./leetcode/0946-validate-stack-sequences)|Medium|
 
 ### Matrix
@@ -355,3 +355,4 @@ Leetcode Golang solution ordered by frequency.
 
 - [Binary Search](./template/binary-search.md)
 - [Backtracking](./template/backtracking.md)
+- [Linked List](./template/linked-list.md)

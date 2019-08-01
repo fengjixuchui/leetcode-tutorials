@@ -1,7 +1,5 @@
 ## Linked List
 
-通用模板
-
 ```go
 func f(head *ListNode) *ListNode {
 	dummy := new(ListNode)
