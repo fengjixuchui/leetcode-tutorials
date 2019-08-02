@@ -5,42 +5,34 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/
 ## Solutions
 
 ```go
+// Time: O(n), Space: O(n)
 func levelOrder(root *TreeNode) [][]int {
 	if root == nil {
-		return make([][]int, 0)
+		return [][]int{}
 	}
 
-	currLevel := []*TreeNode{}
-	nextLevel := []*TreeNode{}
-	ans := [][]int{}
+	stack := []*TreeNode{root}
+	result := [][]int{}
 
-	currLevel = append(currLevel, root)
-
-	for len(currLevel) != 0 {
-		// currLevelElem stores the current level values.
-		currLevelElem := make([]int, 0)
-
-		// Loop throuht all node in current level.
-		for i := 0; i < len(currLevel); i++ {
-			node := currLevel[i]
-			currLevelElem = append(currLevelElem, node.Val)
-
-			// Get the next nevel nodes.
+	for len(stack) != 0 {
+		curLevel := []int{}
+		nextLevel := []*TreeNode{}
+		for len(stack) != 0 {
+			node := stack[0]
+			stack = stack[1:]
+			curLevel = append(curLevel, node.Val)
 			if node.Left != nil {
 				nextLevel = append(nextLevel, node.Left)
 			}
 			if node.Right != nil {
 				nextLevel = append(nextLevel, node.Right)
 			}
-		}
 
-		ans = append(ans, currLevelElem)
-		// We are going to the next level so we set the nextLevel as currLevel.
-		currLevel = nextLevel
-		// Reset value for the next round.
-		nextLevel = []*TreeNode{}
+		}
+		result = append(result, curLevel)
+		stack = nextLevel
 	}
 
-	return ans
+	return result
 }
 ```
