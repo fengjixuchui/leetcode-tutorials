@@ -5,14 +5,6 @@ https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 ## Solutions
 
 ```go
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
 func preOrder(root *TreeNode, list *[]*TreeNode) {
 	if root == nil {
 		return
@@ -27,14 +19,13 @@ func flatten(root *TreeNode) {
 		return
 	}
 
-	list := make([]*TreeNode, 0)
+	list := []*TreeNode{}
 	preOrder(root, &list)
 
-	cur := root
 	for i := 1; i < len(list); i++ {
-		cur.Left = nil
-		cur.Right = list[i]
-		cur = cur.Right
+		root.Left = nil
+		root.Right = list[i]
+		root = root.Right
 	}
 }
 ```

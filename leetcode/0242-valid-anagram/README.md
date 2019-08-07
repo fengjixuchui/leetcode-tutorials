@@ -5,21 +5,25 @@ https://leetcode.com/problems/valid-anagram/
 ## Solutions
 
 ```go
+// Time: O(n), Space: O(n)
 func isAnagram(s string, t string) bool {
-	hashMap := map[rune]int{}
-
-	for _, char := range s {
-		hashMap[char]++
+	if len(s) != len(t) {
+		return false
 	}
 
-	for _, char := range t {
-		if _, ok := hashMap[char]; !ok {
+	charCount := map[byte]int{}
+	for i := 0; i < len(s); i++ {
+		charCount[s[i]]++
+	}
+
+	for j := 0; j < len(t); j++ {
+		if _, ok := charCount[t[j]]; !ok {
 			return false
 		}
-		hashMap[char]--
+		charCount[t[j]]--
 	}
 
-	for _, count := range hashMap {
+	for _, count := range charCount {
 		if count != 0 {
 			return false
 		}

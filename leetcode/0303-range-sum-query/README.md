@@ -1,3 +1,7 @@
+## Question
+
+https://leetcode.com/problems/intersection-of-two-arrays/
+
 ## Solutions
 
 ```go

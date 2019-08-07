@@ -1,21 +1,33 @@
+## Question
+
+https://leetcode.com/problems/intersection-of-two-arrays/
+
 ## Solutions
 
 ```go
 func intersection(nums1 []int, nums2 []int) []int {
-	hashMap := make(map[int]bool)
+	if len(nums1) == 0 && len(nums2) == 0 {
+		return []int{}
+	}
 
-	for _, n := range nums1 {
-		if _, ok := hashMap[n]; !ok {
-			hashMap[n] = true
+	hashSet1 := map[int]bool{}
+	hashSet2 := map[int]bool{}
+
+	for i := 0; i < len(nums1); i++ {
+		if existed := hashSet1[nums1[i]]; !existed {
+			hashSet1[nums1[i]] = true
+		}
+	}
+	for i := 0; i < len(nums2); i++ {
+		if existed := hashSet2[nums2[i]]; !existed {
+			hashSet2[nums2[i]] = true
 		}
 	}
 
-	res := make([]int, 0)
-
-	for _, n := range nums2 {
-		if _, ok := hashMap[n]; ok {
-			res = append(res, n)
-			delete(hashMap, n)
+	res := []int{}
+	for num := range hashSet2 {
+		if existed := hashSet1[num]; existed {
+			res = append(res, num)
 		}
 	}
 

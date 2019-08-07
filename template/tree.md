@@ -27,32 +27,33 @@ func preorderTraversal(root *TreeNode) []int {
 ### BFS
 
 ```go
-func averageOfLevels(root *TreeNode) []float64 {
-	currLevel := []*TreeNode{}
-	nextLevel := []*TreeNode{}
-	ans := []float64{}
+func levelOrderBottom(root *TreeNode) [][]int {
+	if root == nil {
+		return [][]int{}
+	}
 
-	currLevel = append(currLevel, root)
+	queue := []*TreeNode{root}
+	result := [][]int{}
 
-	for len(currLevel) != 0 {
-		levelSum := 0
-		for i := 0; i < len(currLevel); i++ {
-			currNode := currLevel[i]
-			levelSum += currNode.Val
-			if currNode.Left != nil {
-				nextLevel = append(nextLevel, currNode.Left)
+	for len(queue) != 0 {
+		currLevel := []int{}
+		size := len(queue)
+		for i := 0; i < size; i++ {
+			node := queue[0]
+			queue = queue[1:]
+			currLevel = append(currLevel, node.Val)
+			if node.Left != nil {
+				queue = append(queue, node.Left)
 			}
-			if currNode.Right != nil {
-				nextLevel = append(nextLevel, currNode.Right)
+			if node.Right != nil {
+				queue = append(queue, node.Right)
 			}
 		}
 		// Change this line below based on the questions.
-		ans = append(ans, float64(levelSum)/float64(len(currLevel)))
-		// Change this line above based on the questions.
-		currLevel = nextLevel
-		nextLevel = []*TreeNode{}
+		result = append([][]int{currLevel}, result...)
+		// Change this line below based on the questions.
 	}
 
-	return ans
+	return result
 }
 ```
