@@ -5,29 +5,30 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 ## Solutions
 
 ```go
+// Time: O(n), Space: O(n)
 func lengthOfLongestSubstring(s string) int {
-	if len(s) == 0 {
+	if s == "" {
 		return 0
 	}
 
-	counts := make(map[byte]int, 0)
-	maxLen, i, j, n := 0, 0, 0, len(s)
+	set := map[byte]bool{}
+	left, right, max := 0, 0, 0
 
-	for ; i < n; i++ {
-		for ; j < n; j++ {
-			if v := counts[s[j]]; v != 0 {
-				break
-			}
-			counts[s[j]]++
+	for right < len(s) {
+		if set[s[right]] == false {
+			set[s[right]] = true
+			right++
+			max = Max(max, right-left)
+		} else {
+			set[s[left]] = false
+			left++
 		}
-		maxLen = max(maxLen, j-i)
-		counts[s[i]]--
 	}
 
-	return maxLen
+	return max
 }
 
-func max(a, b int) int {
+func Max(a, b int) int {
 	if a > b {
 		return a
 	}

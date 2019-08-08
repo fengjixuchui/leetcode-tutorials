@@ -5,7 +5,7 @@ https://leetcode.com/problems/permutations-ii/
 ## Solutions
 
 ```go
-func bt(nums []int, used map[int]bool, elem *[]int, results *[][]int) {
+func dfs(nums []int, used map[int]bool, elem *[]int, results *[][]int) {
 	if len(*elem) == len(nums) {
 		result := []int{}
 		*results = append(*results, append(result, *elem...))
@@ -18,7 +18,7 @@ func bt(nums []int, used map[int]bool, elem *[]int, results *[][]int) {
 		}
 		used[i] = true
 		*elem = append(*elem, nums[i])
-		bt(nums, used, elem, results)
+		dfs(nums, used, elem, results)
 		used[i] = false
 		*elem = (*elem)[:len(*elem)-1]
 	}
@@ -29,7 +29,7 @@ func permuteUnique(nums []int) [][]int {
 	results := make([][]int, 0)
 	elem := make([]int, 0)
 	used := make(map[int]bool, 0)
-	bt(nums, used, &elem, &results)
+	dfs(nums, used, &elem, &results)
 	return results
 }
 ```

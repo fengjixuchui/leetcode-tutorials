@@ -3,7 +3,7 @@
 通用模板
 
 ```go
-func bt(root *TreeNode, sum int, elem *[]int, results *[][]int) {
+func dfs(root *TreeNode, sum int, elem *[]int, results *[][]int) {
 	// 終止條件
 	if {
 		// 這裡必須拷貝一份答案
@@ -16,8 +16,8 @@ func bt(root *TreeNode, sum int, elem *[]int, results *[][]int) {
 	*elem = append(*elem, root.Val)
 
 	// 遞歸
-	bt(root.Left, sum-root.Val, elem, results)
-	bt(root.Right, sum-root.Val, elem, results)
+	dfs(root.Left, sum-root.Val, elem, results)
+	dfs(root.Right, sum-root.Val, elem, results)
 
 	// 回退
 	*elem = (*elem)[:len(*elem)-1]
@@ -27,7 +27,7 @@ func pathSum(root *TreeNode, sum int) [][]int {
 	results := make([][]int, 0)
 	elem := make([]int, 0)
 	// 記住要傳 pointer 下去，避免 slice 擴容改掉當前參照的 slice
-	bt(root, sum, &elem, &results)
+	dfs(root, sum, &elem, &results)
 	return results
 }
 ```

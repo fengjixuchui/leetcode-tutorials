@@ -39,8 +39,6 @@ Leetcode Golang solution ordered by frequency.
 |#|Title|Difficulty|Category|
 |:-:|:-|:-: |:-|
 |[0011](https://leetcode.com/problems/container-with-most-water/)|[Container With Most Water](./leetcode/0011-container-with-most-water)|Medium|Two Pointers|
-|[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|Stack|
-|[0022](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses](./leetcode/0022-generate-parentheses)|Medium|Backtracking|
 |[0033](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array)|Medium|Binary Search|
 |[0034](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-find-first-and-last-position-of-element-in-sorted-array)|Medium|Binary Search|
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|Backtracking|
@@ -119,6 +117,7 @@ Medium|
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
+|[0022](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses](./leetcode/0022-generate-parentheses)|Medium||
 |[0039](https://leetcode.com/problems/combination-sum/)|[Combination Sum](./leetcode/0039-combination-sum)|Medium||
 |[0078](https://leetcode.com/problems/subsets/)|[Subsets](./leetcode/0078-subsets)|Medium|🍰|
 |[0047](https://leetcode.com/problems/permutations-ii/)|[Permutations II](./leetcode/0047-permutations-ii)|Medium|⭐️⭐️|
@@ -311,6 +310,7 @@ Medium|
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
+|[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|Stack|
 |[0151](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String](./leetcode/0151-reverse-words-in-a-string)|Medium|⭐️|
 |[0008](https://leetcode.com/problems/string-to-integer-atoi/)|[String to Integer (atoi)](./leetcode/0008-string-to-integer-atoi)|Medium|
 |[0551](https://leetcode.com/problems/student-attendance-record-i/)|[Student Attendance Record I](./leetcode/0551-student-attendance-record-i)|Easy|🍰|

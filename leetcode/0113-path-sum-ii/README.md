@@ -5,7 +5,7 @@ https://leetcode.com/problems/path-sum-ii/
 ## Solutions
 
 ```go
-func bt(root *TreeNode, sum int, elem *[]int, results *[][]int) {
+func dfs(root *TreeNode, sum int, elem *[]int, results *[][]int) {
 	if root == nil {
 		return
 	}
@@ -15,15 +15,15 @@ func bt(root *TreeNode, sum int, elem *[]int, results *[][]int) {
 		// prevent elements change in the next round.
 		*results = append(*results, append([]int{}, *elem...))
 	}
-	bt(root.Left, sum-root.Val, elem, results)
-	bt(root.Right, sum-root.Val, elem, results)
+	dfs(root.Left, sum-root.Val, elem, results)
+	dfs(root.Right, sum-root.Val, elem, results)
 	*elem = (*elem)[:len(*elem)-1]
 }
 
 func pathSum(root *TreeNode, sum int) [][]int {
 	results := make([][]int, 0)
 	elem := make([]int, 0)
-	bt(root, sum, &elem, &results)
+	dfs(root, sum, &elem, &results)
 	return results
 }
 ```

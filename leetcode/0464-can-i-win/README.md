@@ -5,7 +5,7 @@ https://leetcode.com/problems/can-i-win/
 ## Solutions
 
 ```go
-func bt(state []int, desiredTotal int, hashMap map[string]bool) bool {
+func dfs(state []int, desiredTotal int, hashMap map[string]bool) bool {
 	key := IntToString(state)
 	if _, ok := hashMap[key]; ok {
 		return hashMap[key]
@@ -14,7 +14,7 @@ func bt(state []int, desiredTotal int, hashMap map[string]bool) bool {
 	for i := 1; i < len(state); i++ {
 		if state[i] == 0 {
 			state[i] = 1
-			if desiredTotal-i <= 0 || !bt(state, desiredTotal-i, hashMap) {
+			if desiredTotal-i <= 0 || !dfs(state, desiredTotal-i, hashMap) {
 				hashMap[key] = true
 				state[i] = 0
 				return true
@@ -33,7 +33,7 @@ func canIWin(maxChoosableInteger int, desiredTotal int) bool {
 	// state tracks if the number is used or not
 	state := make([]int, maxChoosableInteger+1)
 	hashMap := map[string]bool{}
-	return bt(state, desiredTotal, hashMap)
+	return dfs(state, desiredTotal, hashMap)
 }
 
 func IntToString(ints []int) string {

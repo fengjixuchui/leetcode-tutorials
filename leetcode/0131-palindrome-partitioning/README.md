@@ -7,11 +7,11 @@ https://leetcode.com/problems/palindrome-partitioning/
 ```go
 func partition(s string) [][]string {
 	ans := [][]string{}
-	bt(&ans, []string{}, 0, s)
+	dfs(&ans, []string{}, 0, s)
 	return ans
 }
 
-func bt(ans *[][]string, cur []string, offset int, s string) {
+func dfs(ans *[][]string, cur []string, offset int, s string) {
 	if offset == len(s) {
 		t := make([]string, len(cur))
 		copy(t, cur)
@@ -25,7 +25,7 @@ func bt(ans *[][]string, cur []string, offset int, s string) {
 			t := make([]string, len(cur))
 			copy(t, cur)
 			t = append(t, subStr)
-			bt(ans, t, i+1, s)
+			dfs(ans, t, i+1, s)
 		}
 	}
 }

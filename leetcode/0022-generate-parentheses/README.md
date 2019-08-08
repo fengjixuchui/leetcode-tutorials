@@ -6,24 +6,23 @@ https://leetcode.com/problems/generate-parentheses/
 
 ```go
 func generateParenthesis(n int) []string {
-    if n <= 0 {
-        return []string{}
-    }
-    result := make([]string, 0)
-    generate(&result, "", n, n)
-    return result
+	results := []string{}
+	elem := ""
+	dfs(n, n, elem, &results)
+	return results
 }
 
-func generate(result *[]string, str string, left int, right int) {
-    if left == 0 && right == 0 {
-        *result = append(*result, str)
-    } else {
-        if left > 0 {
-            generate(result, str + "(", left - 1, right)
-        }
-        if right > left {
-            generate(result, str + ")", left, right - 1)
-        }
-    }
+func dfs(left int, right int, elem string, results *[]string) {
+	if right == 0 && left == 0 {
+		*results = append(*results, elem)
+		return
+	}
+
+	if left > 0 {
+		dfs(left-1, right, elem+"(", results)
+	}
+	if right > left {
+		dfs(left, right-1, elem+")", results)
+	}
 }
 ```
