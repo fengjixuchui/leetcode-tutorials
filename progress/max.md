@@ -56,6 +56,8 @@
 ### Bit Manipulation
 
 1. |[0190](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits](./leetcode/0190-reverse-bits)|Easy|
+2. |[0268](https://leetcode.com/problems/missing-number/)|[Missing Number](./leetcode/0268-missing-number)|Easy|
+3. |[0371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
 
 ## Familiar 😄
 
@@ -98,6 +100,8 @@
 1. |[0136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
 2. |[0191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
 3. |[0231](https://leetcode.com/problems/power-of-two/)|[Power of Two](./leetcode/0231-power-of-two)|Easy|
+4. |[0338](https://leetcode.com/problems/counting-bits/)|[Counting Bits](./leetcode/0338-counting-bits)|Medium|
+5. |[0342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
 
 ## Daily review by topic 📆
 
@@ -189,4 +193,8 @@
 2. |[0190](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits](./leetcode/0190-reverse-bits)|Easy|
 3. |[0191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
 4. |[0231](https://leetcode.com/problems/power-of-two/)|[Power of Two](./leetcode/0231-power-of-two)|Easy|
-5. 
+5. |[0268](https://leetcode.com/problems/missing-number/)|[Missing Number](./leetcode/0268-missing-number)|Easy|
+6. |[0338](https://leetcode.com/problems/counting-bits/)|[Counting Bits](./leetcode/0338-counting-bits)|Medium|
+7. |[0342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
+8. |[0371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
+9. |[0389](https://leetcode.com/problems/find-the-difference/)|[Find the Difference](./leetcode/0389-find-the-difference)|Easy|
