@@ -1,11 +1,19 @@
 ## Max Progress
 
+### Fundamental
+
+> Super important! If you understand the questions, then you can solve lots of different questions.
+
+1. [0034. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+2. [0191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+
 ## Not Familiar 😔
 
 ### Binary Search
 
 1. |[0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)|Medium|
 2. |[0240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|Matrix|
+3. |[0035](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](./leetcode/704-binary-search)|Easy|
 
 ### Linked List
 
@@ -58,6 +66,7 @@
 1. |[0190](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits](./leetcode/0190-reverse-bits)|Easy|
 2. |[0268](https://leetcode.com/problems/missing-number/)|[Missing Number](./leetcode/0268-missing-number)|Easy|
 3. |[0371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
+4. |[0389](https://leetcode.com/problems/find-the-difference/)|[Find the Difference](./leetcode/0389-find-the-difference)|Easy|
 
 ## Familiar 😄
 
@@ -102,6 +111,7 @@
 3. |[0231](https://leetcode.com/problems/power-of-two/)|[Power of Two](./leetcode/0231-power-of-two)|Easy|
 4. |[0338](https://leetcode.com/problems/counting-bits/)|[Counting Bits](./leetcode/0338-counting-bits)|Medium|
 5. |[0342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
+6. |[0461](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance](./leetcode/0461-hamming-distance)|Easy|
 
 ## Daily review by topic 📆
 
@@ -198,3 +208,4 @@
 7. |[0342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
 8. |[0371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
 9. |[0389](https://leetcode.com/problems/find-the-difference/)|[Find the Difference](./leetcode/0389-find-the-difference)|Easy|
+10. |[0461](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance](./leetcode/0461-hamming-distance)|Easy|
