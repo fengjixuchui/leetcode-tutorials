@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|93|88|4|186|
+|**Accepted**|94|88|4|187|
 
 ## Order by Number 🔢
 
@@ -287,6 +287,7 @@ Medium|
 |[0190](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits](./leetcode/0190-reverse-bits)|Easy|
 |[0268](https://leetcode.com/problems/missing-number/)|[Missing Number](./leetcode/0268-missing-number)|Easy|
 |[0191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
+|[0231](https://leetcode.com/problems/power-of-two/)|[Power of Two](./leetcode/0231-power-of-two)|Easy|
 |[0461](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance](./leetcode/0461-hamming-distance)|Easy|
 |[0338](https://leetcode.com/problems/counting-bits/)|[Counting Bits](./leetcode/0338-counting-bits)|Medium|⭐️|
 

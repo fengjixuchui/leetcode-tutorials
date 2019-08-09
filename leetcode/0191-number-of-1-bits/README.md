@@ -6,15 +6,13 @@ https://leetcode.com/problems/number-of-1-bits/
 
 ```go
 func hammingWeight(num uint32) int {
-	mask, count := uint32(1), 0
-
-	for mask != 0 {
-		if (num & mask) != 0 {
+	count := 0
+	for i := 0; i < 32; i++ {
+		if num&1 == 1 {
 			count++
 		}
-		mask <<= 1
+		num >>= 1
 	}
-
 	return count
 }
 ```

@@ -96,6 +96,8 @@
 ### Bit Manipulation
 
 1. |[0136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
+2. |[0191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
+3. |[0231](https://leetcode.com/problems/power-of-two/)|[Power of Two](./leetcode/0231-power-of-two)|Easy|
 
 ## Daily review by topic 📆
 
@@ -185,3 +187,6 @@
 
 1. |[0136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
 2. |[0190](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits](./leetcode/0190-reverse-bits)|Easy|
+3. |[0191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
+4. |[0231](https://leetcode.com/problems/power-of-two/)|[Power of Two](./leetcode/0231-power-of-two)|Easy|
+5. 
