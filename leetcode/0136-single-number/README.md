@@ -6,9 +6,13 @@ https://leetcode.com/problems/single-number/
 
 ```go
 func singleNumber(nums []int) int {
+	if nums == nil || len(nums) == 0 {
+		return 0
+	}
+
 	result := 0
-	for _, v := range nums {
-		result ^= v
+	for i := 0; i < len(nums); i++ {
+		result ^= nums[i]
 	}
 	return result
 }

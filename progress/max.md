@@ -53,6 +53,10 @@
 3. |[0125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 4. |[0151](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String](./leetcode/0151-reverse-words-in-a-string)|Medium|
 
+### Bit Manipulation
+
+1. |[0190](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits](./leetcode/0190-reverse-bits)|Easy|
+
 ## Familiar 😄
 
 ### Binary Search
@@ -82,11 +86,16 @@
 2. |[0217](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate](./leetcode/0217-contains-duplicate)|Easy|
 3. |[0242](https://leetcode.com/problems/valid-anagram/)|[Valid Anagram](./leetcode/0242-valid-anagram)|Easy|
 4. |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
+5. |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
 
 ### String
 
 1. |[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|
 2. |[0344](https://leetcode.com/problems/reverse-string/)|[Reverse String](./leetcode/0283-move-zeroes)|Easy|
+
+### Bit Manipulation
+
+1. |[0136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
 
 ## Daily review by topic 📆
 
@@ -160,6 +169,7 @@
 9. |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 10. |[0350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection of Two Arrays II](./leetcode/0350-intersection-of-two-arrays-ii)|Easy|
 11. |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String](./leetcode/0387-first-unique-character-in-a-string)|Easy|
+12. |[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|
 
 ### String (2019-08-08) (1 time)
 
@@ -170,3 +180,8 @@
 5. |[0049](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams](./leetcode/0049-group-anagrams)|Medium|
 6. |[0125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 7. |[0151](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String](./leetcode/0151-reverse-words-in-a-string)|Medium|
+
+### Bit Manipulation (2019-08-09) (1 time)
+
+1. |[0136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
+2. |[0190](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits](./leetcode/0190-reverse-bits)|Easy|

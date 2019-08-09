@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|92|88|4|185|
+|**Accepted**|93|88|4|186|
 
 ## Order by Number 🔢
 
@@ -215,7 +215,7 @@ Medium|
 |[0347](https://leetcode.com/problems/top-k-frequent-elements/)|[Top K Frequent Elements](./leetcode/0347-top-k-frequent-elements)|Medium||
 |[0349](https://leetcode.com/problems/intersection-of-two-arrays/)|[Intersection of Two Arrays](./leetcode/0349-intersection-of-two-arrays)|Easy|
 |[0350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Intersection of Two Arrays II](./leetcode/0350-intersection-of-two-arrays-ii)|Easy|
-|[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy|🍰|
+|[0169](https://leetcode.com/problems/majority-element/)|[Majority Element](./leetcode/0169-majority-element)|Easy||
 |[0771](https://leetcode.com/problems/jewels-and-stones/)|[Jewels and Stones](./leetcode/0771-jewels-and-stones)|Easy|
 |[0387](https://leetcode.com/problems/first-unique-character-in-a-string/)|[First Unique Character in a String](./leetcode/0387-first-unique-character-in-a-string)|Easy||
 |[0049](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams](./leetcode/0049-group-anagrams)|Medium|
@@ -284,6 +284,7 @@ Medium|
 |:-:|:-|:-: |:-|
 |[0371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
 |[0136](https://leetcode.com/problems/single-number/)|[Single Number](./leetcode/0136-single-number)|Easy|
+|[0190](https://leetcode.com/problems/reverse-bits/)|[Reverse Bits](./leetcode/0190-reverse-bits)|Easy|
 |[0268](https://leetcode.com/problems/missing-number/)|[Missing Number](./leetcode/0268-missing-number)|Easy|
 |[0191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](./leetcode/0191-number-of-1-bits)|Easy|
 |[0461](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance](./leetcode/0461-hamming-distance)|Easy|
