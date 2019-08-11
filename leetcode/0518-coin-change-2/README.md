@@ -6,27 +6,18 @@ https://leetcode.com/problems/coin-change-2/
 
 ```go
 func change(amount int, coins []int) int {
-	d := make([][]int, len(coins)+1)
-	for i := 0; i < len(d); i++ {
-		d[i] = make([]int, amount+1)
-	}
+	dp := make([]int, amount+1)
+	dp[0] = 1
 
-	for i := 0; i < len(d); i++ {
-		d[i][0] = 1
-	}
-
-	for i := 1; i < len(d); i++ {
-		for j := 1; j < len(d[0]); j++ {
-			useCurCoin := 0
-			if j-coins[i-1] >= 0 {
-				useCurCoin = d[i][j-coins[i-1]]
-			} else {
-				useCurCoin = 0
+	for _, coin := range coins {
+		for i := 1; i <= amount; i++ {
+			if i-coin < 0 {
+				continue
 			}
-			d[i][j] = d[i-1][j] + useCurCoin
+			dp[i] += dp[i-coin]
 		}
 	}
 
-	return d[len(coins)][amount]
+	return dp[amount]
 }
 ```
