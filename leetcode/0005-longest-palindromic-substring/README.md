@@ -5,34 +5,32 @@ https://leetcode.com/problems/longest-palindromic-substring/
 ## Solutions
 
 ```go
+func expand(s string, left int, right int) string {
+	for left >= 0 && right < len(s) && s[left] == s[right] {
+		left--
+		right++
+	}
+	return s[left+1 : right]
+}
+
 func longestPalindrome(s string) string {
-	if len(s) == 0 {
-		return s
+	if s == "" {
+		return ""
 	}
 
-	start, n, maxLen := 0, len(s), 0
-	d := make([][]bool, n)
-	for i := 0; i < n; i++ {
-		d[i] = make([]bool, n)
-	}
+	longest := ""
 
-	for i := n - 1; i >= 0; i-- {
-		for j := i; j < n; j++ {
-			if i == j {
-				d[i][j] = true
-			} else if i+1 == j {
-				d[i][j] = s[i] == s[j]
-			} else {
-				d[i][j] = s[i] == s[j] && d[i+1][j-1]
-			}
-
-			if d[i][j] && (j-i+1) > maxLen {
-				start = i
-				maxLen = j - i + 1
-			}
+	for i := 0; i < len(s); i++ {
+		len1 := expand(s, i, i)
+		if len(len1) > len(longest) {
+			longest = len1
+		}
+		len2 := expand(s, i, i+1)
+		if len(len2) > len(longest) {
+			longest = len2
 		}
 	}
 
-	return s[start : start+maxLen]
+	return longest
 }
 ```

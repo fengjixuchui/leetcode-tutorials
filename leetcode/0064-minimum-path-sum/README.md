@@ -6,31 +6,36 @@ https://leetcode.com/problems/minimum-path-sum/
 
 ```go
 func minPathSum(grid [][]int) int {
-	rowCount, columnCount := len(grid), len(grid[0])
-
-	d := make([][]int, rowCount)
-	for i := range d {
-		d[i] = make([]int, columnCount)
+	if grid == nil {
+		return 0
 	}
 
-	d[0][0] = grid[0][0]
-	for c := 1; c < columnCount; c++ {
-		d[0][c] = d[0][c-1] + grid[0][c]
-	}
-	for r := 1; r < rowCount; r++ {
-		d[r][0] = d[r-1][0] + grid[r][0]
+	m, n := len(grid), len(grid[0])
+
+	minSum := make([][]int, m)
+	for i := 0; i < len(minSum); i++ {
+		minSum[i] = make([]int, n)
 	}
 
-	for r := 1; r < rowCount; r++ {
-		for c := 1; c < columnCount; c++ {
-			d[r][c] = min(d[r-1][c], d[r][c-1]) + grid[r][c]
+	minSum[0][0] = grid[0][0]
+
+	for row := 1; row < m; row++ {
+		minSum[row][0] = minSum[row-1][0] + grid[row][0]
+	}
+	for col := 1; col < n; col++ {
+		minSum[0][col] = minSum[0][col-1] + grid[0][col]
+	}
+
+	for row := 1; row < m; row++ {
+		for col := 1; col < n; col++ {
+			minSum[row][col] = Min(minSum[row-1][col], minSum[row][col-1]) + grid[row][col]
 		}
 	}
 
-	return d[rowCount-1][columnCount-1]
+	return minSum[m-1][n-1]
 }
 
-func min(a, b int) int {
+func Min(a, b int) int {
 	if a > b {
 		return b
 	}

@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|95|88|4|188|
+|**Accepted**|95|89|4|189|
 
 ## Order by Number 🔢
 
@@ -42,7 +42,6 @@ Leetcode Golang solution ordered by frequency.
 |[0033](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array)|Medium|Binary Search|
 |[0034](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Find First and Last Position of Element in Sorted Array](./leetcode/0034-find-first-and-last-position-of-element-in-sorted-array)|Medium|Binary Search|
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|Backtracking|
-|[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|DP|
 |[0127](https://leetcode.com/problems/word-ladder/)|[Word Ladder](./leetcode/0127-word-ladder)|Medium|BFS|
 |[0146](https://leetcode.com/problems/lru-cache/)|[LRU Cache](./leetcode/0146-lru-cache)|Medium|Design|
 |[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|Linked List|
@@ -96,7 +95,7 @@ Medium|
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0005](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring](./leetcode/0005-longest-palindromic-substring)|Medium|⭐️|
+|[0005](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring](./leetcode/0005-longest-palindromic-substring)|Medium||
 |[0009](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number](./leetcode/0342-power-of-four)|Easy|
 |[0131](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning](./leetcode/0009-palindrome-number)|Medium|⭐️⭐️|
 |[0125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
@@ -129,8 +128,10 @@ Medium|
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
+|[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy||
+|[0120](https://leetcode.com/problems/triangle/)|[Triangle](./leetcode/0120-triangle)|Easy||
 |[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|🍰|
-|[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|🍰|
+|[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|
 |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|⭐️|
 |[0746](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs](./leetcode/0746-min-cost-climbing-stairs)|Easy|
 |[0152](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray](./leetcode/0152-maximum-product-subarray)|Medium|⭐️|
@@ -139,10 +140,10 @@ Medium|
 |[0064](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum](./leetcode/0064-minimum-path-sum)|Medium|
 |[0096](https://leetcode.com/problems/unique-binary-search-trees/)|[Unique Binary Search Trees](./leetcode/0096-unique-binary-search-trees)|Medium|
 |[0509](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number](./leetcode/0509-fibonacci-number)|Easy|
-|[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium|⭐️⭐️|
+|[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium||
 |[0300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence)|Medium|⭐️|
 |[0032](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses](./leetcode/0032-longest-valid-parentheses)|Hard|⭐️|
-|[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium|⭐️|
+|[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium||
 |[0279](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares](./leetcode/0279-perfect-squares)|Medium|⭐️|
 |[0673](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[Number of Longest Increasing Subsequence](./leetcode/0673-number-of-longest-increasing-subsequence)|Medium|💥|
 |[0221](https://leetcode.com/problems/maximal-square/)|[Maximal Square](./leetcode/0221-maximal-square)|Medium|⭐️|
@@ -157,7 +158,7 @@ Medium|
 |:-:|:-|:-: |:-|
 |[0455](https://leetcode.com/problems/assign-cookies/)|[Assign Cookies](./leetcode/0455-assign-cookies)|Easy|
 |[0452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Minimum Number of Arrows to Burst Balloons](./leetcode/0452-minimum-number-of-arrows-to-burst-balloons)|Easy|
-|[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Best Time to Buy and Sell Stock](./leetcode/0121-best-time-to-buy-and-sell-stock)|Easy|🍰|
+|[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Best Time to Buy and Sell Stock](./leetcode/0121-best-time-to-buy-and-sell-stock)|Easy|
 |[0122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Best Time to Buy and Sell Stock II](./leetcode/0122-best-time-to-buy-and-sell-stock-ii)|Easy|
 |[0605](https://leetcode.com/problems/can-place-flowers/)|[Can Place Flowers](./leetcode/0605-can-place-flowers)|Easy|
 |[0392](https://leetcode.com/problems/is-subsequence/)|[Is Subsequence](./leetcode/0392-is-subsequence)|Easy|

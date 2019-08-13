@@ -6,26 +6,23 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 ```go
 func maxProfit(prices []int) int {
-	if len(prices) == 0 {
-		return 0
-	}
+	profits := make([]int, len(prices))
+	max := 0
 
-	buyPrice := prices[0]
-	maxProfit := 0
-
-	for i := 1; i < len(prices); i++ {
-		if prices[i] > buyPrice {
-			maxProfit = Max(maxProfit, prices[i]-buyPrice)
-		} else {
-			buyPrice = prices[i]
+	lowest := math.MaxInt32
+	for i := 0; i < len(prices); i++ {
+		lowest = Min(lowest, prices[i])
+		profits[i] = prices[i] - lowest
+		if profits[i] > max {
+			max = profits[i]
 		}
 	}
 
-	return maxProfit
+	return max
 }
 
-func Max(a, b int) int {
-	if a > b {
+func Min(a, b int) int {
+	if b > a {
 		return a
 	}
 	return b

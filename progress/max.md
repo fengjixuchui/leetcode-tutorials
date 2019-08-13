@@ -68,6 +68,15 @@
 3. |[0371](https://leetcode.com/problems/sum-of-two-integers/)|[Sum of Two Integers](./leetcode/0371-sum-of-two-integers)|Easy|
 4. |[0389](https://leetcode.com/problems/find-the-difference/)|[Find the Difference](./leetcode/0389-find-the-difference)|Easy|
 
+### Dynamic Programming
+
+1. |[0005](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring](./leetcode/0005-longest-palindromic-substring)|Medium|
+2. |[0053](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray](./leetcode/0053-maximum-subarray)|Easy|
+3. |[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium|
+4. |[0096](https://leetcode.com/problems/unique-binary-search-trees/)|[Unique Binary Search Trees](./leetcode/0096-unique-binary-search-trees)|Medium|
+5. |[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium||
+6. |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|
+
 ## Familiar 😄
 
 ### Binary Search
@@ -85,11 +94,6 @@
 2. |[0101](https://leetcode.com/problems/symmetric-tree/)|[Symmetric Tree](./leetcode/0101-symmetric-tree)|Easy|
 3. |[0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0104-maximum-depth-of-binary-tree)|Easy|
 4. |[0107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Binary Tree Level Order Traversal II](./leetcode/0107-binary-tree-level-order-traversal-ii)|Easy|
-
-### Dynamic Programming
-
-1. |[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium|
-2. |[0063](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II](./leetcode/0063-unique-paths-ii)|Medium|
 
 ### Hash Table
 
@@ -112,6 +116,14 @@
 4. |[0338](https://leetcode.com/problems/counting-bits/)|[Counting Bits](./leetcode/0338-counting-bits)|Medium|
 5. |[0342](https://leetcode.com/problems/power-of-four/)|[Power of Four](./leetcode/0342-power-of-four)|Easy|
 6. |[0461](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance](./leetcode/0461-hamming-distance)|Easy|
+
+### Dynamic Programming
+
+1. |[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium|
+2. |[0063](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II](./leetcode/0063-unique-paths-ii)|Medium|
+3. |[0064](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum](./leetcode/0064-minimum-path-sum)|Medium|
+4. |[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|
+5. |[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|
 
 ## Daily review by topic 📆
 
@@ -210,4 +222,16 @@
 9. |[0389](https://leetcode.com/problems/find-the-difference/)|[Find the Difference](./leetcode/0389-find-the-difference)|Easy|
 10. |[0461](https://leetcode.com/problems/hamming-distance/)|[Hamming Distance](./leetcode/0461-hamming-distance)|Easy|
 
-### (2019-08-11) (1 time)
+### (2019-08-13) Dynamic Programming (1 time)
+
+1. |[0005](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring](./leetcode/0005-longest-palindromic-substring)|Medium|
+2. |[0053](https://leetcode.com/problems/maximum-subarray/)|[Maximum Subarray](./leetcode/0053-maximum-subarray)|Easy|
+3. |[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium|
+4. |[0063](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II](./leetcode/0063-unique-paths-ii)|Medium|
+5. |[0064](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum](./leetcode/0064-minimum-path-sum)|Medium|
+6. |[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|
+7. |[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium|
+8. |[0121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Best Time to Buy and Sell Stock](./leetcode/0121-best-time-to-buy-and-sell-stock)|Easy|
+9. |[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium||
+10. |[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|
+11. |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|
