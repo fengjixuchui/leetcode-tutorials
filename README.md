@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|95|89|4|189|
+|**Accepted**|96|89|4|190|
 
 ## Order by Number 🔢
 
@@ -314,7 +314,8 @@ Medium|
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|Stack|
+|[0014](https://leetcode.com/problems/longest-common-prefix/)|[Longest Common Prefix](./leetcode/0014-longest-common-prefix)|Easy|
+|[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|
 |[0151](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String](./leetcode/0151-reverse-words-in-a-string)|Medium|⭐️|
 |[0008](https://leetcode.com/problems/string-to-integer-atoi/)|[String to Integer (atoi)](./leetcode/0008-string-to-integer-atoi)|Medium|
 |[0551](https://leetcode.com/problems/student-attendance-record-i/)|[Student Attendance Record I](./leetcode/0551-student-attendance-record-i)|Easy|🍰|
