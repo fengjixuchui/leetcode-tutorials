@@ -6,7 +6,7 @@ Leetcode Golang solution ordered by frequency.
 
 |     |Easy|Medium|Hard|Total|
 |:---:|:---:|:---:|:---:|:---:|
-|**Accepted**|96|89|4|190|
+|**Accepted**|98|89|4|192|
 
 ## Order by Number 🔢
 
@@ -44,13 +44,40 @@ Leetcode Golang solution ordered by frequency.
 |[0046](https://leetcode.com/problems/permutations/)|[Permutations](./leetcode/0046-permutations)|Medium|Backtracking|
 |[0127](https://leetcode.com/problems/word-ladder/)|[Word Ladder](./leetcode/0127-word-ladder)|Medium|BFS|
 |[0146](https://leetcode.com/problems/lru-cache/)|[LRU Cache](./leetcode/0146-lru-cache)|Medium|Design|
-|[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|Linked List|
 |[0226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree](./leetcode/0226-invert-binary-tree)|Easy|Tree|
 |[0240](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Search a 2D Matrix II](./leetcode/0240-search-a-2d-matrix-ii)|Medium|Matrix|
 |[0322](https://leetcode.com/problems/coin-change/)|[Coin Change](./leetcode/0322-coin-change)|Medium|DP|
 |[0518](https://leetcode.com/problems/coin-change-2/)|[Coin Change 2](./leetcode/0518-coin-change-2)|Medium|DP|
 
 ## Order by Category
+
+### Linked List
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
+|[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-lists)|Easy|
+|[0024](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs](./leetcode/0024-swap-nodes-in-pairs)|Medium|
+|[0025](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group](./leetcode/0025-reverse-nodes-in-k-group)|Medium|
+|[0061](https://leetcode.com/problems/rotate-list/)|[Rotate List](./leetcode/0061-rotate-list)|Medium|
+|[0082](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II](./leetcode/0082-remove-duplicates-from-sorted-list-ii)|Medium|
+|[0092](https://leetcode.com/problems/reverse-linked-list-ii/)|[Reverse Linked List II](./leetcode/0092-reverse-linked-list-ii)|Medium|
+|[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|
+|[0142](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II](./leetcode/0142-linked-list-cycle-ii)|Medium|
+|[0148](https://leetcode.com/problems/sort-list/)|[Sort List](./leetcode/0148-sort-list)|Medium|
+|[0160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
+|[0203](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements](./leetcode/0203-remove-linked-list-elements)|Easy|
+|[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)|Easy|Linked List|
+|[0237](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Delete Node in a Linked List](./leetcode/0237-delete-node-in-a-linked-list)|Easy|
+
+### Stack
+
+|#|Title|Difficulty|Mark|
+|:-:|:-|:-: |:-|
+|[0155](https://leetcode.com/problems/min-stack/)|[Min Stack](./leetcode/0155-min-stack)|Easy|Stack|
+|[0232](https://leetcode.com/problems/implement-queue-using-stacks/)|[Implement Queue using Stacks](./leetcode/0232-implement-queue-using-stacks)|Easy|
+|[0225](https://leetcode.com/problems/implement-stack-using-queues/)|[Implement Stack using Queues](./leetcode/0225-implement-stack-using-queues)|Easy|
+|[0946](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences](./leetcode/0946-validate-stack-sequences)|Medium|
 
 ### Binary Search
 
@@ -62,7 +89,7 @@ Leetcode Golang solution ordered by frequency.
 |[0074](https://leetcode.com/problems/search-a-2d-matrix/)|[Search a 2D Matrix](./leetcode/0074-search-a-2d-matrix)|Medium|
 |[0704](https://leetcode.com/problems/binary-search/)|[Binary Search](./leetcode/0704-binary-search)|Easy|
 |[0069](https://leetcode.com/problems/sqrtx/)|[Sqrt(x)](./leetcode/0069-sqrtx)|Easy|
-|[0367](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square](./leetcode/0367-valid-perfect-square)|Easy|🍰|
+|[0367](https://leetcode.com/problems/valid-perfect-square/)|[Valid Perfect Square](./leetcode/0367-valid-perfect-square)|Easy|
 |[0540](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Single Element in a Sorted Array](./leetcode/0540-single-element-in-a-sorted-array)|Easy|
 |[0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)|Medium|
 |[0162](https://leetcode.com/problems/find-peak-element/)|[Find Peak Element](./leetcode/0162-find-peak-element)|Medium|
@@ -76,7 +103,6 @@ Leetcode Golang solution ordered by frequency.
 |[0633](https://leetcode.com/problems/sum-of-square-numbers/)|[Sum of Square Numbers](./leetcode/0633-sum-of-square-numbers)|Easy|
 |[0345](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Reverse Vowels of a String](./leetcode/0345-reverse-vowels-of-a-string)|Easy|
 |[0088](https://leetcode.com/problems/merge-sorted-array/)|[Merge Sorted Array](./leetcode/0088-merge-sorted-array)|Easy|
-|[0142](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II](./leetcode/0142-linked-list-cycle-ii)|Medium|⭐️|
 |[0028](https://leetcode.com/problems/implement-strstr/)|[Implement strStr()](./leetcode/0028-implement-strstr)|Easy|
 |[0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove Duplicates from Sorted List](./leetcode/0083-remove-duplicates-from-sorted-list)|Easy|
 |[0283](https://leetcode.com/problems/move-zeroes/)|[Move Zeroes](./leetcode/0283-move-zeroes)|Easy|
@@ -84,20 +110,19 @@ Leetcode Golang solution ordered by frequency.
 |[0557](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Reverse Words in a String III](./leetcode/0557-reverse-words-in-a-string-iii)|Easy|
 |[0019](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Remove Nth Node From End of List](./leetcode/0011-container-with-most-water)|Medium|
 |[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|
-|[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|⭐️|
-|[0015](https://leetcode.com/problems/3sum/)|[3Sum](./leetcode/0015-3Sum)|Medium|⭐️|
+|[0876](https://leetcode.com/problems/middle-of-the-linked-list/)|[Middle of the Linked List](./leetcode/0876-middle-of-the-linked-list)|Easy|
+|[0015](https://leetcode.com/problems/3sum/)|[3Sum](./leetcode/0015-3Sum)|Medium|
 |[0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters](./leetcode/0003-longest-substring-without-repeating-characters)|Medium|
 |[0086](https://leetcode.com/problems/partition-list/)|[Partition List](./leetcode/0086-partition-list)|
 Medium|
-|[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|
 
 ### Palindrome
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0005](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring](./leetcode/0005-longest-palindromic-substring)|Medium||
+|[0005](https://leetcode.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring](./leetcode/0005-longest-palindromic-substring)|Medium|
 |[0009](https://leetcode.com/problems/palindrome-number/)|[Palindrome Number](./leetcode/0342-power-of-four)|Easy|
-|[0131](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning](./leetcode/0009-palindrome-number)|Medium|⭐️⭐️|
+|[0131](https://leetcode.com/problems/palindrome-partitioning/)|[Palindrome Partitioning](./leetcode/0009-palindrome-number)|Medium|
 |[0125](https://leetcode.com/problems/valid-palindrome/)|[Valid Palindrome](./leetcode/0125-valid-palindrome)|Easy|
 |[0234](https://leetcode.com/problems/palindrome-linked-list/)|[Palindrome Linked List](./leetcode/0234-palindrome-linked-list)|Easy|
 |[0409](https://leetcode.com/problems/longest-palindrome/)|[Longest Palindrome](./leetcode/0409-longest-palindrome)|Easy|
@@ -109,7 +134,7 @@ Medium|
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0215](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Kth Largest Element in an Array](./leetcode/141-linked-list-cycle)|Medium|
-|[0056](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals](./leetcode/0056-merge-intervals)|Medium|⭐️|
+|[0056](https://leetcode.com/problems/merge-intervals/)|[Merge Intervals](./leetcode/0056-merge-intervals)|Medium|
 |[0147](https://leetcode.com/problems/insertion-sort-list/)|[Insertion Sort List](./leetcode/0147-insertion-sort-list)|Medium|
 
 ### Backtracking
@@ -118,36 +143,36 @@ Medium|
 |:-:|:-|:-: |:-|
 |[0022](https://leetcode.com/problems/generate-parentheses/)|[Generate Parentheses](./leetcode/0022-generate-parentheses)|Medium|
 |[0039](https://leetcode.com/problems/combination-sum/)|[Combination Sum](./leetcode/0039-combination-sum)|Medium|
-|[0078](https://leetcode.com/problems/subsets/)|[Subsets](./leetcode/0078-subsets)|Medium|🍰|
-|[0047](https://leetcode.com/problems/permutations-ii/)|[Permutations II](./leetcode/0047-permutations-ii)|Medium|⭐️⭐️|
+|[0078](https://leetcode.com/problems/subsets/)|[Subsets](./leetcode/0078-subsets)|Medium|
+|[0047](https://leetcode.com/problems/permutations-ii/)|[Permutations II](./leetcode/0047-permutations-ii)|Medium|
 |[0077](https://leetcode.com/problems/combinations/)|[Combinations](./leetcode/0077-combinations)|Medium|
 |[0017](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Letter Combinations of a Phone Number](./leetcode/0017-letter-combinations-of-a-phone-number)|Medium|
-|[0216](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III](./leetcode/0216-combination-sum-iii)|Medium|🍰|
+|[0216](https://leetcode.com/problems/combination-sum-iii/)|[Combination Sum III](./leetcode/0216-combination-sum-iii)|Medium|
 
 ### Dynamic Programming
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy||
-|[0120](https://leetcode.com/problems/triangle/)|[Triangle](./leetcode/0120-triangle)|Easy||
-|[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|🍰|
+|[0070](https://leetcode.com/problems/climbing-stairs/)|[Climbing Stairs](./leetcode/0070-climbing-stairs)|Easy|
+|[0120](https://leetcode.com/problems/triangle/)|[Triangle](./leetcode/0120-triangle)|Easy|
+|[0303](https://leetcode.com/problems/range-sum-query-immutable/)|[Range Sum Query - Immutable](./leetcode/0303-range-sum-query)|Easy|
 |[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|
-|[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|⭐️|
+|[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|
 |[0746](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Min Cost Climbing Stairs](./leetcode/0746-min-cost-climbing-stairs)|Easy|
-|[0152](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray](./leetcode/0152-maximum-product-subarray)|Medium|⭐️|
+|[0152](https://leetcode.com/problems/maximum-product-subarray/)|[Maximum Product Subarray](./leetcode/0152-maximum-product-subarray)|Medium|
 |[0062](https://leetcode.com/problems/unique-paths/)|[Unique Paths](./leetcode/0062-unique-paths)|Medium|
 |[0063](https://leetcode.com/problems/unique-paths-ii/)|[Unique Paths II](./leetcode/0063-unique-paths-ii)|Medium|
 |[0064](https://leetcode.com/problems/minimum-path-sum/)|[Minimum Path Sum](./leetcode/0064-minimum-path-sum)|Medium|
 |[0096](https://leetcode.com/problems/unique-binary-search-trees/)|[Unique Binary Search Trees](./leetcode/0096-unique-binary-search-trees)|Medium|
 |[0509](https://leetcode.com/problems/fibonacci-number/)|[Fibonacci Number](./leetcode/0509-fibonacci-number)|Easy|
-|[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium||
-|[0300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence)|Medium|⭐️|
-|[0032](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses](./leetcode/0032-longest-valid-parentheses)|Hard|⭐️|
-|[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium||
-|[0279](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares](./leetcode/0279-perfect-squares)|Medium|⭐️|
-|[0673](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[Number of Longest Increasing Subsequence](./leetcode/0673-number-of-longest-increasing-subsequence)|Medium|💥|
-|[0221](https://leetcode.com/problems/maximal-square/)|[Maximal Square](./leetcode/0221-maximal-square)|Medium|⭐️|
-|[0464](https://leetcode.com/problems/can-i-win/)|[Can I Win](./leetcode/0464-can-i-win)|Medium|⭐️️⭐️|
+|[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium|
+|[0300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence)|Medium|
+|[0032](https://leetcode.com/problems/longest-valid-parentheses/)|[Longest Valid Parentheses](./leetcode/0032-longest-valid-parentheses)|Hard|
+|[0091](https://leetcode.com/problems/decode-ways/)|[Decode Ways](./leetcode/0091-decode-ways)|Medium|
+|[0279](https://leetcode.com/problems/perfect-squares/)|[Perfect Squares](./leetcode/0279-perfect-squares)|Medium|
+|[0673](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[Number of Longest Increasing Subsequence](./leetcode/0673-number-of-longest-increasing-subsequence)|Medium|
+|[0221](https://leetcode.com/problems/maximal-square/)|[Maximal Square](./leetcode/0221-maximal-square)|Medium|
+|[0464](https://leetcode.com/problems/can-i-win/)|[Can I Win](./leetcode/0464-can-i-win)|Medium|️
 |[0309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Best Time to Buy and Sell Stock with Cooldown](./leetcode/0309-best-time-to-buy-and-sell-stock-with-cooldown)|Medium|
 |[0516](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Longest Palindromic Subsequence](./leetcode/0309-best-time-to-buy-and-sell-stock-with-cooldown)|Medium|
 |[0188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Best Time to Buy and Sell Stock IV](./leetcode/0188-best-time-to-buy-and-sell-stock-iv)|Hard|
@@ -177,14 +202,14 @@ Medium|
 |[0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Maximum Depth of Binary Tree](./leetcode/0104-maximum-depth-of-binary-tree)|Easy|
 |[0144](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Binary Tree Preorder Traversal](./leetcode/0144-binary-tree-preorder-traversal)|Medium|
 |[0617](https://leetcode.com/problems/merge-two-binary-trees/)|[Merge Two Binary Trees](./leetcode/0617-merge-two-binary-trees)|Easy|
-|[0450](https://leetcode.com/problems/delete-node-in-a-bst/)|[Delete Node in a BST](./leetcode/0450-delete-node-in-a-bst)|Medium|⭐️|
+|[0450](https://leetcode.com/problems/delete-node-in-a-bst/)|[Delete Node in a BST](./leetcode/0450-delete-node-in-a-bst)|Medium|
 |[0235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest Common Ancestor of a Binary Search Tree](./leetcode/0235-lowest-common-ancestor-of-a-binary-search-tree)|Easy|
-|[0236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Lowest Common Ancestor of a Binary Tree](./leetcode/0538-convert-bst-to-greater-tree)|Medium|⭐️|
-|[0543](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree](./leetcode/0543-diameter-of-binary-tree)|Easy|⭐️|
-|[0538](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree](./leetcode/0538-convert-bst-to-greater-tree)|Easy|⭐️|
+|[0236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Lowest Common Ancestor of a Binary Tree](./leetcode/0538-convert-bst-to-greater-tree)|Medium|
+|[0543](https://leetcode.com/problems/diameter-of-binary-tree/)|[Diameter of Binary Tree](./leetcode/0543-diameter-of-binary-tree)|Easy|
+|[0538](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Convert BST to Greater Tree](./leetcode/0538-convert-bst-to-greater-tree)|Easy|
 |[0572](https://leetcode.com/problems/subtree-of-another-tree/)|[Subtree of Another Tree](./leetcode/0572-subtree-of-another-tree)|Easy|
 |[0404](https://leetcode.com/problems/sum-of-left-leaves/)|[Sum of Left Leaves](./leetcode/0404-sum-of-left-leaves)|Easy|
-|[0655](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree](./leetcode/0655-print-binary-tree)|Medium|⭐️|
+|[0655](https://leetcode.com/problems/print-binary-tree/)|[Print Binary Tree](./leetcode/0655-print-binary-tree)|Medium|
 |[0606](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Construct String from Binary Tree](./leetcode/0606-construct-string-from-binary-tree)|Easy|
 |[0669](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Trim a Binary Search Tree](./leetcode/0669-trim-a-binary-search-tree)|Easy|
 |[0654](https://leetcode.com/problems/maximum-binary-tree/)|[Maximum Binary Tree](./leetcode/0654-maximum-binary-tree)|Medium|
@@ -221,37 +246,22 @@ Medium|
 |[0049](https://leetcode.com/problems/group-anagrams/)|[Group Anagrams](./leetcode/0049-group-anagrams)|Medium|
 
 
-### Linked List
-
-|#|Title|Difficulty|Mark|
-|:-:|:-|:-: |:-|
-|[0002](https://leetcode.com/problems/add-two-numbers/)|[Add Two Numbers](./leetcode/0002-add-two-numbers)|Easy|
-|[0024](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs](./leetcode/0024-swap-nodes-in-pairs)|Medium|
-|[0092](https://leetcode.com/problems/reverse-linked-list-ii/)|[Reverse Linked List II](./leetcode/0092-reverse-linked-list-ii)|Medium|⭐️|
-|[0021](https://leetcode.com/problems/merge-two-sorted-lists/)|[Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-lists)|Easy|
-|[0160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Intersection of Two Linked Lists](./leetcode/0160-intersection-of-two-linked-lists)|Easy|
-|[0203](https://leetcode.com/problems/remove-linked-list-elements/)|[Remove Linked List Elements](./leetcode/0203-remove-linked-list-elements)|Easy|
-|[0237](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Delete Node in a Linked List](./leetcode/0237-delete-node-in-a-linked-list)|Easy|
-|[0061](https://leetcode.com/problems/rotate-list/)|[Rotate List](./leetcode/0061-rotate-list)|Medium|
-|[0082](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Remove Duplicates from Sorted List II](./leetcode/0082-remove-duplicates-from-sorted-list-ii)|Medium|
-|[0148](https://leetcode.com/problems/sort-list/)|[Sort List](./leetcode/0148-sort-list)|Medium|⭐️|
-
 ### DFS
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0110](https://leetcode.com/problems/balanced-binary-tree/)|[Sum of Two Integers](./leetcode/0110-balanced-binary-tree)|Easy|
 |[0112](https://leetcode.com/problems/path-sum/)|[Path Sum](./leetcode/0112-path-sum)|Easy|
-|[0113](https://leetcode.com/problems/path-sum-ii/)|[Path Sum II](./leetcode/0113-path-sum-ii)|Medium|⭐️|
-|[0437](https://leetcode.com/problems/path-sum-iii/)|[Path Sum III](./leetcode/0096-unique-binary-search-trees)|Easy|⭐️|
+|[0113](https://leetcode.com/problems/path-sum-ii/)|[Path Sum II](./leetcode/0113-path-sum-ii)|Medium|
+|[0437](https://leetcode.com/problems/path-sum-iii/)|[Path Sum III](./leetcode/0096-unique-binary-search-trees)|Easy|
 |[0700](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Search in a Binary Search Tree](./leetcode/0700-search-in-a-binary-search-tree)|Easy|
 |[0108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Convert Sorted Array to Binary Search Tree](./leetcode/0108-convert-sorted-array-to-binary-search-tree)|Easy|
 |[0114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Flatten Binary Tree to Linked List](./leetcode/0114-flatten-binary-tree-to-linked-list)|Medium|
-|[0200](https://leetcode.com/problems/number-of-islands/)|[Number of Islands](./leetcode/0200-number-of-islands)|Medium|⭐️|
-|[0105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Construct Binary Tree from Preorder and Inorder Traversal](./leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal)|Medium|⭐️⭐️|
-|[0106](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Construct Binary Tree from Inorder and Postorder Traversal](./leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal)|Medium|⭐️⭐️|
-️|[0301](https://leetcode.com/problems/remove-invalid-parentheses/)|[Remove Invalid Parentheses](./leetcode/0301-remove-invalid-parentheses)|Hard|
-️|[0129](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Sum Root to Leaf Numbers](./leetcode/0129-sum-root-to-leaf-numbers)|Medium|
+|[0200](https://leetcode.com/problems/number-of-islands/)|[Number of Islands](./leetcode/0200-number-of-islands)|Medium|
+|[0105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Construct Binary Tree from Preorder and Inorder Traversal](./leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal)|Medium|
+|[0106](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Construct Binary Tree from Inorder and Postorder Traversal](./leetcode/0106-construct-binary-tree-from-inorder-and-postorder-traversal)|Medium|
+|[0301](https://leetcode.com/problems/remove-invalid-parentheses/)|[Remove Invalid Parentheses](./leetcode/0301-remove-invalid-parentheses)|Hard|
+|[0129](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Sum Root to Leaf Numbers](./leetcode/0129-sum-root-to-leaf-numbers)|Medium|
 
 ### BFS
 
@@ -259,15 +269,7 @@ Medium|
 |:-:|:-|:-: |:-|
 |[0107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Binary Tree Level Order Traversal II](./leetcode/0107-binary-tree-level-order-traversal-ii)|Easy|
 |[0102](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)|Medium|
-|[0637](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree](./leetcode/0637-average-of-levels-in-binary-tree)|Easy|🍰|
-
-### Stack
-
-|#|Title|Difficulty|Mark|
-|:-:|:-|:-: |:-|
-|[0155](https://leetcode.com/problems/min-stack/)|[Min Stack](./leetcode/0155-min-stack)|Easy|Stack|
-|[0232](https://leetcode.com/problems/implement-queue-using-stacks/)|[Implement Queue using Stacks](./leetcode/0232-implement-queue-using-stacks)|Easy|
-|[0946](https://leetcode.com/problems/validate-stack-sequences/)|[Validate Stack Sequences](./leetcode/0946-validate-stack-sequences)|Medium|
+|[0637](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Average of Levels in Binary Tree](./leetcode/0637-average-of-levels-in-binary-tree)|Easy|
 
 ### Matrix
 
@@ -276,7 +278,7 @@ Medium|
 |[0118](https://leetcode.com/problems/pascals-triangle/)|[Pascal's Triangle](./leetcode/0118-pascals-triangle)|Easy|
 |[0073](https://leetcode.com/problems/set-matrix-zeroes/)|[Set Matrix Zeroes](./leetcode/0074-search-a-2d-matrix)|Medium|
 |[0054](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix](./leetcode/0054-spiral-matrix)|Medium|
-|[0566](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix](./leetcode/0054-spiral-matrix)|Easy|🍰|
+|[0566](https://leetcode.com/problems/reshape-the-matrix/)|[Reshape the Matrix](./leetcode/0054-spiral-matrix)|Easy|
 
 ### Bit Manipulation
 
@@ -298,16 +300,16 @@ Medium|
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
 |[0384](https://leetcode.com/problems/shuffle-an-array/)|[Shuffle an Array](./leetcode/0461-hamming-distance)|Easy|
-|[0189](https://leetcode.com/problems/rotate-array/)|[Rotate Array](./leetcode/0189-rotate-array)|Easy|⭐️|
+|[0189](https://leetcode.com/problems/rotate-array/)|[Rotate Array](./leetcode/0189-rotate-array)|Easy|
 |[0238](https://leetcode.com/problems/product-of-array-except-self/)|[Product of Array Except Self](./leetcode/0238-product-of-array-except-self)|Medium|
 |[0448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Find All Numbers Disappeared in an Array](./leetcode/0448-find-all-numbers-disappeared-in-an-array)|Easy|
 |[0031](https://leetcode.com/problems/next-permutation/)|[Next Permutation](./leetcode/0031-next-permutation)|Medium|
-|[0581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray](./leetcode/0031-next-permutation)|Medium|⭐️|
-|[0075](https://leetcode.com/problems/sort-colors/)|[Sort Colors](./leetcode/0075-sort-colors)|Medium|⭐️|
+|[0581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Shortest Unsorted Continuous Subarray](./leetcode/0031-next-permutation)|Medium|
+|[0075](https://leetcode.com/problems/sort-colors/)|[Sort Colors](./leetcode/0075-sort-colors)|Medium|
 |[0128](https://leetcode.com/problems/longest-consecutive-sequence/)|[Longest Consecutive Sequence](./leetcode/0128-longest-consecutive-sequence)|Hard|
 |[0912](https://leetcode.com/problems/sort-an-array/)|[Sort an Array](./leetcode/0912-sort-an-array)|Medium|
 |[0792](https://leetcode.com/problems/number-of-matching-subsequences/)|[Number of Matching Subsequences](./leetcode/0792-number-of-matching-subsequences)|Medium|
-|[0561](https://leetcode.com/problems/array-partition-i/)|[Array Partition I](./leetcode/0561-array-partition-i)|Easy|🍰|
+|[0561](https://leetcode.com/problems/array-partition-i/)|[Array Partition I](./leetcode/0561-array-partition-i)|Easy|
 |[0463](https://leetcode.com/problems/island-perimeter/)|[Array Partition I](./leetcode/0463-island-perimeter)|Easy|
 
 ### String
@@ -316,21 +318,21 @@ Medium|
 |:-:|:-|:-: |:-|
 |[0014](https://leetcode.com/problems/longest-common-prefix/)|[Longest Common Prefix](./leetcode/0014-longest-common-prefix)|Easy|
 |[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|
-|[0151](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String](./leetcode/0151-reverse-words-in-a-string)|Medium|⭐️|
+|[0151](https://leetcode.com/problems/reverse-words-in-a-string/)|[Reverse Words in a String](./leetcode/0151-reverse-words-in-a-string)|Medium|
 |[0008](https://leetcode.com/problems/string-to-integer-atoi/)|[String to Integer (atoi)](./leetcode/0008-string-to-integer-atoi)|Medium|
-|[0551](https://leetcode.com/problems/student-attendance-record-i/)|[Student Attendance Record I](./leetcode/0551-student-attendance-record-i)|Easy|🍰|
+|[0551](https://leetcode.com/problems/student-attendance-record-i/)|[Student Attendance Record I](./leetcode/0551-student-attendance-record-i)|Easy|
 
 ### Trie
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0208](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Implement Trie (Prefix Tree)](./leetcode/208-implement-trie-prefix-tree)|Medium|⭐️|
+|[0208](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Implement Trie (Prefix Tree)](./leetcode/208-implement-trie-prefix-tree)|Medium|
 
 ### Graph
 
 |#|Title|Difficulty|Mark|
 |:-:|:-|:-: |:-|
-|[0207](https://leetcode.com/problems/course-schedule/)|[Course Schedule](./leetcode/0207-course-schedule)|Medium|⭐️️️⭐️|
+|[0207](https://leetcode.com/problems/course-schedule/)|[Course Schedule](./leetcode/0207-course-schedule)|Medium|
 
 ### Divide and Conquer
 
@@ -345,11 +347,6 @@ Medium|
 |[0380](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Insert Delete GetRandom O(1)](./leetcode/0380-insert-delete-getrandom-o1)|Medium|
 |[0208](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Implement Trie (Prefix Tree)](./leetcode/0208-implement-trie-prefix-tree)|Medium|
 
-
-**Note**
-
-- ⭐ Important
-- 🍰 Easy
 
 ## Templates
 

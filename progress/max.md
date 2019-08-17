@@ -25,6 +25,9 @@
 6. |[0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Remove Duplicates from Sorted List](./leetcode/0083-remove-duplicates-from-sorted-list)|Easy|
 7. |[0086](https://leetcode.com/problems/partition-list/)|[Partition List](./leetcode/0086-partition-list)|Medium|
 8. |[0237](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Delete Node in a Linked List](./leetcode/0237-delete-node-in-a-linked-list)|Easy|
+9. |[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)
+10. |[0142](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II](./leetcode/0142-linked-list-cycle-ii)|Medium|
+11. |[0025](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group](./leetcode/0025-reverse-nodes-in-k-group)|Medium|
 
 ### Tree
 
@@ -235,3 +238,13 @@
 9. |[0139](https://leetcode.com/problems/word-break/)|[Word Break](./leetcode/0139-word-break)|Medium||
 10. |[0198](https://leetcode.com/problems/house-robber/)|[House Robber](./leetcode/0198-house-robber)|Easy|
 11. |[0213](https://leetcode.com/problems/house-robber-ii/)|[House Robber II](./leetcode/0213-house-robber-ii)|Medium|
+
+### (2019-08-17) Linked List
+
+1. |[0206](https://leetcode.com/problems/reverse-linked-list/)|[Reverse Linked List](./leetcode/0206-reverse-linked-list)
+2. |[0024](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Swap Nodes in Pairs](./leetcode/0024-swap-nodes-in-pairs)|Medium|
+3. |[0141](https://leetcode.com/problems/linked-list-cycle/)|[Linked List Cycle](./leetcode/141-linked-list-cycle)|Easy|
+4. |[0142](https://leetcode.com/problems/linked-list-cycle-ii/)|[Linked List Cycle II](./leetcode/0142-linked-list-cycle-ii)|Medium|
+5. |[0025](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Reverse Nodes in k-Group](./leetcode/0025-reverse-nodes-in-k-group)|Medium|
+6. |[0020](https://leetcode.com/problems/valid-parentheses/)|[Valid Parentheses](./leetcode/0002-add-two-numbers)|Easy|
+7. 

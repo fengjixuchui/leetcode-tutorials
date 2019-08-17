@@ -6,23 +6,23 @@ https://leetcode.com/problems/swap-nodes-in-pairs/
 
 ```go
 func swapPairs(head *ListNode) *ListNode {
-  dummy := ListNode{}
-  dummy.Next = head
+	if head == nil {
+		return head
+	}
 
-  pre := &dummy
+	dummy := &ListNode{}
+	dummy.Next = head
+	pre := dummy
+	cur := dummy.Next
 
-  for pre != nil {
-    if pre.Next == nil || pre.Next.Next == nil {
-      break
-    }
+	for pre.Next != nil && pre.Next.Next != nil {
+		pre.Next = cur.Next
+		cur.Next = cur.Next.Next
+		pre.Next.Next = cur
+		pre = cur
+		cur = cur.Next
+	}
 
-    first := pre.Next
-    pre.Next = first.Next
-    first.Next = first.Next.Next
-    pre.Next.Next = first
-    pre = first
-  }
-
-  return dummy.Next
+	return dummy.Next
 }
 ```
