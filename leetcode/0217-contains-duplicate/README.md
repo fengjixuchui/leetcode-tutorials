@@ -3,14 +3,15 @@
 https://leetcode.com/problems/contains-duplicate/
 
 ```go
+// O(n) time | O(n) space
 func containsDuplicate(nums []int) bool {
-	hashSet := map[int]bool{}
+	visited := make(map[int]bool)
 
-	for i := 0; i < len(nums); i++ {
-		if existed := hashSet[nums[i]]; existed {
+	for _, num := range nums {
+		if _, ok := visited[num]; ok {
 			return true
 		}
-		hashSet[nums[i]] = true
+		visited[num] = true
 	}
 
 	return false

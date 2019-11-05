@@ -7,14 +7,15 @@ https://leetcode.com/problems/two-sum/
 ```go
 // O(n) time | O(n) space
 func twoSum(nums []int, target int) []int {
-	visited := map[int]int{}
-	for i := 0; i < len(nums); i++ {
-		curNum := nums[i]
-		if idx, ok := visited[target-curNum]; ok {
-			return []int{idx, i}
+	visited := make(map[int]int)
+
+	for i, num := range nums {
+		if index, ok := visited[target-num]; ok {
+			return []int{index, i}
 		}
-		visited[curNum] = i
+		visited[num] = i
 	}
+
 	return []int{-1, -1}
 }
 ```

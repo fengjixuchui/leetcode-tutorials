@@ -10,18 +10,40 @@ func reverseList(head *ListNode) *ListNode {
 		return head
 	}
 
-	dummy := &ListNode{}
-	dummy.Next = head
 	var pre *ListNode
-	cur := dummy.Next
+	cur := head
 
 	for cur != nil {
-		next := cur.Next
+		temp := cur.Next
 		cur.Next = pre
 		pre = cur
-		cur = next
+		cur = temp
 	}
 
 	return pre
 }
+
+// Beginning:
+// nil 1->2->3->4->5->NULL
+//  p  c  t
+
+// First:
+// nil<-1 2->3->4->5->NULL
+//      p c
+
+// Second:
+// nil<-1<-2 3->4->5->NULL
+//         p c
+
+// Third:
+// nil<-1<-2<-3 4->5->NULL
+//            p c
+
+// Forth:
+// nil<-1<-2<-3<-4 5->NULL
+//               p c
+
+// Fifth:
+// nil<-1<-2<-3<-4<-5 NULL
+//                  p  c
 ```

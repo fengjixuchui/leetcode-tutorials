@@ -5,22 +5,25 @@ https://leetcode.com/problems/maximum-subarray/
 ## Solutions
 
 ```go
-func maxSubArray(nums []int) int {
-	dp := make([]int, len(nums))
-	dp[0] = nums[0]
-	max := dp[0]
+import "math"
 
-	for i := 1; i < len(nums); i++ {
-		if dp[i-1] > 0 {
-			dp[i] = nums[i] + dp[i-1]
+// O(n) time | O(1) space
+func maxSubArray(nums []int) int {
+	var sum int
+	maxSum := -math.MaxInt32
+
+	for _, num := range nums {
+		if sum < 0 {
+			sum = num
 		} else {
-			dp[i] = nums[i]
+			sum += num
 		}
-		if dp[i] > max {
-			max = dp[i]
+
+		if sum > maxSum {
+			maxSum = sum
 		}
 	}
 
-	return max
+	return maxSum
 }
 ```
