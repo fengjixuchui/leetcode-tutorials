@@ -5,30 +5,31 @@ https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 ## Solutions
 
 ```go
+// O(logn) time | O(1) space
 func findMin(nums []int) int {
 	if nums == nil || len(nums) == 0 {
-		return -1
+		return 0
 	}
 
-	l, r := 0, len(nums)-1
-	for l+1 < r {
-		// sorted
-		if nums[l] < nums[r] {
-			return nums[l]
-		}
+	left, right := 0, len(nums)-1
 
-		m := l + (r-l)/2
+	// Sorted
+	if nums[left] < nums[right] {
+		return nums[left]
+	}
 
-		if nums[m] > nums[r] {
-			l = m
+	for left+1 < right {
+		mid := left + (right-left)/2
+		if nums[mid] < nums[right] {
+			right = mid
 		} else {
-			r = m
+			left = mid
 		}
 	}
 
-	if nums[l] > nums[r] {
-		return nums[r]
+	if nums[left] < nums[right] {
+		return nums[left]
 	}
-	return nums[l]
+	return nums[right]
 }
 ```

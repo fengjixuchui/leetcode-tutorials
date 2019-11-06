@@ -7,31 +7,26 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 ```go
 // Time: O(n), Space: O(n)
 func lengthOfLongestSubstring(s string) int {
-	if s == "" {
-		return 0
+	if len(s) < 2 {
+		return len(s)
 	}
 
-	set := map[byte]bool{}
-	left, right, max := 0, 0, 0
+	visited := make(map[byte]bool)
+	var slow, fast, max int
 
-	for right < len(s) {
-		if set[s[right]] == false {
-			set[s[right]] = true
-			right++
-			max = Max(max, right-left)
-		} else {
-			set[s[left]] = false
-			left++
+	for fast < len(s) {
+		if !visited[s[fast]] {
+			visited[s[fast]] = true
+			fast++
+			if fast-slow > max {
+				max = fast - slow
+			}
+			continue
 		}
+		visited[s[slow]] = false
+		slow++
 	}
 
 	return max
-}
-
-func Max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }
 ```

@@ -5,9 +5,8 @@ https://leetcode.com/problems/linked-list-cycle/
 ## Solutions
 
 ```go
-// O(n)
+// O(n) time | O(1) space
 func hasCycle(head *ListNode) bool {
-	// Handle edge cases.
 	if head == nil {
 		return false
 	}

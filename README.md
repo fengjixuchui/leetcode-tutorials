@@ -19,9 +19,9 @@
 - [x] [Contains Duplicate](./leetcode/0217-contains-duplicate)
 - [x] [Best Time to Buy and Sell Stock](./leetcode/0121-best-time-to-buy-and-sell-stock)
 - [x] [Valid Anagram](./leetcode/0242-valid-anagram)
-- [x] [Valid Parentheses](./leetcode/0020-valid-parentheses/README.md)
-- [x] [Product of Array Except Self](./leetcode/0238-product-of-array-except-self/README.md)
-- [x] [Maximum Subarray](./leetcode/0053-maximum-subarray/README.md)
+- [x] [Valid Parentheses](./leetcode/0020-valid-parentheses)
+- [x] [Product of Array Except Self](./leetcode/0238-product-of-array-except-self)
+- [x] [Maximum Subarray](./leetcode/0053-maximum-subarray)
 - [ ] 3Sum
 - [ ] Merge Intervals
 - [ ] Group Anagrams
@@ -30,21 +30,21 @@
 
 ### Week 2 - Data Structures
 
-- [x] [Reverse a Linked List](./leetcode/0206-reverse-linked-list/README.md)
-- [ ] Detect Cycle in a Linked List
-- [ ] Container With Most Water
-- [ ] Find Minimum in Rotated Sorted Array
+- [x] [Reverse a Linked List](./leetcode/0206-reverse-linked-list)
+- [x] [Detect Cycle in a Linked List](./leetcode/0141-linked-list-cycle)
+- [x] [Container With Most Water](./leetcode/0011-container-with-most-water)
+- [x] [Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array) ⭐
 - [ ] Longest Repeating Character Replacement
-- [ ] Longest Substring Without Repeating Characters
+- [x] [Longest Substring Without Repeating Characters](./leetcode/0003-longest-substring-without-repeating-characters) ⭐
 - [ ] Minimum Window Substring
-- [ ] Number of Islands
-- [ ] Remove Nth Node From End Of List
+- [x] [Number of Islands](./leetcode/0200-number-of-islands) ⭐
+- [x] [Remove Nth Node From End Of List](./leetcode/0019-remove-nth-node-from-end-of-list/README.md) ⭐
 - [ ] Palindromic Substrings
 - [ ] Pacific Atlantic Water Flow
 
 ### Week 3 - Non-Linear Data Structures
 
-- [ ] Validate Binary Search Tree
+- [x] [Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree) ⭐
 - [ ] Invert/Flip Binary Tree
 - [ ] Non-overlapping Intervals
 - [ ] Serialize and Deserialize Binary Tree
