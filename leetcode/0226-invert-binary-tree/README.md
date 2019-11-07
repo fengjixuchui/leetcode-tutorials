@@ -5,14 +5,7 @@ https://leetcode.com/problems/invert-binary-tree/
 ## Solutions
 
 ```go
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
+// O(n) time | O(1) space
 func invertTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return root

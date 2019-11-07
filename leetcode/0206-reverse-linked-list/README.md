@@ -5,6 +5,7 @@ https://leetcode.com/problems/reverse-linked-list/
 ## Solutions
 
 ```go
+// O(n) time | O(1) space
 func reverseList(head *ListNode) *ListNode {
 	if head == nil {
 		return head
