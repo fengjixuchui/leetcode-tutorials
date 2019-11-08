@@ -5,44 +5,37 @@ https://leetcode.com/problems/3sum/
 ## Solutions
 
 ```go
-// Example:
-// Input: [-1,0,2,1,2,-1,-4,-1]
-// Sorted: [-4,-1,-1,-1,0,1,2,2]
-
+// O(n^2) time | O(1) space
 func threeSum(nums []int) [][]int {
-    sort.Ints(nums)
+	sort.Ints(nums)
 
-    result := [][]int{}
+	result := [][]int{}
 
-    for i := 0; i < len(nums)-1; i++ {
-      // remove duplicates
-        if i > 0 && nums[i] == nums[i-1] {
-            continue
-        }
-        j := i + 1
-        k := len(nums) - 1
-        for j < k {
-            b := nums[j]
-            c := nums[k]
-            if nums[i]+b+c > 0 {
-                k--
-            } else if nums[i]+b+c < 0 {
-                j++
-            } else {
-                result = append(result, []int{nums[i], b, c})
-                // remove duplicates
-                for j < k && nums[j] == nums[j+1] {
-                    j++
-                }
-                // remove duplicates
-                for j < k && nums[k] == nums[k-1] {
-                    k--
-                }
-                j++
-                k--
-            }
-        }
-    }
-    return result
+	for i := 0; i <= len(nums)-3; i++ {
+		if i == 0 || nums[i] != nums[i-1] {
+			left := i + 1
+			right := len(nums) - 1
+
+			for left < right {
+				if nums[i]+nums[left]+nums[right] == 0 {
+					result = append(result, []int{nums[i], nums[left], nums[right]})
+				}
+
+				if nums[i]+nums[left]+nums[right] < 0 {
+					currentLeft := left
+					for nums[left] == nums[currentLeft] && left < right {
+						left++
+					}
+				} else {
+					currentRight := right
+					for nums[right] == nums[currentRight] && left < right {
+						right--
+					}
+				}
+			}
+		}
+	}
+
+	return result
 }
 ```

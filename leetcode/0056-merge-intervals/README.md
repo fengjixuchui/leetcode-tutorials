@@ -5,34 +5,33 @@ https://leetcode.com/problems/merge-intervals/
 ## Solutions
 
 ```go
-func merge(intervals []Interval) []Interval {
-	if len(intervals) == 0 {
-		return nil
+// O(nlogn) time | O(1) space
+func merge(intervals [][]int) [][]int {
+	if len(intervals) < 2 {
+		return intervals
 	}
 
+	// sorting: O(nlogn)
 	sort.Slice(intervals, func(i, j int) bool {
-		return intervals[i].Start < intervals[j].Start
+		return intervals[i][0] < intervals[j][0]
 	})
 
-	var result []Interval
-	cur := intervals[0]
+	result := [][]int{intervals[0]}
+
 	for i := 1; i < len(intervals); i++ {
-		check := intervals[i]
-		if cur.End >= check.Start {
-			cur.End = max(cur.End, check.End)
+		lastI := result[len(result)-1]
+		// lastI[1] > intervals[i][0] means that there's an overlap.
+		if lastI[1] >= intervals[i][0] {
+			if lastI[1] > intervals[i][1] {
+				continue
+			} else {
+				lastI[1] = intervals[i][1]
+			}
 		} else {
-			result = append(result, cur)
-			cur = check
+			result = append(result, intervals[i])
 		}
 	}
-	result = append(result, cur)
-	return result
-}
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
+	return result
 }
 ```

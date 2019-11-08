@@ -5,31 +5,28 @@ https://leetcode.com/problems/group-anagrams/
 ## Solutions
 
 ```go
-package leetcode
-
-import (
-	"sort"
-	"strings"
-)
-
-func SortString(w string) string {
-	s := strings.Split(w, "")
-	sort.Strings(s)
-	return strings.Join(s, "")
-}
-
+// O(n * nlogn) time | O(n) space
 func groupAnagrams(strs []string) [][]string {
-	m := make(map[string][]string)
-
-	for _, w := range strs {
-		word := SortString(w)
-		m[word] = append(m[word], w)
+	if len(strs) == 0 {
+		return [][]string{}
 	}
 
-	var ss [][]string
-	for _, value := range m {
-		ss = append(ss, value)
+	bucket := map[string][]string{}
+
+	for _, str := range strs {
+		b := []byte(str)
+		sort.Slice(b, func(i, j int) bool {
+			return b[i] < b[j]
+		})
+		key := string(b)
+		bucket[key] = append(bucket[key], str)
 	}
-	return ss
+
+	result := [][]string{}
+	for _, v := range bucket {
+		result = append(result, v)
+	}
+
+	return result
 }
 ```
