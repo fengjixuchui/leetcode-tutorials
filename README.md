@@ -26,8 +26,8 @@
 - [x] [3Sum](./leetcode/0015-3Sum) ⭐
 - [x] [Merge Intervals](./leetcode/0056-merge-intervals) ⭐
 - [x] [Group Anagrams](./leetcode/0049-group-anagrams) ⭐
-- [ ] Maximum Product Subarray
-- [ ] Search in Rotated Sorted Array
+- [x] [Maximum Product Subarray](./leetcode/0152-maximum-product-subarray) ⭐
+- [x] [Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array) ⭐
 
 ### Week 2 - Data Structures
 

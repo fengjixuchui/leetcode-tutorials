@@ -6,21 +6,20 @@ https://leetcode.com/problems/search-in-rotated-sorted-array/
 
 ```go
 func search(nums []int, target int) int {
-	if nums == nil || len(nums) == 0 {
+	if len(nums) == 0 {
 		return -1
 	}
 
 	l, r := 0, len(nums)-1
 
-	for l <= r {
+	for l+1 < r {
 		m := l + (r-l)/2
 
 		if nums[m] == target {
 			return m
 		}
-
-		// Right Sorted
-		if nums[m] < nums[l] {
+		// Right sorted
+		if nums[m] < nums[r] {
 			if nums[m] < target && target <= nums[r] {
 				l = m + 1
 			} else {
@@ -35,6 +34,12 @@ func search(nums []int, target int) int {
 		}
 	}
 
-	return -1
+	if nums[l] == target {
+		return l
+	} else if nums[r] == target {
+		return r
+	} else {
+		return -1
+	}
 }
 ```

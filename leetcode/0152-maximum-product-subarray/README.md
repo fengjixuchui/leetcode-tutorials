@@ -5,6 +5,7 @@ https://leetcode.com/problems/maximum-product-subarray/
 ## Solutions
 
 ```go
+// O(n) time | O(1) space
 func maxProduct(nums []int) int {
 	currMax, currMin, max := nums[0], nums[0], nums[0]
 
