@@ -47,15 +47,15 @@
 
 - [x] [Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree) ⭐
 - [x] [Invert/Flip Binary Tree](./leetcode/0226-invert-binary-tree)
-- [ ] Non-overlapping Intervals
+- [x] [Non-overlapping Intervals](./leetcode/0435-non-overlapping-intervals) ⭐
 - [ ] Serialize and Deserialize Binary Tree
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] Top K Frequent Elements
 - [ ] Clone Graph
 - [ ] Course Schedule
 - [ ] Binary Tree Maximum Path Sum
-- [ ] Maximum Depth of Binary Tree
-- [ ] Same Tree
+- [x] [Maximum Depth of Binary Tree](leetcode/0104-maximum-depth-of-binary-tree) ⭐
+- [x] [Same Tree](./leetcode/0100-same-tree)
 - [ ] Binary Tree Level Order Traversal
 
 ### Week 4 - More Data Structures
