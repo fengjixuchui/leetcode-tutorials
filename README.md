@@ -50,13 +50,13 @@
 - [x] [Non-overlapping Intervals](./leetcode/0435-non-overlapping-intervals) ⭐
 - [ ] Serialize and Deserialize Binary Tree
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
-- [ ] Top K Frequent Elements
+- [x] [Top K Frequent Elements](./leetcode/0347-top-k-frequent-elements) ⭐
 - [ ] Clone Graph
 - [ ] Course Schedule
 - [ ] Binary Tree Maximum Path Sum
 - [x] [Maximum Depth of Binary Tree](leetcode/0104-maximum-depth-of-binary-tree) ⭐
 - [x] [Same Tree](./leetcode/0100-same-tree)
-- [ ] Binary Tree Level Order Traversal
+- [x] [Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal) ⭐
 
 ### Week 4 - More Data Structures
 
@@ -64,7 +64,7 @@
 - [ ] Implement Trie (Prefix Tree)
 - [ ] Subtree of Another Tree
 - [ ] Kth Smallest Element in a BST
-- [ ] Lowest Common Ancestor of BST
+- [x] [Lowest Common Ancestor of BST](./leetcode/0236-lowest-common-ancestor-of-a-binary-tree) ⭐
 - [ ] Merge K Sorted Lists
 - [ ] Find Median from Data Stream
 - [ ] Insert Interval

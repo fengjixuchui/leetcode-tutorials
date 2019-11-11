@@ -11,26 +11,24 @@ func levelOrder(root *TreeNode) [][]int {
 		return [][]int{}
 	}
 
-	stack := []*TreeNode{root}
+	queue := []*TreeNode{root}
 	result := [][]int{}
 
-	for len(stack) != 0 {
-		curLevel := []int{}
-		nextLevel := []*TreeNode{}
-		for len(stack) != 0 {
-			node := stack[0]
-			stack = stack[1:]
-			curLevel = append(curLevel, node.Val)
+	for len(queue) != 0 {
+		currentLevel := []int{}
+		size := len(queue)
+		for i := 0; i < size; i++ {
+			node := queue[0]
+			queue = queue[1:]
+			currentLevel = append(currentLevel, node.Val)
 			if node.Left != nil {
-				nextLevel = append(nextLevel, node.Left)
+				queue = append(queue, node.Left)
 			}
 			if node.Right != nil {
-				nextLevel = append(nextLevel, node.Right)
+				queue = append(queue, node.Right)
 			}
-
 		}
-		result = append(result, curLevel)
-		stack = nextLevel
+		result = append(result, currentLevel)
 	}
 
 	return result
