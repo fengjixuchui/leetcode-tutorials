@@ -5,6 +5,7 @@ https://leetcode.com/problems/decode-ways/
 ## Solutions
 
 ```go
+// O(n) time | O(n) space
 func isValidTwoDigit(a, b byte) bool {
 	return (a == '1' && b <= '9') || (a == '2' && b <= '6')
 }

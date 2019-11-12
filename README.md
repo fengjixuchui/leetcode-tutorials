@@ -75,15 +75,15 @@
 ### Week 5 - Dynamic Programming
 
 - [x] [Climbing Stairs](./leetcode/0070-climbing-stairs)
-- [ ] Coin Change
-- [ ] Longest Increasing Subsequence
+- [x] [Coin Change](./leetcode/0322-coin-change) ⭐
+- [x] [Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence) ⭐
 - [ ] Combination Sum
 - [x] [House Robber](./leetcode/0198-house-robber)
-- [ ] House Robber II
-- [ ] Decode Ways
-- [ ] Unique Paths
-- [ ] Jump Game
-- [ ] Word Break Problem
+- [x] [House Robber II](./leetcode/0213-house-robber-ii) ⭐
+- [x] [Decode Ways](./leetcode/0091-decode-ways) ⭐
+- [x] [Unique Paths](./leetcode/0062-unique-paths)
+- [x] [Jump Game](./leetcode/0055-jump-game) ⭐
+- [x] [Word Break Problem](./leetcode/0139-word-break) ⭐
 
 <!--  -->
 
@@ -115,27 +115,30 @@
 24. - [ ] Balanced Binary Tree
 25. - [ ] Binary Search Tree Verification
 26. - [ ] Smallest Change
-27. - [ ] Inorder Traversal 28. Sort Stacks
-28. - [ ] Stacks from Queues 30. Palindromes
-29. - [ ] Max Stacks
-30. - [ ] Two Missing Numbers
-31. - [ ] Big Int Modules
-32. - [ ] Swap Variables
-33. - [ ] Gray Code
-34. - [ ] Rotate Bits
-35. - [ ] Number of Ones In a Binary
-36. - [ ] Linked List Cycles
-37. - [ ] Random Linked List
-38. - [ ] Dedup Linked List
-39. - [ ] Split a Linked List
-40. - [ ] Nth to the Last Element
-41. - [ ] Three Sum
-42. - [ ] Tree Level Order
-43. - [ ] Autocomplete
-44. - [ ] String Deletion
-45. - [ ] Longest Common Substring 48. String Compression
-46. - [ ] Fibonacci Number
-47. - [ ] Priority Queue
-48. - [ ] Kth Most Frequent String
+27. - [ ] Inorder Traversal
+28. - [ ] Sort Stacks
+29. - [ ] Stacks from Queues
+30. - [ ] Palindromes
+31. - [ ] Max Stacks
+32. - [ ] Two Missing Numbers
+33. - [ ] Big Int Modules
+34. - [ ] Swap Variables
+35. - [ ] Gray Code
+36. - [ ] Rotate Bits
+37. - [ ] Number of Ones In a Binary
+38. - [ ] Linked List Cycles
+39. - [ ] Random Linked List
+40. - [ ] Dedup Linked List
+41. - [ ] Split a Linked List
+42. - [ ] Nth to the Last Element
+43. - [ ] Three Sum
+44. - [ ] Tree Level Order
+45. - [ ] Autocomplete
+46. - [ ] String Deletion
+47. - [ ] Longest Common Substring
+48. - [ ] String Compression
+49. - [ ] Fibonacci Number
+50. - [ ] Priority Queue
+51. - [ ] Kth Most Frequent String
 
 <!--  -->

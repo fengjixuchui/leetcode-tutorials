@@ -5,33 +5,38 @@ https://leetcode.com/problems/longest-increasing-subsequence/
 ## Solutions
 
 ```go
+// O(n^2) time | O(n) space
 func lengthOfLIS(nums []int) int {
 	if nums == nil || len(nums) == 0 {
 		return 0
 	}
 
-	n, max := len(nums), 1
+	n, maxLen := len(nums), 1
 	d := make([]int, n)
 	d[0] = 1
 
 	for i := 1; i < n; i++ {
+		len := 1
 		for j := 0; j < i; j++ {
-			cur := 1
 			if nums[i] > nums[j] {
-				cur = d[j] + 1
+				len = max(len, d[j]+1)
 			}
-			d[i] = Max(d[i], cur)
 		}
-		max = Max(max, d[i])
+		d[i] = len
+		maxLen = max(maxLen, d[i])
 	}
 
-	return max
+	return maxLen
 }
 
-func Max(a, b int) int {
+func max(a, b int) int {
 	if a > b {
 		return a
 	}
 	return b
 }
 ```
+
+## Tutorials
+
+- https://www.youtube.com/watch?v=fV-TF4OvZpk

@@ -5,26 +5,24 @@ https://leetcode.com/problems/jump-game/
 ## Solutions
 
 ```go
+// O(n) time | O(1) space
 func canJump(nums []int) bool {
 	if nums == nil || len(nums) == 0 {
 		return false
 	}
 
-	n, max := len(nums), 0
-	for i := 0; i < n; i++ {
-		if i > max {
+	maxIdx := 0
+	for i := 0; i < len(nums); i++ {
+		if i > maxIdx {
 			return false
 		}
-		if max >= n-1 {
-			return true
-		}
-		max = Max(max, i+nums[i])
+		maxIdx = max(maxIdx, i+nums[i])
 	}
 
-	return false
+	return true
 }
 
-func Max(a, b int) int {
+func max(a, b int) int {
 	if a > b {
 		return a
 	}
