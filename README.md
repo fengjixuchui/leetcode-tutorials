@@ -35,13 +35,13 @@
 - [x] [Detect Cycle in a Linked List](./leetcode/0141-linked-list-cycle)
 - [x] [Container With Most Water](./leetcode/0011-container-with-most-water)
 - [x] [Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array) ⭐
-- [ ] Longest Repeating Character Replacement
+- [x] [Longest Repeating Character Replacement](./leetcode/0424-longest-repeating-character-replacement) ⭐
 - [x] [Longest Substring Without Repeating Characters](./leetcode/0003-longest-substring-without-repeating-characters) ⭐
-- [ ] Minimum Window Substring
+- [x] [Minimum Window Substring](./leetcode/0076-minimum-window-substring) ⭐
 - [x] [Number of Islands](./leetcode/0200-number-of-islands) ⭐
 - [x] [Remove Nth Node From End Of List](./leetcode/0019-remove-nth-node-from-end-of-list) ⭐
-- [ ] Palindromic Substrings
-- [ ] Pacific Atlantic Water Flow
+- [x] [Palindromic Substrings](./leetcode/0647-palindromic-substrings) ⭐
+- [x] [Pacific Atlantic Water Flow](./leetcode/0417-pacific-atlantic-water-flow) ⭐
 
 ### Week 3 - Non-Linear Data Structures
 
@@ -49,7 +49,7 @@
 - [x] [Invert/Flip Binary Tree](./leetcode/0226-invert-binary-tree)
 - [x] [Non-overlapping Intervals](./leetcode/0435-non-overlapping-intervals) ⭐
 - [ ] Serialize and Deserialize Binary Tree
-- [ ] Construct Binary Tree from Preorder and Inorder Traversal
+- [x] [Construct Binary Tree from Preorder and Inorder Traversal](./leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal) ⭐
 - [x] [Top K Frequent Elements](./leetcode/0347-top-k-frequent-elements) ⭐
 - [ ] Clone Graph
 - [ ] Course Schedule

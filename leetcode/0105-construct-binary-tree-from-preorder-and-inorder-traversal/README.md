@@ -5,6 +5,7 @@ https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-tr
 ## Solutions
 
 ```go
+// Time: O(n) Space: O(n)
 func buildTreeHelper(pre []int, preStart int, preEnd int, inStart int, inPos map[int]int) *TreeNode {
 	if preStart > preEnd {
 		return nil
@@ -27,3 +28,7 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	return buildTreeHelper(preorder, 0, len(preorder)-1, 0, inPos)
 }
 ```
+
+## Tutorals
+
+- https://www.youtube.com/watch?v=PoBGyrIWisE

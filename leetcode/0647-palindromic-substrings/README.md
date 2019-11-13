@@ -5,6 +5,7 @@ https://leetcode.com/problems/palindromic-substrings/
 ## Solutions
 
 ```go
+// O(n^2) time | O(n^2) space
 func countSubstrings(s string) int {
 	if len(s) == 0 {
 		return 0
@@ -34,3 +35,7 @@ func countSubstrings(s string) int {
 	return count
 }
 ```
+
+## Tutorials
+
+- https://algocasts.io/episodes/dbGY2p5V
