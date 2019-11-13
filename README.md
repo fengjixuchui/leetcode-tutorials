@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+- [Tips](#tips)
 - [Best Practice Questions](#best-practice-questions)
     - [Week 1 - Sequences](#week-1---sequences)
     - [Week 2 - Data Structures](#week-2---data-structures)
@@ -9,6 +10,13 @@
     - [Week 4 - More Data Structures](#week-4---more-data-structures)
     - [Week 5 - Dynamic Programming](#week-5---dynamic-programming)
 - [50 Interview Quesitons (Byte by Byte)](#50-interview-quesitons-byte-by-byte)
+
+<!--  -->
+
+## Tips
+
+1. Speaking out loud while coding.
+2. Make videos and upload to YouTube.
 
 <!--  -->
 
@@ -48,20 +56,18 @@
 - [x] [Validate Binary Search Tree](./leetcode/0098-validate-binary-search-tree) ⭐
 - [x] [Invert/Flip Binary Tree](./leetcode/0226-invert-binary-tree)
 - [x] [Non-overlapping Intervals](./leetcode/0435-non-overlapping-intervals) ⭐
-- [ ] Serialize and Deserialize Binary Tree
 - [x] [Construct Binary Tree from Preorder and Inorder Traversal](./leetcode/0105-construct-binary-tree-from-preorder-and-inorder-traversal) ⭐
 - [x] [Top K Frequent Elements](./leetcode/0347-top-k-frequent-elements) ⭐
-- [ ] Clone Graph
-- [ ] Course Schedule
-- [ ] Binary Tree Maximum Path Sum
+- [x] [Course Schedule](./leetcode/0207-course-schedule) ⭐
+- [x] [Binary Tree Maximum Path Sum](./leetcode/124-binary-tree-maximum-path-sum) ⭐
 - [x] [Maximum Depth of Binary Tree](leetcode/0104-maximum-depth-of-binary-tree) ⭐
 - [x] [Same Tree](./leetcode/0100-same-tree)
 - [x] [Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal) ⭐
 
 ### Week 4 - More Data Structures
 
-- [ ] Add and Search Word
-- [ ] Implement Trie (Prefix Tree)
+- [x] [Add and Search Word](./leetcode/0211-add-and-search-word) ⭐
+- [x] [Implement Trie (Prefix Tree)](./leetcode/0208-implement-trie-prefix-tree) ⭐
 - [ ] Subtree of Another Tree
 - [ ] Kth Smallest Element in a BST
 - [x] [Lowest Common Ancestor of BST](./leetcode/0236-lowest-common-ancestor-of-a-binary-tree) ⭐
@@ -70,7 +76,6 @@
 - [ ] Insert Interval
 - [ ] Longest Consecutive Sequence
 - [ ] Word Search II
-- [ ] Number of Connected Components in an Undirected Graph (LeetCode Premium)
 
 ### Week 5 - Dynamic Programming
 

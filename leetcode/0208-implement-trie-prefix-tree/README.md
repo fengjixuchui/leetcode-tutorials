@@ -6,65 +6,60 @@ https://leetcode.com/problems/implement-trie-prefix-tree/
 
 ```go
 type Node struct {
-	isWord   bool
-	children map[string]*Node
+	val      byte
+	children []*Node
+	isEnd    bool
 }
 
 type Trie struct {
 	root *Node
 }
 
-func getNode() *Node {
-	return &Node{children: make(map[string]*Node)}
-}
-
-/** Initialize your data structure here. */
 func Constructor() Trie {
-	return Trie{getNode()}
+	return Trie{
+		root: &Node{
+			children: make([]*Node, 26),
+		},
+	}
 }
 
-/** Inserts a word into the trie. */
 func (this *Trie) Insert(word string) {
 	cur := this.root
-
-	for _, w := range []rune(word) {
-		c := string(w)
-		if cur.children[c] == nil {
-			cur.children[c] = getNode()
+	for i := 0; i < len(word); i++ {
+		if cur.children[word[i]-'a'] == nil {
+			cur.children[word[i]-'a'] = &Node{
+				val:      word[i],
+				children: make([]*Node, 26),
+			}
 		}
-		cur = cur.children[c]
+		cur = cur.children[word[i]-'a']
 	}
-
-	cur.isWord = true
+	cur.isEnd = true
 }
 
-/** Returns if the word is in the trie. */
 func (this *Trie) Search(word string) bool {
 	cur := this.root
-
-	for _, w := range []rune(word) {
-		c := string(w)
-		if cur.children[c] == nil {
+	for i := 0; i < len(word); i++ {
+		if cur.children[word[i]-'a'] == nil {
 			return false
 		}
-		cur = cur.children[c]
+		cur = cur.children[word[i]-'a']
 	}
-
-	return cur.isWord
+	return cur.isEnd
 }
 
-/** Returns if there is any word in the trie that starts with the given prefix. */
 func (this *Trie) StartsWith(prefix string) bool {
 	cur := this.root
-
-	for _, w := range []rune(prefix) {
-		c := string(w)
-		if cur.children[c] == nil {
+	for i := 0; i < len(prefix); i++ {
+		if cur.children[prefix[i]-'a'] == nil {
 			return false
 		}
-		cur = cur.children[c]
+		cur = cur.children[prefix[i]-'a']
 	}
-
 	return true
 }
 ```
+
+### Tutorials
+
+- https://www.youtube.com/watch?v=pkaooVBexeU
