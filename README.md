@@ -68,10 +68,10 @@
 
 - [x] [Add and Search Word](./leetcode/0211-add-and-search-word) ⭐
 - [x] [Implement Trie (Prefix Tree)](./leetcode/0208-implement-trie-prefix-tree) ⭐
-- [ ] Subtree of Another Tree
-- [ ] Kth Smallest Element in a BST
+- [x] [Subtree of Another Tree](./leetcode/0572-subtree-of-another-tree) ⭐
+- [x] [Kth Smallest Element in a BST](./leetcode/0230-kth-smallest-element-in-a-bst) ⭐
 - [x] [Lowest Common Ancestor of BST](./leetcode/0236-lowest-common-ancestor-of-a-binary-tree) ⭐
-- [ ] Merge K Sorted Lists
+- [x] [Merge K Sorted Lists](./leetcode/0023-merge-k-sorted-lists) ⭐
 - [ ] Find Median from Data Stream
 - [ ] Insert Interval
 - [ ] Longest Consecutive Sequence
