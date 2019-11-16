@@ -72,17 +72,17 @@
 - [x] [Kth Smallest Element in a BST](./leetcode/0230-kth-smallest-element-in-a-bst) ⭐
 - [x] [Lowest Common Ancestor of BST](./leetcode/0236-lowest-common-ancestor-of-a-binary-tree) ⭐
 - [x] [Merge K Sorted Lists](./leetcode/0023-merge-k-sorted-lists) ⭐
-- [ ] Find Median from Data Stream
-- [ ] Insert Interval
-- [ ] Longest Consecutive Sequence
-- [ ] Word Search II
+- [x] [Find Median from Data Stream](./leetcode/0295-find-median-from-data-stream) ⭐
+- [x] [Insert Interval](./leetcode/0057-insert-interval) ⭐
+- [x] [Longest Consecutive Sequence](./leetcode/0128-longest-consecutive-sequence) ⭐
+- [x] [Word Search II](./leetcode/0212-word-search-II) ⭐
 
 ### Week 5 - Dynamic Programming
 
 - [x] [Climbing Stairs](./leetcode/0070-climbing-stairs)
 - [x] [Coin Change](./leetcode/0322-coin-change) ⭐
 - [x] [Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence) ⭐
-- [ ] Combination Sum
+- [x] [Combination Sum](./leetcode/0377-combination-sum-IV) ⭐
 - [x] [House Robber](./leetcode/0198-house-robber)
 - [x] [House Robber II](./leetcode/0213-house-robber-ii) ⭐
 - [x] [Decode Ways](./leetcode/0091-decode-ways) ⭐
@@ -142,7 +142,7 @@
 46. - [ ] String Deletion
 47. - [ ] Longest Common Substring
 48. - [ ] String Compression
-49. - [ ] Fibonacci Number
+49. - [x] [Fibonacci Number](./leetcode/0509-fibonacci-number)
 50. - [ ] Priority Queue
 51. - [ ] Kth Most Frequent String
 

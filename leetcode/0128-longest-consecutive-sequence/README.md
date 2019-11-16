@@ -5,32 +5,27 @@ https://leetcode.com/problems/longest-consecutive-sequence/
 ## Solutions
 
 ```go
-import "sort"
-
+// O(n) time | O(n) space
 func longestConsecutive(nums []int) int {
-	if nums == nil || len(nums) == 0 {
-		return 0
+	set := make(map[int]bool)
+
+	for _, num := range nums {
+		set[num] = true
 	}
 
-	sort.Ints(nums)
-	max, p := 0, 0
+	maxLen := 0
 
-	for p < len(nums) {
-		count := 1
-		for p < len(nums)-1 {
-			if nums[p+1]-nums[p] > 1 {
-				break
+	for low := range set {
+		if !set[low-1] {
+			high := low + 1
+			for set[high] {
+				high++
 			}
-			if nums[p+1]-nums[p] == 1 {
-				count++
-			}
-			p++
+			maxLen = Max(maxLen, high-low)
 		}
-		max = Max(max, count)
-		p++
 	}
 
-	return max
+	return maxLen
 }
 
 func Max(a, b int) int {
@@ -40,3 +35,7 @@ func Max(a, b int) int {
 	return b
 }
 ```
+
+## Tutorials
+
+- https://www.youtube.com/watch?v=02aLxHJDgsA
