@@ -31,8 +31,8 @@
 - [x] [Valid Parentheses](./leetcode/0020-valid-parentheses)
 - [x] [Product of Array Except Self](./leetcode/0238-product-of-array-except-self)
 - [x] [Maximum Subarray](./leetcode/0053-maximum-subarray)
-- [x] [3Sum](./leetcode/0015-3Sum) ⭐
-- [x] [Merge Intervals](./leetcode/0056-merge-intervals) ⭐
+- [x] [3Sum](./leetcode/0015-3Sum)
+- [x] [Merge Intervals](./leetcode/0056-merge-intervals)
 - [x] [Group Anagrams](./leetcode/0049-group-anagrams) ⭐
 - [x] [Maximum Product Subarray](./leetcode/0152-maximum-product-subarray) ⭐
 - [x] [Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array) ⭐
@@ -97,7 +97,7 @@
 1. - [ ] Median of Arrays
 2. - [ ] 0-1 Knapsack
 3. - [ ] Matrix Product
-4. - [ ] Find Duplicates
+4. - [x] [Find Duplicates](./leetcode/0442-find-all-duplicates-in-an-array) ⭐
 5. - [ ] Consecutive Array
 6. - [ ] Zero Matrix
 7. - [ ] Square Submatrix
@@ -107,7 +107,7 @@
 11. - [ ] Zero Sum Subarray
 12. - [ ] Permutations
 13. - [ ] N Stacks
-14. - [ ] Anagrams
+14. - [x] [Anagrams](./leetcode/0242-valid-anagram)
 15. - [ ] Build Order
 16. - [ ] Shortest Path
 17. - [ ] Random Binary Tree
@@ -118,12 +118,12 @@
 22. - [ ] Longest Consecutive Branch
 23. - [ ] Print Reversed Linked List
 24. - [ ] Balanced Binary Tree
-25. - [ ] Binary Search Tree Verification
+25. - [x] [Binary Search Tree Verification](./leetcode/0098-validate-binary-search-tree) ⭐
 26. - [ ] Smallest Change
-27. - [ ] Inorder Traversal
+27. - [x] [Inorder Traversal](./leetcode/0094-binary-tree-inorder-traversal)
 28. - [ ] Sort Stacks
 29. - [ ] Stacks from Queues
-30. - [ ] Palindromes
+30. - [x] [Palindromes](./leetcode/0125-valid-palindrome) ⭐
 31. - [ ] Max Stacks
 32. - [ ] Two Missing Numbers
 33. - [ ] Big Int Modules
@@ -131,12 +131,12 @@
 35. - [ ] Gray Code
 36. - [ ] Rotate Bits
 37. - [ ] Number of Ones In a Binary
-38. - [ ] Linked List Cycles
+38. - [x] [Linked List Cycles](./leetcode/0141-linked-list-cycle)
 39. - [ ] Random Linked List
 40. - [ ] Dedup Linked List
 41. - [ ] Split a Linked List
 42. - [ ] Nth to the Last Element
-43. - [ ] Three Sum
+43. - [x] [Three Sum](./leetcode/0015-3Sum)
 44. - [ ] Tree Level Order
 45. - [ ] Autocomplete
 46. - [ ] String Deletion

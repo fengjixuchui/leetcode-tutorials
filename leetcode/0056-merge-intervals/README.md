@@ -7,31 +7,34 @@ https://leetcode.com/problems/merge-intervals/
 ```go
 // O(nlogn) time | O(1) space
 func merge(intervals [][]int) [][]int {
-	if len(intervals) < 2 {
-		return intervals
+	res := [][]int{}
+
+	if intervals == nil || len(intervals) == 0 {
+		return res
 	}
 
-	// sorting: O(nlogn)
 	sort.Slice(intervals, func(i, j int) bool {
 		return intervals[i][0] < intervals[j][0]
 	})
 
-	result := [][]int{intervals[0]}
+	res = append(res, intervals[0])
 
 	for i := 1; i < len(intervals); i++ {
-		lastI := result[len(result)-1]
-		// lastI[1] > intervals[i][0] means that there's an overlap.
-		if lastI[1] >= intervals[i][0] {
-			if lastI[1] > intervals[i][1] {
-				continue
-			} else {
-				lastI[1] = intervals[i][1]
-			}
+		last := res[len(res)-1]
+		if last[1] >= intervals[i][0] {
+			last[1] = max(last[1], intervals[i][1])
 		} else {
-			result = append(result, intervals[i])
+			res = append(res, intervals[i])
 		}
 	}
 
-	return result
+	return res
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 ```

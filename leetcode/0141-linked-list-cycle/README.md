@@ -4,8 +4,28 @@ https://leetcode.com/problems/linked-list-cycle/
 
 ## Solutions
 
+HashTable:
+
 ```go
-// O(n) time | O(1) space
+func hasCycle(head *ListNode) bool {
+	visited := map[*ListNode]bool{}
+
+	for head != nil {
+		if visited[head] {
+			return true
+		}
+		visited[head] = true
+		head = head.Next
+	}
+
+	return false
+}
+```
+
+Two Pointers:
+
+```go
+// Time: O(n), Space: O(1)
 func hasCycle(head *ListNode) bool {
 	if head == nil {
 		return false
@@ -14,11 +34,11 @@ func hasCycle(head *ListNode) bool {
 	slow, fast := head, head.Next
 
 	for fast != nil && fast.Next != nil {
-		if slow == fast {
-			return true
-		}
 		slow = slow.Next
 		fast = fast.Next.Next
+    if slow == fast {
+          return true
+    }
 	}
 
 	return false

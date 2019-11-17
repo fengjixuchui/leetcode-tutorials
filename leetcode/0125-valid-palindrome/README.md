@@ -5,27 +5,38 @@ https://leetcode.com/problems/valid-palindrome/
 ## Solutions
 
 ```go
-func isAlphaNum(c byte) bool {
-	return ('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z') || ('0' <= c && c <= '9')
-}
-
+// Time: O(n), Space: O(1)
 func isPalindrome(s string) bool {
-	left, right := 0, len(s)-1
+	if len(s) == 0 {
+		return true
+	}
 
-	for left < right {
-		for left < right && !isAlphaNum(s[left]) {
-			left++
+	s = strings.ToLower(s)
+
+	l, r := 0, len(s)-1
+
+	for l < r {
+		for l < r && !isValid(s[l]) {
+			l++
 		}
-		for left < right && !isAlphaNum(s[right]) {
-			right--
+		for l < r && !isValid(s[r]) {
+			r--
 		}
-		if strings.ToLower(string(s[left])) != strings.ToLower(string(s[right])) {
+		if s[l] != s[r] {
 			return false
 		}
-		left++
-		right--
+		l++
+		r--
 	}
 
 	return true
 }
+
+func isValid(char byte) bool {
+	return ('a' <= char && char <= 'z') || ('0' <= char && char <= '9')
+}
 ```
+
+## Tutorials
+
+- https://www.youtube.com/watch?v=3RQ5ADUKHsY

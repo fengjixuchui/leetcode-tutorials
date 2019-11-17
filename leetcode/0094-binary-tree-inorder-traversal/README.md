@@ -7,35 +7,50 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/
 ```go
 // Time: O(n), Space: O(n)
 func inorderTraversal(root *TreeNode) []int {
+	res := []int{}
+
+	if root == nil {
+		return res
+	}
+
 	stack := []*TreeNode{}
-	result := []int{}
 
 	for root != nil || len(stack) != 0 {
 		for root != nil {
 			stack = append(stack, root)
 			root = root.Left
 		}
-		root = stack[len(stack)-1]
+
+		last := stack[len(stack)-1]
 		stack = stack[:len(stack)-1]
-		result = append(result, root.Val)
-		root = root.Right
+		res = append(res, last.Val)
+
+		root = last.Right
 	}
 
-	return result
+	return res
 }
+```
 
+```go
 // Time: O(n), Space: O(n)
 func inorderTraversal(root *TreeNode) []int {
+	res := []int{}
+
 	if root == nil {
-		return []int{}
+		return res
 	}
+	dfs(root, &res)
 
-	result := []int{}
+	return res
+}
 
-	result = append(result, inorderTraversal(root.Left)...)
-	result = append(result, root.Val)
-	result = append(result, inorderTraversal(root.Right)...)
-
-	return result
+func dfs(root *TreeNode, res *[]int) {
+	if root == nil {
+		return
+	}
+	dfs(root.Left, res)
+	*res = append(*res, root.Val)
+	dfs(root.Right, res)
 }
 ```

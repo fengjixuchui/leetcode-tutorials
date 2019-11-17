@@ -7,16 +7,25 @@ https://leetcode.com/problems/validate-binary-search-tree/
 ```go
 // O(n) time | O(1) space
 func isValidBST(root *TreeNode) bool {
-	return valid(root, nil, nil)
-}
-
-func valid(root, max, min *TreeNode) bool {
 	if root == nil {
 		return true
 	}
-  if (max != nil && root.Val >= max.Val) || (min != nil && root.Val <= min.Val) {
+	return isValid(root, nil, nil)
+}
+
+func isValid(root, upperBound, lowerBound *TreeNode) bool {
+	if root == nil {
+		return true
+	}
+
+	if (upperBound != nil && root.Val >= upperBound.Val) || (lowerBound != nil && root.Val <= lowerBound.Val) {
 		return false
 	}
-	return valid(root.Left, root, min) && valid(root.Right, max, root)
+
+	return isValid(root.Left, root, lowerBound) && isValid(root.Right, upperBound, root)
 }
 ```
+
+## Tutorials
+
+- https://www.youtube.com/watch?v=ofuXorE-JKE

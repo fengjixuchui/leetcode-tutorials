@@ -11,22 +11,15 @@ func isAnagram(s string, t string) bool {
 		return false
 	}
 
-	runeCount := make(map[rune]int)
+	counts := make([]byte, 26)
 
-	for _, r := range s {
-		runeCount[r]++
+	for i := 0; i < len(s); i++ {
+		counts[s[i]-'a']++
+		counts[t[i]-'a']--
 	}
 
-	for _, r := range t {
-		count, ok := runeCount[r]
-		if count == 0 || !ok {
-			return false
-		}
-		runeCount[r]--
-	}
-
-	for _, value := range runeCount {
-		if value != 0 {
+	for _, count := range counts {
+		if count != 0 {
 			return false
 		}
 	}
