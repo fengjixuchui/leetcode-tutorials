@@ -7,30 +7,31 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/
 ```go
 // Time: O(n), Space: O(n)
 func levelOrder(root *TreeNode) [][]int {
+	res := [][]int{}
+
 	if root == nil {
-		return [][]int{}
+		return res
 	}
 
-	queue := []*TreeNode{root}
-	result := [][]int{}
+	q := []*TreeNode{root}
 
-	for len(queue) != 0 {
-		currentLevel := []int{}
-		size := len(queue)
-		for i := 0; i < size; i++ {
-			node := queue[0]
-			queue = queue[1:]
-			currentLevel = append(currentLevel, node.Val)
+	for len(q) != 0 {
+		length := len(q)
+		level := []int{}
+		for i := 0; i < length; i++ {
+			node := q[0]
+			q = q[1:]
+			level = append(level, node.Val)
 			if node.Left != nil {
-				queue = append(queue, node.Left)
+				q = append(q, node.Left)
 			}
 			if node.Right != nil {
-				queue = append(queue, node.Right)
+				q = append(q, node.Right)
 			}
 		}
-		result = append(result, currentLevel)
+		res = append(res, level)
 	}
 
-	return result
+	return res
 }
 ```

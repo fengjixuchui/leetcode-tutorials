@@ -33,7 +33,7 @@
 - [x] [Maximum Subarray](./leetcode/0053-maximum-subarray)
 - [x] [3Sum](./leetcode/0015-3Sum)
 - [x] [Merge Intervals](./leetcode/0056-merge-intervals)
-- [x] [Group Anagrams](./leetcode/0049-group-anagrams) ⭐
+- [x] [Group Anagrams](./leetcode/0049-group-anagrams)
 - [x] [Maximum Product Subarray](./leetcode/0152-maximum-product-subarray) ⭐
 - [x] [Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array) ⭐
 
@@ -62,7 +62,7 @@
 - [x] [Binary Tree Maximum Path Sum](./leetcode/124-binary-tree-maximum-path-sum) ⭐
 - [x] [Maximum Depth of Binary Tree](leetcode/0104-maximum-depth-of-binary-tree) ⭐
 - [x] [Same Tree](./leetcode/0100-same-tree)
-- [x] [Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal) ⭐
+- [x] [Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)
 
 ### Week 4 - More Data Structures
 
@@ -111,7 +111,7 @@
 15. - [ ] Build Order
 16. - [ ] Shortest Path
 17. - [ ] Random Binary Tree
-18. - [ ] Lowest Common Ancestor
+18. - [x] [Lowest Common Ancestor](./leetcode/0236-lowest-common-ancestor-of-a-binary-tree) ⭐
 19. - [ ] Sum
 20. - [ ] Reverse Stack
 21. - [ ] Tree to Doubly Linked List
@@ -137,7 +137,7 @@
 41. - [ ] Split a Linked List
 42. - [ ] Nth to the Last Element
 43. - [x] [Three Sum](./leetcode/0015-3Sum)
-44. - [ ] Tree Level Order
+44. - [x] [Tree Level Order](./leetcode/0102-binary-tree-level-order-traversal)
 45. - [ ] Autocomplete
 46. - [ ] String Deletion
 47. - [ ] Longest Common Substring
