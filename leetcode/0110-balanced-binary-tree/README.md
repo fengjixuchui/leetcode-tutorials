@@ -5,36 +5,44 @@ https://leetcode.com/problems/0110-balanced-binary-tree/
 ## Solutions
 
 ```go
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
+// Time: O(n), Space: O(1)
+func isBalanced(root *TreeNode) bool {
+	if root == nil {
+		return true
+	}
+	if getHeightAndCheck(root) == -1 {
+		return false
+	}
+	return true
+}
+
 func getHeightAndCheck(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
+
 	left := getHeightAndCheck(root.Left)
-	if left == -1 {
-		return -1
-	}
 	right := getHeightAndCheck(root.Right)
-	if right == -1 {
+
+	if left == -1 || right == -1 {
 		return -1
 	}
-	if int(math.Abs(float64(left-right))) > 1 {
+
+	if left-right > 1 || right-left > 1 {
 		return -1
 	}
-	if left > right {
-		return left + 1
-	}
-	return right + 1
+
+	return max(left, right) + 1
 }
 
-func isBalanced(root *TreeNode) bool {
-	return getHeightAndCheck(root) != -1
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 ```
+
+## Tutorials
+
+- https://www.youtube.com/watch?v=nOcFiGl5Vy4

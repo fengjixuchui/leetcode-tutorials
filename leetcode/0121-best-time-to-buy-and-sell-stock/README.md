@@ -5,24 +5,23 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 ## Solutions
 
 ```go
-// O(n) time | O(1) space
+// Time: O(n), Space: O(1)
 func maxProfit(prices []int) int {
-	if len(prices) == 0 {
-		return 0
+	if prices == nil || len(prices) == 0 {
+		return -1
 	}
 
-	var maxProfit int
-	buyPrice := prices[0]
+	maxProfit := 0
+	lowest := prices[0]
 
 	for i := 1; i < len(prices); i++ {
-		potentialSellPrice := prices[i]
-		if potentialSellPrice > buyPrice {
-			profit := potentialSellPrice - buyPrice
+		if prices[i] > lowest {
+			profit := prices[i] - lowest
 			if profit > maxProfit {
 				maxProfit = profit
 			}
 		} else {
-			buyPrice = potentialSellPrice
+			lowest = prices[i]
 		}
 	}
 

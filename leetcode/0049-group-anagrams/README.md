@@ -5,7 +5,7 @@ https://leetcode.com/problems/group-anagrams/
 ## Solutions
 
 ```go
-// O(n * nlogn) time | O(n) space
+// Time: O(n * nlongn), Space: O(n)
 func groupAnagrams(strs []string) [][]string {
 	res := [][]string{}
 

@@ -5,7 +5,7 @@ https://leetcode.com/problems/validate-binary-search-tree/
 ## Solutions
 
 ```go
-// O(n) time | O(1) space
+// Time: O(n), Space: O(1)
 func isValidBST(root *TreeNode) bool {
 	if root == nil {
 		return true

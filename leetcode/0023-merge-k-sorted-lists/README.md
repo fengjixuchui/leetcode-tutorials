@@ -5,7 +5,7 @@ https://leetcode.com/problems/merge-k-sorted-lists/
 ## Solutions
 
 ```go
-// O(m*n*lon(m*n)) time | O(m*n) space
+// Time: O(m*n*lon(m*n)), Space: O(m*n)
 func mergeKLists(lists []*ListNode) *ListNode {
 	if lists == nil || len(lists) == 0 {
 		return nil

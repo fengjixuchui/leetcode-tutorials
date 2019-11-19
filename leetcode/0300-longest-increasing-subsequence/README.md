@@ -5,7 +5,7 @@ https://leetcode.com/problems/longest-increasing-subsequence/
 ## Solutions
 
 ```go
-// O(n^2) time | O(n) space
+// Time: O(n^2), Space: O(1)
 func lengthOfLIS(nums []int) int {
 	if nums == nil || len(nums) == 0 {
 		return 0

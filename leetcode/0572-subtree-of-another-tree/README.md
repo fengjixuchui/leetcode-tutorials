@@ -5,7 +5,7 @@ https://leetcode.com/problems/subtree-of-another-tree/
 ## Solutions
 
 ```go
-// O(n) time | O(1) space
+// Time: O(n), Space: O(1)
 func isSubtree(s *TreeNode, t *TreeNode) bool {
 	if s == nil {
 		return false

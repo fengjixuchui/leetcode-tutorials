@@ -99,51 +99,52 @@
 3. - [ ] Matrix Product
 4. - [x] [Find Duplicates](./leetcode/0442-find-all-duplicates-in-an-array) ⭐
 5. - [ ] Consecutive Array
-6. - [ ] Zero Matrix
+6. - [x] [Zero Matrix](./leetcode/0073-set-matrix-zeroes) ⭐
 7. - [ ] Square Submatrix
 8. - [ ] Merge K Arrays
-9. - [ ] Matrix Search
-10. - [ ] Merge Arrays
-11. - [ ] Zero Sum Subarray
-12. - [ ] Permutations
-13. - [ ] N Stacks
-14. - [x] [Anagrams](./leetcode/0242-valid-anagram)
-15. - [ ] Build Order
-16. - [ ] Shortest Path
-17. - [ ] Random Binary Tree
-18. - [x] [Lowest Common Ancestor](./leetcode/0236-lowest-common-ancestor-of-a-binary-tree) ⭐
-19. - [ ] Sum
-20. - [ ] Reverse Stack
-21. - [ ] Tree to Doubly Linked List
-22. - [ ] Longest Consecutive Branch
-23. - [ ] Print Reversed Linked List
-24. - [ ] Balanced Binary Tree
-25. - [x] [Binary Search Tree Verification](./leetcode/0098-validate-binary-search-tree) ⭐
-26. - [ ] Smallest Change
-27. - [x] [Inorder Traversal](./leetcode/0094-binary-tree-inorder-traversal)
-28. - [ ] Sort Stacks
-29. - [ ] Stacks from Queues
-30. - [x] [Palindromes](./leetcode/0125-valid-palindrome) ⭐
-31. - [ ] Max Stacks
-32. - [ ] Two Missing Numbers
-33. - [ ] Big Int Modules
-34. - [ ] Swap Variables
-35. - [ ] Gray Code
-36. - [ ] Rotate Bits
-37. - [ ] Number of Ones In a Binary
-38. - [x] [Linked List Cycles](./leetcode/0141-linked-list-cycle)
-39. - [ ] Random Linked List
-40. - [ ] Dedup Linked List
-41. - [ ] Split a Linked List
-42. - [ ] Nth to the Last Element
-43. - [x] [Three Sum](./leetcode/0015-3Sum)
-44. - [x] [Tree Level Order](./leetcode/0102-binary-tree-level-order-traversal)
-45. - [ ] Autocomplete
-46. - [ ] String Deletion
-47. - [ ] Longest Common Substring
-48. - [ ] String Compression
-49. - [x] [Fibonacci Number](./leetcode/0509-fibonacci-number)
-50. - [ ] Priority Queue
-51. - [ ] Kth Most Frequent String
+9. - [x] [Matrix Search](./leetcode/0074-search-a-2d-matrix)
+10. - [ ] Matrix Search II
+11. - [ ] Merge Arrays
+12. - [ ] Zero Sum Subarray
+13. - [ ] Permutations
+14. - [ ] N Stacks
+15. - [x] [Anagrams](./leetcode/0242-valid-anagram)
+16. - [ ] Build Order
+17. - [ ] Shortest Path
+18. - [ ] Random Binary Tree
+19. - [x] [Lowest Common Ancestor](./leetcode/0236-lowest-common-ancestor-of-a-binary-tree) ⭐
+20. - [ ] Sum
+21. - [ ] Reverse Stack
+22. - [ ] Tree to Doubly Linked List
+23. - [ ] Longest Consecutive Branch
+24. - [ ] Print Reversed Linked List
+25. - [x] [Balanced Binary Tree](./leetcode/0110-balanced-binary-tree) ⭐
+26. - [x] [Binary Search Tree Verification](./leetcode/0098-validate-binary-search-tree) ⭐
+27. - [ ] Smallest Change
+28. - [x] [Inorder Traversal](./leetcode/0094-binary-tree-inorder-traversal)
+29. - [ ] Sort Stacks
+30. - [ ] Stacks from Queues
+31. - [x] [Palindromes](./leetcode/0125-valid-palindrome) ⭐
+32. - [ ] Max Stacks
+33. - [ ] Two Missing Numbers
+34. - [ ] Big Int Modules
+35. - [ ] Swap Variables
+36. - [ ] Gray Code
+37. - [ ] Rotate Bits
+38. - [ ] Number of Ones In a Binary
+39. - [x] [Linked List Cycles](./leetcode/0141-linked-list-cycle)
+40. - [ ] Random Linked List
+41. - [ ] Dedup Linked List
+42. - [ ] Split a Linked List
+43. - [ ] Nth to the Last Element
+44. - [x] [Three Sum](./leetcode/0015-3Sum)
+45. - [x] [Tree Level Order](./leetcode/0102-binary-tree-level-order-traversal)
+46. - [ ] Autocomplete
+47. - [ ] String Deletion
+48. - [ ] Longest Common Substring
+49. - [ ] String Compression
+50. - [x] [Fibonacci Number](./leetcode/0509-fibonacci-number)
+51. - [ ] Priority Queue
+52. - [ ] Kth Most Frequent String
 
 <!--  -->
