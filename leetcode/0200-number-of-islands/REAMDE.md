@@ -5,7 +5,7 @@ https://leetcode.com/problems/number-of-islands/
 ## Solutions
 
 ```go
-// O(m*n) time | O(1) space
+// Time: O(m*n), Space: O(1)
 func numIslands(grid [][]byte) int {
 	if grid == nil || len(grid) == 0 {
 		return 0

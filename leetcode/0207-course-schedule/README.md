@@ -5,7 +5,7 @@ https://leetcode.com/problems/course-schedule/
 ## Solutions
 
 ```go
-// O(n) time | O(n) space
+// Time: O(n), Space: O(n)
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	indegree := make([]int, numCourses)
 	edges := make([][]int, numCourses)

@@ -11,22 +11,29 @@ func lengthOfLongestSubstring(s string) int {
 		return len(s)
 	}
 
+	left, right, max := 0, 0, 0
 	visited := make(map[byte]bool)
-	var slow, fast, max int
 
-	for fast < len(s) {
-		if !visited[s[fast]] {
-			visited[s[fast]] = true
-			fast++
-			if fast-slow > max {
-				max = fast - slow
-			}
-			continue
+	for right < len(s) {
+		char := s[right]
+		if !visited[char] {
+			visited[char] = true
+			max = Max(max, right-left+1)
+			right++
+		} else {
+			char := s[left]
+			visited[char] = false
+			left++
 		}
-		visited[s[slow]] = false
-		slow++
 	}
 
 	return max
+}
+
+func Max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 ```

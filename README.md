@@ -15,8 +15,7 @@
 
 ## Tips
 
-1. Speaking out loud while coding.
-2. Make videos and upload to YouTube.
+- Speaking out loud while coding.
 
 <!--  -->
 
@@ -42,9 +41,9 @@
 - [x] [Reverse a Linked List](./leetcode/0206-reverse-linked-list)
 - [x] [Detect Cycle in a Linked List](./leetcode/0141-linked-list-cycle)
 - [x] [Container With Most Water](./leetcode/0011-container-with-most-water)
-- [x] [Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array) ⭐
+- [x] [Find Minimum in Rotated Sorted Array](./leetcode/0153-find-minimum-in-rotated-sorted-array)
 - [x] [Longest Repeating Character Replacement](./leetcode/0424-longest-repeating-character-replacement) ⭐
-- [x] [Longest Substring Without Repeating Characters](./leetcode/0003-longest-substring-without-repeating-characters) ⭐
+- [x] [Longest Substring Without Repeating Characters](./leetcode/0003-longest-substring-without-repeating-characters)
 - [x] [Minimum Window Substring](./leetcode/0076-minimum-window-substring) ⭐
 - [x] [Number of Islands](./leetcode/0200-number-of-islands) ⭐
 - [x] [Remove Nth Node From End Of List](./leetcode/0019-remove-nth-node-from-end-of-list) ⭐
@@ -131,7 +130,7 @@
 35. - [ ] Swap Variables
 36. - [ ] Gray Code
 37. - [ ] Rotate Bits
-38. - [ ] Number of Ones In a Binary
+38. - [x] [Number of Ones In a Binary](./leetcode/0191-number-of-1-bits)
 39. - [x] [Linked List Cycles](./leetcode/0141-linked-list-cycle)
 40. - [ ] Random Linked List
 41. - [ ] Dedup Linked List
