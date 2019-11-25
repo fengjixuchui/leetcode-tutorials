@@ -45,7 +45,7 @@
 - [x] [Longest Repeating Character Replacement](./leetcode/0424-longest-repeating-character-replacement) ⭐
 - [x] [Longest Substring Without Repeating Characters](./leetcode/0003-longest-substring-without-repeating-characters)
 - [x] [Minimum Window Substring](./leetcode/0076-minimum-window-substring) ⭐
-- [x] [Number of Islands](./leetcode/0200-number-of-islands) ⭐
+- [x] [Number of Islands](./leetcode/0200-number-of-islands)
 - [x] [Remove Nth Node From End Of List](./leetcode/0019-remove-nth-node-from-end-of-list) ⭐
 - [x] [Palindromic Substrings](./leetcode/0647-palindromic-substrings) ⭐
 - [x] [Pacific Atlantic Water Flow](./leetcode/0417-pacific-atlantic-water-flow) ⭐
