@@ -13,16 +13,20 @@ func isValidBST(root *TreeNode) bool {
 	return isValid(root, nil, nil)
 }
 
-func isValid(root, upperBound, lowerBound *TreeNode) bool {
-	if root == nil {
+func isValid(cur, max, min *TreeNode) bool {
+	if cur == nil {
 		return true
 	}
 
-	if (upperBound != nil && root.Val >= upperBound.Val) || (lowerBound != nil && root.Val <= lowerBound.Val) {
+	if max != nil && cur.Val >= max.Val {
 		return false
 	}
 
-	return isValid(root.Left, root, lowerBound) && isValid(root.Right, upperBound, root)
+	if min != nil && cur.Val <= min.Val {
+		return false
+	}
+
+	return isValid(cur.Left, cur, min) && isValid(cur.Right, max, cur)
 }
 ```
 

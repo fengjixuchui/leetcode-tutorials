@@ -7,6 +7,7 @@ https://leetcode.com/problems/linked-list-cycle/
 HashTable:
 
 ```go
+// Time: O(n), Space: O(n)
 func hasCycle(head *ListNode) bool {
 	visited := map[*ListNode]bool{}
 
@@ -36,9 +37,9 @@ func hasCycle(head *ListNode) bool {
 	for fast != nil && fast.Next != nil {
 		slow = slow.Next
 		fast = fast.Next.Next
-    if slow == fast {
+    	if slow == fast {
           return true
-    }
+   		}
 	}
 
 	return false
