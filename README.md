@@ -59,7 +59,7 @@
 - [x] [Top K Frequent Elements](./leetcode/0347-top-k-frequent-elements) ⭐
 - [x] [Course Schedule](./leetcode/0207-course-schedule) ⭐
 - [x] [Binary Tree Maximum Path Sum](./leetcode/124-binary-tree-maximum-path-sum) ⭐
-- [x] [Maximum Depth of Binary Tree](leetcode/0104-maximum-depth-of-binary-tree) ⭐
+- [x] [Maximum Depth of Binary Tree](leetcode/0104-maximum-depth-of-binary-tree)
 - [x] [Same Tree](./leetcode/0100-same-tree)
 - [x] [Binary Tree Level Order Traversal](./leetcode/0102-binary-tree-level-order-traversal)
 

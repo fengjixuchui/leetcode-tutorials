@@ -5,7 +5,7 @@ https://leetcode.com/problems/invert-binary-tree/
 ## Solutions
 
 ```go
-// O(n) time | O(1) space
+// Time: O(n), Space: O(1)
 func invertTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return root

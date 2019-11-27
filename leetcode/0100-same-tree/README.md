@@ -1,6 +1,6 @@
 ## Question
 
-https://leetcode.com/problems/0100-same-tree/
+https://leetcode.com/problems/same-tree/
 
 ## Solutions
 
