@@ -67,7 +67,7 @@
 
 - [x] [Add and Search Word](./leetcode/0211-add-and-search-word) ⭐
 - [x] [Implement Trie (Prefix Tree)](./leetcode/0208-implement-trie-prefix-tree) ⭐
-- [x] [Subtree of Another Tree](./leetcode/0572-subtree-of-another-tree) ⭐
+- [x] [Subtree of Another Tree](./leetcode/0572-subtree-of-another-tree)
 - [x] [Kth Smallest Element in a BST](./leetcode/0230-kth-smallest-element-in-a-bst) ⭐
 - [x] [Lowest Common Ancestor of BST](./leetcode/0236-lowest-common-ancestor-of-a-binary-tree) ⭐
 - [x] [Merge K Sorted Lists](./leetcode/0023-merge-k-sorted-lists) ⭐
@@ -83,7 +83,7 @@
 - [x] [Longest Increasing Subsequence](./leetcode/0300-longest-increasing-subsequence) ⭐
 - [x] [Combination Sum](./leetcode/0377-combination-sum-IV) ⭐
 - [x] [House Robber](./leetcode/0198-house-robber)
-- [x] [House Robber II](./leetcode/0213-house-robber-ii) ⭐
+- [x] [House Robber II](./leetcode/0213-house-robber-ii)
 - [x] [Decode Ways](./leetcode/0091-decode-ways) ⭐
 - [x] [Unique Paths](./leetcode/0062-unique-paths)
 - [x] [Jump Game](./leetcode/0055-jump-game) ⭐
