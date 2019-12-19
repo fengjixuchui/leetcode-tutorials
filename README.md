@@ -9,6 +9,7 @@
     - [Week 3 - Non-Linear Data Structures](#week-3---non-linear-data-structures)
     - [Week 4 - More Data Structures](#week-4---more-data-structures)
     - [Week 5 - Dynamic Programming](#week-5---dynamic-programming)
+- [Coderust: Hacking the Coding Interview](#coderust-hacking-the-coding-interview)
 - [50 Interview Quesitons (Byte by Byte)](#50-interview-quesitons-byte-by-byte)
 
 <!--  -->
@@ -88,6 +89,16 @@
 - [x] [Unique Paths](./leetcode/0062-unique-paths)
 - [x] [Jump Game](./leetcode/0055-jump-game) ⭐
 - [x] [Word Break Problem](./leetcode/0139-word-break) ⭐
+
+<!--  -->
+
+## [Coderust: Hacking the Coding Interview](https://www.educative.io/courses/coderust-hacking-the-coding-interview)
+
+1. - [x] [Binary Search](./leetcode/0704-binary-search)
+2. - [x] [Sliding Window Maximum](./leetcode/0239-sliding-window-maximum) ⭐
+3. - [x] [Search in Rotated Sorted Array](./leetcode/0033-search-in-rotated-sorted-array)
+4. - [x] [Rotate Array](./leetcode/0189-rotate-array)
+5. - [x] [Find First and Last Position of Element in Sorted Array](./leetcode/0034-find-first-and-last-position-of-element-in-sorted-array)
 
 <!--  -->
 

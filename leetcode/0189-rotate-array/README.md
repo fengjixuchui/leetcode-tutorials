@@ -5,6 +5,7 @@ https://leetcode.com/problems/rotate-array/
 ## Solutions
 
 ```go
+// Time: O(n), Space: O(1)
 func rotate(nums []int, k int)  {
   k = k % len(nums)
 

@@ -5,6 +5,7 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 ## Solutions
 
 ```go
+// Time: O(logn), Space: O(1)
 func findStart(nums []int, target int) int {
 	l, r := 0, len(nums)-1
 
