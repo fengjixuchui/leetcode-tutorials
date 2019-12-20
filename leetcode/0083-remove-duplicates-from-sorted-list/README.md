@@ -5,6 +5,7 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 ## Solutions
 
 ```go
+// Time: O(n), Space: O(1)
 func deleteDuplicates(head *ListNode) *ListNode {
 	dummy := new(ListNode)
 	dummy.Next = head
