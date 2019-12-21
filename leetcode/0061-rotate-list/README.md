@@ -5,6 +5,7 @@ https://leetcode.com/problems/rotate-list/
 ## Solutions
 
 ```go
+// Time: O(n), Space: O(1)
 func rotateRight(head *ListNode, k int) *ListNode {
 	// No need to rotate.
 	if head == nil || k == 0 {
