@@ -1,6 +1,6 @@
 ## Question
 
-https://leetcode.com/problems/704-binary-search/
+https://leetcode.com/problems/binary-search/
 
 ## Solutions
 

@@ -5,13 +5,6 @@ https://leetcode.com/problems/reverse-linked-list-ii/
 ## Solutions
 
 ```go
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func reverseBetween(head *ListNode, m int, n int) *ListNode {
 	dummy := new(ListNode)
 	dummy.Next = head

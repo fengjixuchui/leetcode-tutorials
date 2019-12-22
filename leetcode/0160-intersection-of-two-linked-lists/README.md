@@ -1,6 +1,6 @@
 ## Question
 
-https://leetcode.com/problems/0160-intersection-of-two-linked-lists/
+https://leetcode.com/problems/intersection-of-two-linked-lists/
 
 ## Solutions
 

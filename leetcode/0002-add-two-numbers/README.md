@@ -5,13 +5,7 @@ https://leetcode.com/problems/add-two-numbers/
 ## Solutions
 
 ```go
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+// Time: O(m+n), Space: O(m+n)
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	dummy := ListNode{}
 	head := &dummy
