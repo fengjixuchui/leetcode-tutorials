@@ -1,30 +1,33 @@
 ## Question
 
-https://leetcode.com/problems/069-sqrtx/
+https://leetcode.com/problems/sqrtx/
 
 ## Solutions
 
 ```go
+// Time: O(logn), Space: O(1)
 func mySqrt(x int) int {
-	l, r := 0, x
+	left, right := 0, x
 
-	for l+1 < r {
-		m := l + (r-l)/2
-		if m*m < x {
-			l = m
-		} else if m*m > x {
-			r = m
+	for left+1 < right {
+		middle := left + (right-left)/2
+		square := middle * middle
+
+		if square == x {
+			return middle
+		} else if square > x {
+			right = middle
 		} else {
-			return m
+			left = middle
 		}
 	}
 
-	if l*l == x {
-		return l
-	} else if r*r == x {
-		return r
+	if right*right == x {
+		return right
+	} else if left*left == x {
+		return left
 	} else {
-		return l
+		return left
 	}
 }
 ```

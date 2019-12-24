@@ -5,6 +5,7 @@ https://leetcode.com/problems/missing-number/
 ## Solutions
 
 ```go
+// Time: O(n), Space: O(1)
 func missingNumber(nums []int) int {
 	if nums == nil || len(nums) == 0 {
 		return 0

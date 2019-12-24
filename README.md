@@ -70,7 +70,7 @@
 - [x] [Climbing Stairs](leetcode/0070-climbing-stairs)
 - [x] [Coin Change](leetcode/0322-coin-change)
 - [x] [Longest Increasing Subsequence](leetcode/0300-longest-increasing-subsequence)
-- [x] [Combination Sum](leetcode/0377-combination-sum-IV)
+- [x] [Combination Sum](leetcode/0039-combination-sum)
 - [x] [House Robber](leetcode/0198-house-robber)
 - [x] [House Robber II](leetcode/0213-house-robber-ii)
 - [x] [Decode Ways](leetcode/0091-decode-ways)
@@ -108,6 +108,17 @@
 10. - [x] [Add Two Numbers](leetcode/0002-add-two-numbers) &ensp;[![leetcode](https://i.imgur.com/RjGIyem.jpg)](https://leetcode.com/problems/add-two-numbers/) &ensp;[![youtube](https://i.imgur.com/p7vxMsQ.png)](https://www.youtube.com/watch?v=KokaJ-2s1zs)
 
 ### Math & Stats
+
+1. - [ ] [Permutation Sequence](leetcode/0060-permutation-sequence) &ensp;[![leetcode](https://i.imgur.com/RjGIyem.jpg)](https://leetcode.com/problems/permutation-sequence)
+2. - [ ] [Divide Two Integers](leetcode/0029-divide-two-integers) &ensp;[![leetcode](https://i.imgur.com/RjGIyem.jpg)](https://leetcode.com/problems/divide-two-integers/)
+3. - [ ] [All Sum Combinations](leetcode/0039-combination-sum) &ensp;[![leetcode](https://i.imgur.com/RjGIyem.jpg)](https://leetcode.com/problems/combination-sum/)
+4. - [x] [Missing Number](leetcode/0268-missing-number) &ensp;[![leetcode](https://i.imgur.com/RjGIyem.jpg)](https://leetcode.com/problems/missing-number/) &ensp;[![youtube](https://i.imgur.com/p7vxMsQ.png)](https://www.youtube.com/watch?v=uryOXIpsI4w)
+5. - [x] [Pow(x, n)](leetcode/0050-powx-n/) &ensp;[![leetcode](https://i.imgur.com/RjGIyem.jpg)](https://leetcode.com/problems/powx-n/) &ensp;[![youtube](https://i.imgur.com/p7vxMsQ.png)](https://youtu.be/KyKiGToO-TE)
+6. - [x] [Sqrt(x)](leetcode/0069-sqrtx/) &ensp;[![leetcode](https://i.imgur.com/RjGIyem.jpg)](https://leetcode.com/problems/sqrtx/) &ensp;[![youtube](https://i.imgur.com/p7vxMsQ.png)](https://youtu.be/6jrQGJndMRk)
+
+### String
+
+1. - [ ] [Reverse Words in a Sentence](leetcode/0151-reverse-words-in-a-string) &ensp;[![leetcode](https://i.imgur.com/RjGIyem.jpg)](https://leetcode.com/problems/reverse-words-in-a-string/)
 
 <!--  -->
 
